@@ -108,7 +108,8 @@ function stateUpdated() {
      + '<td>' + history[i].roll 
      + ' = ' + history[i].subtotal 
      + ' = ' + history[i].total + '</td>'
-     + '</tr></table></div>';
+     + '</tr></table></div>'
+     + '<div id="output">next characters turn:</div>';
   }
   // show the HTML code in the output element
   if (html) output.innerHTML = html;
