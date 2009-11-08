@@ -19,12 +19,12 @@
 }
 #output {
   width: 550px;
-  min-height: 330px;
+  min-height: 310px;
   background: #030;
   color: #0C0;
   position: absolute;
   left: 0;
-  bottom: 330px;
+  bottom: 700px;
 }
 #input {
   width: 550px;
@@ -51,7 +51,7 @@
   width: 550px;
   height: 400px;
   position: absolute;
-  top: 0;
+  bottom: 380px;
   left: 0;
 }
 #initiative {
@@ -136,20 +136,21 @@
 <script type="text/javascript">
 
 // global constants and variables
-var HISTORY_LENGTH = 17; // number of rolls to remember
+var HISTORY_LENGTH = 16; // number of rolls to remember
 var input = document.getElementById("input"); // HTML text input
 var output = document.getElementById('output'); // HTML output area
 
-// pushes an absolutely positioned HTML element up 
-// - so that only 20 pixels are visible at the top of the 400 pixel screen -
-// or (if it already up) pulls it down until the whole element is visible
+// pushes an absolutely positioned HTML element up and down 
 function scrollUp(id) {
   var element = document.getElementById(id)
-  if (element.style.bottom == "380px") {
+  if (getComputedStyle(element).bottom == "380px") {
+    // the element is already scrolled up, so move it down
     element.style.bottom = "auto";
     element.style.top = "0";
   }
   else {
+    // the element is down, so move it up, leaving 20 pixels
+    // visible at the top of the 400 pixel high screen
     element.style.top = "auto";
     element.style.bottom = "380px";
   }
