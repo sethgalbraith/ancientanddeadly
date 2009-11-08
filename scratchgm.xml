@@ -94,7 +94,7 @@
  </div>
 
  <!-- list of characters -->
- <div id="initiative" onmousedown="scrollUp('initiative')">
+ <div id="initiative">
   <table>
    <tr>
     <td><input type="radio" name="character"/></td>
