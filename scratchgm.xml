@@ -278,17 +278,25 @@ onkeydown = function (event) {
   var rolls = load(state, []); // load past rolls from wave state
   if (key == KEY_ENTER) { 
     rollInput(); // execute the command
-    rolls.push(input.value); // remember past rolls
-    if (rolls.length > INPUT_MEMORY) rolls.shift();
-    save(state, rolls); // save past rolls in wave state
+    if (input.value != rolls[rolls.length - 1]) {
+      // if the new roll is not the same as the last roll:
+      rolls.push(input.value); // add it to the list of past rolls
+      if (rolls.length > INPUT_MEMORY) // if list of past rolls is full
+        rolls.shift(); // remove oldest roll
+      save(state, rolls); // save past rolls in wave state
+    }
     input.value = ""; // clear input
   }
   else if (key == KEY_UP) { // select previous roll
+    // move cursor back in time, but don't allow it to precede the oldest roll
     cursor = Math.min(rolls.length, cursor + 1);
+    // change the input text unless cursor == 0 ("present" time)
     if (cursor) input.value = rolls[rolls.length - cursor];
   }
   else if (key == KEY_DOWN) { // select next roll
+    // move cursor forward in time, but down't allow it to go into the future
     cursor = Math.max(0, cursor - 1);
+    // change the input text or clear it if cursor == 0 ("present" time)
     input.value = cursor ? rolls[rolls.length - cursor] : "";
   }
 }
