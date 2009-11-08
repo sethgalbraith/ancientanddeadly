@@ -236,9 +236,11 @@ function stateUpdated() {
   for (var i = 0; i < history.length; i++) {
     // add a single-row table with the user's portrait, name and roll
     var participant = wave.getParticipantById(history[i].id);
-    html += '<div><img src="' + participant.getThumbnailUrl() + '"/></td>'
-      + ' <i>' + participant.getDisplayName() + '</i> ' + history[i].roll 
-      + ' = ' + history[i].subtotal + ' = ' + history[i].total + '</div>';
+    html += '<div><img src="' + participant.getThumbnailUrl() + '"/></td>';
+    html += ' <i>' + participant.getDisplayName() + '</i> ' + history[i].roll;
+    if (history[i].subtotal != history[i].roll)
+      html += ' = ' + history[i].subtotal;
+    html += ' = ' + history[i].total + '</div>';
     html += '<div class="newTurn">next characters turn:</div>';
   }
   // show the HTML code in the output element
