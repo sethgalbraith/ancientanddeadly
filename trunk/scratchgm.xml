@@ -36,6 +36,10 @@
   left: 0;
   top: 330px;
 }
+#input img {
+  width: 1em;
+  height: 1em;
+}
 #actions {
   width: auto;
   height: 50px;
