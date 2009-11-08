@@ -26,6 +26,10 @@
   left: 0;
   bottom: 70px;
 }
+#output img {
+  width: 1em;
+  height: 1em;
+}
 #input {
   width: 550px;
   height: 20px;
@@ -35,10 +39,6 @@
   position: absolute;
   left: 0;
   top: 330px;
-}
-#input img {
-  width: 1em;
-  height: 1em;
 }
 #actions {
   width: auto;
