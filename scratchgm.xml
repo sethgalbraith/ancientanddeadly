@@ -236,11 +236,20 @@ function stateUpdated() {
   for (var i = 0; i < history.length; i++) {
     // add a single-row table with the user's portrait, name and roll
     var participant = wave.getParticipantById(history[i].id);
-    html += '<div><img src="' + participant.getThumbnailUrl() + '"/></td>';
-    html += ' <i>' + participant.getDisplayName() + '</i> ' + history[i].roll;
+    html += '<div>'
+    // show the portrait and name of the person who entered this roll
+    html += '<img src="' + participant.getThumbnailUrl() + '"/></td>';
+    html += ' <i>' + participant.getDisplayName() + '</i> '
+    // show roll escaped so you can see special HTML characters
+    html += escapeXML(history[i].roll);
+    // show subtotal if it is different from the roll
     if (history[i].subtotal != history[i].roll)
-      html += ' = ' + history[i].subtotal;
-    html += ' = ' + history[i].total + '</div>';
+      html += ' = ' + escapeXML(history[i].subtotal);
+    // show total unless it is undefined
+    if (typeof(history[i].total) != "undefined")
+      html += ' = ' + history[i].total;
+    html + '</div>';
+    // temporary code to show what new turn announcements will look like
     html += '<div class="newTurn">next characters turn:</div>';
   }
   // show the HTML code in the output element
@@ -260,7 +269,10 @@ gadgets.util.registerOnLoadHandler(init);
 // assign an (anonymous) handler function for key presses
 onkeydown = function (event) {
   var key = event.keyCode || event.charCode;
-  if (key == 13) rollInput(); // enter key
+  if (key == 13) { // enter key
+    rollInput(); // execute the command
+    document.getElementById("input").value = ""; // clear input
+  }
 }
 
 </script>
