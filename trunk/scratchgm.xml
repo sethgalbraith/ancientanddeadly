@@ -289,7 +289,7 @@ onkeydown = function (event) {
   }
   else if (key == KEY_DOWN) { // select next roll
     cursor = Math.max(0, cursor - 1);
-    input.value = cursor ? rolls[rolls.length - cursor] : 0;
+    input.value = cursor ? rolls[rolls.length - cursor] : "";
   }
 }
 
