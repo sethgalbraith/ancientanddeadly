@@ -1,40 +1,170 @@
-<?xml version="1.0" encoding="UTF-8" ?> 
+<?xml version="1.0" encoding="UTF-8" ?>
 <Module>
-  <ModulePrefs title="Wave Dice Gadget" height="160">
-    <Require feature="wave" /> 
+  <ModulePrefs title="Scratch Game Master" height="400">
+    <Require feature="wave" />
   </ModulePrefs>
-<Content type="html">
+  <Content type="html">
 
 <![CDATA[ 
 
 <style>
-#output {
-  border: 1px solid black;
-  padding: 2px;
-  width: auto;
+#gadget {
+  width: 550px;
+  height: 400px;
+  position: relative;
+  background: #090;
+  color: #9F9;
+  line-height: 20px;
+  font-size: 17px;
 }
-#output img {
-  width: 1em;
-  height: 1em;
-  border: 1px solid #CCCCCC;
-  border-right: 2px solid #CCCCCC;
-  border-bottom: 2px solid #CCCCCC;
+#output {
+  width: 550px;
+  min-height: 330px;
+  background: #030;
+  color: #0C0;
+  position: absolute;
+  left: 0;
+  bottom: 330px;
 }
 #input {
-  width: 100%;
+  width: 550px;
+  height: 20px;
+  border: none;
+  background: #060;
+  color: #3F3;
+  position: absolute;
+  left: 0;
+  top: 330px;
+}
+#actions {
+  width: auto;
+  height: 50px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+#actions img {
+  width: 50px;
+  height: 50px;
+}
+#map {
+  width: 550px;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#initiative {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #CFC;
+  color: #030;
+}
+#initiative a {
+  color: #060;
+}
+#initiative img {
+  width: 1em;
+  height: 1em;
+}
+.newTurn {
+  color: #3F3;
+  font-weight: 900;
 }
 </style>
 
-<input type=text value="1d20 + 8" id="input"/>
-<div id="output">No rolls yet</div>
+<!-- end CSS style, begin HTML elements -->
+
+<div id="gadget">
+
+ <!-- console for typing in commands and text output -->
+ <div id="output"></div>
+ <input type="text" id="input" />
+
+ <!-- graphical representation of game map -->
+ <div id="map">
+  <img src="http://ancientanddeadly.googlecode.com/svn/trunk/graphics/maps/forest-bg.png" style="position:absolute;top:0;left:0;"/>
+  <img src="http://ancientanddeadly.googlecode.com/svn/trunk/graphics/maps/forest-fg.png" style="position:absolute;top:0;left:0;" />
+  <a href="#" onclick="scrollUp('map')" style="position:absolute;bottom:0;right:0;color:#090;">hide/show map</a>
+ </div>
+
+ <!-- list of characters -->
+ <div id="initiative" onmousedown="scrollUp('initiative')">
+  <table>
+   <tr>
+    <td><input type="radio" name="character"/></td>
+    <td><img src="https://wave.google.com/wave/static/images/unknown.jpg"/></td>
+    <td><a href="#">Zimzambamalam</a></td>
+   </tr>
+   <tr>
+    <td><input type="radio" name="character"/></td>
+    <td><img src="https://wave.google.com/wave/static/images/unknown.jpg"/></td>
+    <td><a href="#">The Boss</a></td>
+   </tr>
+   <tr>
+    <td><input type="radio" name="character"/></td>
+    <td><img src="https://wave.google.com/wave/static/images/unknown.jpg"/></td>
+    <td><a href="#">Skull Duggery</a></td>
+   </tr>
+   <tr>
+    <td><input type="radio" name="character"/></td>
+    <td><img src="https://wave.google.com/wave/static/images/unknown.jpg"/></td>
+    <td><a href="#">Randalf the Pious</a></td>
+   </tr>
+  </table>
+  <a href="#" onclick="scrollUp('initiative')">hide/show characters</a>
+ </div>
+
+ <!-- action icons -->
+ <div id="actions">
+  <img src="http://ancientanddeadly.googlecode.com/svn/trunk/graphics/icons/attack.png" />
+  <img src="http://ancientanddeadly.googlecode.com/svn/trunk/graphics/icons/fighting.png" />
+  <img src="http://ancientanddeadly.googlecode.com/svn/trunk/graphics/icons/fire-outline.png" />
+  <img src="http://ancientanddeadly.googlecode.com/svn/trunk/graphics/icons/grab-color.png" />
+  <img src="http://ancientanddeadly.googlecode.com/svn/trunk/graphics/icons/punch-color.png" />
+  <img src="http://ancientanddeadly.googlecode.com/svn/trunk/graphics/icons/heal.png" />
+  <img src="http://ancientanddeadly.googlecode.com/svn/trunk/graphics/escape.png" />
+ </div>
+
+</div>
+
+<!-- end HTML elements, begin javascript code -->
 
 <script src="http://gameartsguild.com/wave/util.js"></script>
 
 <script type="text/javascript">
 
-var HISTORY_LENGTH = 5; // number of rolls to remember
+// global constants and variables
+var HISTORY_LENGTH = 17; // number of rolls to remember
 var input = document.getElementById("input"); // HTML text input
 var output = document.getElementById('output'); // HTML output area
+
+// pushes an absolutely positioned HTML element up 
+// - so that only 20 pixels are visible at the top of the 400 pixel screen -
+// or (if it already up) pulls it down until the whole element is visible
+function scrollUp(id) {
+  var element = document.getElementById(id)
+  if (element.style.bottom == "380px") {
+    element.style.bottom = "auto";
+    element.style.top = "0";
+  }
+  else {
+    element.style.top = "auto";
+    element.style.bottom = "380px";
+  }
+}
+
+// convert special die notations to standard xdy form
+function normalizeRoll(text) {
+  // convert d% to d100
+  text = text.replace(/d%/gi, "d100");
+  // convert 1d, 2d, 3d, 4d ... to 1d6, 2d6, 3d6, 4d6 ...
+  text = text.replace(/([0-9]+)d(?!\d)/gi, "$1d6");
+  // convert d4, d6, d8, d10 ... to 1d4, 1d6, 1d8, 1d10 ...
+  text = text.replace(/(^|[^0-9])d([0-9]+)/gi, "$11d$2");
+  return text;
+}
 
 // simulates rolling a given number of dice with a given number of sides
 function d(dice, sides) {
@@ -47,24 +177,23 @@ function d(dice, sides) {
 // evaluates an expression which can contain d notation,
 // arithmetic, and even javascript code
 function roll(text) {
-  // convert special notations to standard xdy form
-  text = text.replace(/d%/gi, "d100"); // percentile die
-  text = text.replace(/([0-9]+)d(?!\d)/gi, "$1d6"); // implied 6-sided dice
-  text = text.replace(/(^|[^0-9])d([0-9]+)/gi, "$11d$2"); // implied single die
+  text = normalizeRoll(text); // convert special die notations
   // replace d notation with calls to d() function
   text = text.replace(/(\d+)d(\d+)/gi, "d($1,$2)");
   eval("result = " + text);
   return result;
 }
 
-// evaluates an expression returning individual die rolls
-function roll_subtotal(text) {
-  // convert special notations to standard xdy form
-  text = text.replace(/d%/gi, "d100"); // percentile die
-  text = text.replace(/([0-9]+)d(?!\d)/gi, "$1d6"); // implied 6-sided dice
-  text = text.replace(/(^|[^0-9])d([0-9]+)/gi, "$11d$2"); // implied single die
+// expands individual die rolls into random numbers
+// for example "3d6" might become "(5 + 1 + 3)"
+function rollSubtotal(text) {
+
+  text = normalizeRoll(text); // convert special die notations
+
   // split expression into dice, sides, and surrounding text
+  // for example "1d20 + 8" becomes ["","1","20"," + 8"]
   var parts = text.split(/([0-9]+)d([0-9]+)/gi);
+
   // roll dice and combine the results into the subtotal
   var subtotal = parts[0];
   for(var i = 1; i < parts.length; i += 3) {
@@ -81,7 +210,7 @@ function roll_subtotal(text) {
 // than arithmetic and grouping by parentheses is not supported
 function rollInput() {
   var text = input.value; // get input text
-  var subtotal = roll_subtotal(text); // roll dice
+  var subtotal = rollSubtotal(text); // roll dice
   eval("total = " + subtotal); // calculate total
   var history = load("history", []); // get history from wave state
   history.push({ // add a new object to the end of the history
@@ -102,14 +231,10 @@ function stateUpdated() {
   for (var i = 0; i < history.length; i++) {
     // add a single-row table with the user's portrait, name and roll
     var participant = wave.getParticipantById(history[i].id);
-    html += '<div><table><tr>'
-     + '<td><img src="' + participant.getThumbnailUrl() + '"/></td>'
-     + '<td><i>' + participant.getDisplayName() + '</i></td>'
-     + '<td>' + history[i].roll 
-     + ' = ' + history[i].subtotal 
-     + ' = ' + history[i].total + '</td>'
-     + '</tr></table></div>'
-     + '<div id="output">next characters turn:</div>';
+    html += '<div><img src="' + participant.getThumbnailUrl() + '"/></td>'
+      + ' <i>' + participant.getDisplayName() + '</i> ' + history[i].roll 
+      + ' = ' + history[i].subtotal + ' = ' + history[i].total + '</div>';
+    html += '<div class="newTurn">next characters turn:</div>';
   }
   // show the HTML code in the output element
   if (html) output.innerHTML = html;
