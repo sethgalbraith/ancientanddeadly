@@ -229,7 +229,7 @@ function rollInput() {
     "subtotal": subtotal,
     "total": total});
   // remove first item from history if it is too long
-  if (history.length > HISTORY_LENGTH) history.shift();
+  if (history.length > OUTPUT_LENGTH) history.shift();
   save("history", history); // save history
 }
 
@@ -279,6 +279,7 @@ onkeydown = function (event) {
   if (key == KEY_ENTER) { 
     rollInput(); // execute the command
     rolls.push(input.value); // remember past rolls
+    if (rolls.length > INPUT_MEMORY) rolls.shift();
     save(state, rolls); // save past rolls in wave state
     input.value = ""; // clear input
   }
