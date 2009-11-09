@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Module>
-  <ModulePrefs title="Scratch Game Master" height="300">
+  <ModulePrefs title="Scratch Game Master" height="400">
     <Require feature="wave" />
   </ModulePrefs>
   <Content type="html">
@@ -10,7 +10,7 @@
 <style>
 #gadget {
   width: 550px;
-  height: 300px;
+  height: 400px;
   position: relative;
   background: #090;
   color: #9F9;
@@ -19,7 +19,7 @@
 }
 #output {
   width: 550px;
-  min-height: 232px;
+  min-height: 310px;
   background: #030;
   color: #0C0;
   position: absolute;
@@ -38,7 +38,7 @@
   color: #3F3;
   position: absolute;
   left: 0;
-  top: 247px;
+  top: 330px;
 }
 #actions {
   width: auto;
@@ -53,9 +53,9 @@
 }
 #map {
   width: 550px;
-  height: 300px;
+  height: 400px;
   position: absolute;
-  bottom: 285px;
+  bottom: 380px;
   left: 0;
 }
 #initiative {
