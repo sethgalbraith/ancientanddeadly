@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Module>
-  <ModulePrefs title="Scratch Game Master" height="400">
+  <ModulePrefs title="Scratch Game Master" height="300">
     <Require feature="wave" />
   </ModulePrefs>
   <Content type="html">
