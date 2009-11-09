@@ -10,7 +10,7 @@
 <style>
 #gadget {
   width: 550px;
-  height: 400px;
+  height: 300px;
   position: relative;
   background: #090;
   color: #9F9;
@@ -19,7 +19,7 @@
 }
 #output {
   width: 550px;
-  min-height: 310px;
+  min-height: 232px;
   background: #030;
   color: #0C0;
   position: absolute;
@@ -38,7 +38,7 @@
   color: #3F3;
   position: absolute;
   left: 0;
-  top: 330px;
+  top: 247px;
 }
 #actions {
   width: auto;
@@ -53,9 +53,9 @@
 }
 #map {
   width: 550px;
-  height: 400px;
+  height: 300px;
   position: absolute;
-  bottom: 380px;
+  bottom: 285px;
   left: 0;
 }
 #initiative {
