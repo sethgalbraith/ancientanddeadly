@@ -227,7 +227,7 @@ function rollInput() {
     "id": wave.getViewer().getId(), 
     "roll": text, 
     "subtotal": subtotal,
-    "total": total});
+    "total": "" + total}); // always save the total as a string
   // remove first item from history if it is too long
   if (history.length > OUTPUT_LENGTH) history.shift();
   save("history", history); // save history
@@ -275,7 +275,6 @@ gadgets.util.registerOnLoadHandler(init);
 onkeydown = function (event) {
   var key = event.keyCode || event.charCode;
   var state = "rolls." + wave.getViewer().getId();
-alert(wave.getState());
   var rolls = load(state, []); // load past rolls from wave state
   if (key == KEY_ENTER) { 
     rollInput(); // execute the command
