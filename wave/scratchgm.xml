@@ -275,6 +275,7 @@ gadgets.util.registerOnLoadHandler(init);
 onkeydown = function (event) {
   var key = event.keyCode || event.charCode;
   var state = "rolls." + wave.getViewer().getId();
+alert(wave.getState());
   var rolls = load(state, []); // load past rolls from wave state
   if (key == KEY_ENTER) { 
     rollInput(); // execute the command
