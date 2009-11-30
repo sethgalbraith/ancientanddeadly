@@ -33,8 +33,8 @@
 </style>
 
 <div id="frame">
-<input type=text value="1d20 + 8" id="input"/>
 <div id="output">No rolls yet</div>
+<input type=text value="1d20 + 8" id="input"/>
 </div>
 
 <script src="http://ancientanddeadly.googlecode.com/svn/trunk/wave/util.js"></script>
