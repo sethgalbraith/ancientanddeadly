@@ -1,0 +1,1444 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="2650"
+   height="1500"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="maps.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="/home/seth/Pictures/games.png"
+   inkscape:export-xdpi="150"
+   inkscape:export-ydpi="150"
+   version="1.0">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3530">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop3532" />
+      <stop
+         style="stop-color:#bfbfbf;stop-opacity:1;"
+         offset="1"
+         id="stop3534" />
+    </linearGradient>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart"
+       style="overflow:visible">
+      <path
+         id="path3348"
+         d="M 0,0 L 5,-5 L -12.5,0 L 5,5 L 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend"
+       style="overflow:visible">
+      <path
+         id="path3351"
+         d="M 0,0 L 5,-5 L -12.5,0 L 5,5 L 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <linearGradient
+       id="linearGradient3323">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop3325" />
+      <stop
+         style="stop-color:#ff7701;stop-opacity:1;"
+         offset="1"
+         id="stop3327" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3264">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop3266" />
+      <stop
+         id="stop3276"
+         offset="0.60000002"
+         style="stop-color:#606060;stop-opacity:1;" />
+      <stop
+         id="stop3272"
+         offset="0.80000001"
+         style="stop-color:#c27b3e;stop-opacity:1;" />
+      <stop
+         style="stop-color:#51912f;stop-opacity:1;"
+         offset="1"
+         id="stop3268" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3236">
+      <stop
+         style="stop-color:#529130;stop-opacity:1;"
+         offset="0"
+         id="stop3238" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="1"
+         id="stop3240" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3228">
+      <stop
+         style="stop-color:#808080;stop-opacity:1;"
+         offset="0"
+         id="stop3230" />
+      <stop
+         style="stop-color:#c0c0c0;stop-opacity:1;"
+         offset="1"
+         id="stop3232" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3228"
+       id="linearGradient3234"
+       x1="630"
+       y1="42.362183"
+       x2="630"
+       y2="102.36218"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.75,0,0,2.8571428,-580,-506.74909)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3236"
+       id="linearGradient3242"
+       x1="630"
+       y1="312.36218"
+       x2="630"
+       y2="207.36218"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.75,0,0,2.8571429,20,0.393756)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3323"
+       id="linearGradient3329"
+       x1="140"
+       y1="237.36218"
+       x2="140"
+       y2="257.36218"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.75,0,0,2.8571429,-660,-549.60624)" />
+    <inkscape:perspective
+       id="perspective4812"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4930"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5017"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5118"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5202"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5269"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5387"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5454"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5732"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5799"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5917"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3393"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3469"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3482"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3524"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3530"
+       id="linearGradient3577"
+       gradientUnits="userSpaceOnUse"
+       x1="1921.7788"
+       y1="405.55933"
+       x2="1921.7788"
+       y2="429.24722" />
+    <inkscape:perspective
+       id="perspective3523"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3536"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3549"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3562"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3575"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3588"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3601"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3236"
+       id="linearGradient3293"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.75,0,0,2.8571429,20,0.393756)"
+       x1="630"
+       y1="312.36218"
+       x2="630"
+       y2="207.36218" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3228"
+       id="linearGradient3295"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.75,0,0,2.8571428,-580,-506.74909)"
+       x1="630"
+       y1="42.362183"
+       x2="630"
+       y2="102.36218" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3228"
+       id="linearGradient3344"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.75,0,0,2.8571428,-580,-506.74909)"
+       x1="630"
+       y1="42.362183"
+       x2="630"
+       y2="102.36218" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3236"
+       id="linearGradient3346"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.75,0,0,2.8571429,20,0.393756)"
+       x1="630"
+       y1="312.36218"
+       x2="630"
+       y2="207.36218" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3236"
+       id="linearGradient3352"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.75,0,0,2.8571429,20,0.393756)"
+       x1="630"
+       y1="312.36218"
+       x2="630"
+       y2="207.36218" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3228"
+       id="linearGradient3368"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.75,0,0,2.8571428,20,43.25091)"
+       x1="630"
+       y1="42.362183"
+       x2="630"
+       y2="102.36218" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3236"
+       id="linearGradient3375"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.75,0,0,2.8571429,620,0.393756)"
+       x1="630"
+       y1="312.36218"
+       x2="630"
+       y2="207.36218" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3228"
+       id="linearGradient3391"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.75,0,0,2.8571428,620,43.25091)"
+       x1="630"
+       y1="42.362183"
+       x2="630"
+       y2="102.36218" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3264"
+       id="linearGradient2571"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.7499686,0,0,2.8570775,-19.991185,500.41538)"
+       x1="460"
+       y1="212.36218"
+       x2="460"
+       y2="252.36218" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3264"
+       id="linearGradient2596"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.7499686,0,0,2.8570773,-19.991173,-499.58447)"
+       x1="460"
+       y1="212.36218"
+       x2="460"
+       y2="252.36218" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3264"
+       id="linearGradient2621"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.7499686,0,0,2.8570775,-19.991173,0.4154704)"
+       x1="460"
+       y1="212.36218"
+       x2="460"
+       y2="252.36218" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.1767767"
+     inkscape:cx="1184.3825"
+     inkscape:cy="150.44456"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1279"
+     inkscape:window-height="750"
+     inkscape:window-x="1"
+     inkscape:window-y="49"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2383"
+       visible="true"
+       enabled="true" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid3300"
+       visible="true"
+       enabled="true"
+       spacingx="50px"
+       spacingy="50px" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="1696,1672"
+       id="guide3297" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#a0a0a0;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3317"
+       width="80"
+       height="0"
+       x="100"
+       y="230" />
+    <g
+       id="g3357"
+       transform="translate(600,550)"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/inn.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         sodipodi:nodetypes="ccccccc"
+         id="rect2385"
+         d="M -385,171.42857 L -165,171.42857 L 0,285.71429 L 0,400 L -550,400 L -550,285.71429 L -385,171.42857 z"
+         style="fill:#925d2f;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="rect3174"
+         d="M -550,3.8146973e-06 L -385,57.142861 L -385,171.42857 L -550,285.71429 L -550,3.8146973e-06 z"
+         style="fill:#c27b3f;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1" />
+      <image
+         y="175.21428"
+         x="-438.85416"
+         id="image5925"
+         height="36.57143"
+         width="47.666668"
+         xlink:href="../rogue/injured.png" />
+      <image
+         transform="scale(-1,1)"
+         y="175.59523"
+         x="352.6875"
+         id="image5929"
+         height="55.238091"
+         width="47.666668"
+         xlink:href="../rogue/healthy.png" />
+      <path
+         transform="matrix(2.40625,0,0,1.904762,-641.09375,-309.26133)"
+         d="M 115,274.86218 A 20,7.5 0 1 1 75,274.86218 A 20,7.5 0 1 1 115,274.86218 z"
+         sodipodi:ry="7.5"
+         sodipodi:rx="20"
+         sodipodi:cy="274.86218"
+         sodipodi:cx="95"
+         id="path3331"
+         style="fill:#d19c6f;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         style="fill:#c27b3f;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1"
+         d="M 0,3.8146973e-06 L -165,57.142861 L -165,171.42857 L 0,285.71429 L 0,3.8146973e-06 z"
+         id="path3177"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         style="fill:#925d2f;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1"
+         d="M -385,57.142861 L -165,57.142861 L 0,3.8146973e-06 L 0,3.8146973e-06 L -550,3.8146973e-06 L -550,3.8146973e-06 L -385,57.142861 z"
+         id="path3179"
+         sodipodi:nodetypes="ccccccc" />
+      <rect
+         style="fill:#d19c6f;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect3181"
+         width="220"
+         height="114.28571"
+         x="-385"
+         y="57.14286" />
+      <rect
+         y="100"
+         x="-330"
+         height="85.714287"
+         width="110"
+         id="rect3319"
+         style="fill:#808080;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         style="fill:url(#linearGradient3329);fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect3321"
+         width="55"
+         height="57.142857"
+         x="-302.5"
+         y="128.57144" />
+      <image
+         y="190.83331"
+         x="-462.6875"
+         id="image5927"
+         height="55.238091"
+         width="47.666668"
+         xlink:href="../rogue/healthy.png" />
+      <image
+         transform="scale(-1,1)"
+         sodipodi:absref="../wizard/healthy.png"
+         width="110"
+         height="125"
+         id="image5919"
+         x="247.5"
+         y="217.85715" />
+      <image
+         y="163.5206"
+         x="-234.66666"
+         id="image5931"
+         height="59.812778"
+         width="40.333336"
+         xlink:href="../warrior/healthy.png" />
+      <image
+         y="161.99428"
+         x="152.16666"
+         id="image5933"
+         height="52.291412"
+         width="40.333336"
+         xlink:href="../warrior/injured.png"
+         transform="scale(-1,1)" />
+      <path
+         transform="matrix(3.4375,0,0,3.3333331,-409.0625,-662.6358)"
+         sodipodi:type="arc"
+         style="fill:#d19c6f;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path3333"
+         sodipodi:cx="95"
+         sodipodi:cy="274.86218"
+         sodipodi:rx="20"
+         sodipodi:ry="7.5"
+         d="M 115,274.86218 A 20,7.5 0 1 1 75,274.86218 A 20,7.5 0 1 1 115,274.86218 z" />
+      <image
+         transform="scale(-1,1)"
+         xlink:href="../warrior/injured.png"
+         width="80.4375"
+         height="104.28571"
+         id="image5734"
+         x="178.75"
+         y="252.85715" />
+      <path
+         d="M 115,274.86218 A 20,7.5 0 1 1 75,274.86218 A 20,7.5 0 1 1 115,274.86218 z"
+         sodipodi:ry="7.5"
+         sodipodi:rx="20"
+         sodipodi:cy="274.86218"
+         sodipodi:cx="95"
+         id="path3335"
+         style="fill:#d19c6f;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc"
+         transform="matrix(5.5,0,0,6.1904763,-852.5,-1369.385)" />
+      <image
+         xlink:href="../priest/heal.png"
+         width="81.125"
+         height="135"
+         id="image5204"
+         x="-412.5"
+         y="265" />
+      <image
+         transform="scale(-1,1)"
+         xlink:href="../rogue/injured.png"
+         width="89.375"
+         height="68.571426"
+         id="image5456"
+         x="220"
+         y="314.28574" />
+      <rect
+         y="357.14285"
+         x="-550"
+         height="42.857143"
+         width="550"
+         id="rect5923"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect5935"
+         width="550"
+         height="42.857143"
+         x="-550"
+         y="3.8146973e-06" />
+    </g>
+    <rect
+       y="550.00916"
+       x="750"
+       height="399.99084"
+       width="549.99371"
+       id="rect2387"
+       style="fill:#81bdff;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-mixed.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#529130;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3165"
+       width="549.99371"
+       height="285.70773"
+       x="750"
+       y="664.29224"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-mixed.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <image
+       xlink:href="../warrior/healthy.png"
+       width="40.218292"
+       height="59.641491"
+       id="image5947"
+       x="916.02936"
+       y="750.00452"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-mixed.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#c27b3e;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 750.00001,864.28766 L 832.49908,864.28766 L 832.49908,807.14611 L 777.49971,750.00456 L 750.00001,778.57533 L 750.00001,864.28766 z"
+       id="rect3252"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-mixed.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#9c5c24;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 832.49908,864.28766 L 887.49844,778.57533 L 887.49844,750.00456 L 832.49908,807.14611 L 832.49908,864.28766 z"
+       id="rect3254"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-mixed.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       id="path3260"
+       d="M 777.49971,750.00456 L 859.99876,721.43378 L 887.49844,750.00456 L 832.49908,807.14611 L 777.49971,750.00456 z"
+       style="fill:#d19c6f;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-mixed.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccccc"
+       id="path3262"
+       d="M 1024.9969,721.43378 L 1299.9938,721.43378 L 1299.9938,664.29223 L 1244.9944,607.15069 L 1189.995,664.29223 L 1024.9969,721.43378 z"
+       style="fill:url(#linearGradient2621);fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-mixed.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#36611f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 1214.9948,730.52448 C 1216.6614,730.52448 1211.6614,730.52448 1209.9948,730.52448 C 1208.3281,730.52448 1209.9948,727.06136 1209.9948,725.32978 C 1209.9948,719.80199 1199.9949,717.68629 1199.9949,709.74573 C 1199.9949,697.65446 1189.995,714.96387 1189.995,720.1351 C 1189.995,733.7285 1179.9952,714.72202 1179.9952,735.71917 C 1179.9952,741.68906 1174.9952,729.1964 1174.9952,740.91385 C 1174.9952,744.02963 1178.9912,730.52448 1169.9952,730.52448 C 1156.9596,730.52448 1172.7127,714.94041 1159.9954,714.94041 C 1155.0196,714.94041 1165.7942,709.74573 1154.9954,709.74573 C 1147.515,709.74573 1163.5575,725.32978 1149.9955,725.32978 C 1142.6386,725.32978 1161.5783,708.1012 1144.9956,725.32978 C 1143.3289,727.06136 1148.3288,728.79292 1149.9955,730.52448 C 1151.174,731.74889 1149.9955,733.98761 1149.9955,735.71917 C 1149.9955,746.76674 1147.9231,725.32978 1134.9956,725.32978 C 1128.5386,725.32978 1124.9958,708.34665 1124.9958,730.52448 C 1124.9958,731.73658 1138.4956,725.32978 1124.9958,725.32978 C 1117.1527,725.32978 1117.1527,735.71917 1124.9958,735.71917 C 1126.5305,744.046 1120.4346,740.91385 1114.9959,740.91385 C 1107.794,740.91385 1098.2811,751.30324 1109.9959,751.30324 C 1114.9959,751.30324 1099.9961,751.30324 1094.996,751.30324 C 1092.0993,760.03498 1106.3134,756.49792 1094.996,756.49792 C 1088.3164,756.49792 1079.9963,761.03436 1079.9963,766.88728 C 1079.9963,773.29473 1089.3373,772.08196 1074.9963,772.08196 C 1067.1533,772.08196 1067.1533,782.47132 1074.9963,782.47132 C 1076.663,782.47132 1070.8297,792.86072 1079.9963,792.86072 C 1080.6761,792.86072 1077.7201,808.44479 1069.9964,808.44479 C 1066.6631,808.44479 1071.6631,813.63947 1074.9963,813.63947 C 1078.3296,813.63947 1074.9963,820.56571 1074.9963,824.02883 C 1074.9963,851.36809 1094.996,813.09228 1094.996,829.22352 C 1094.996,842.98411 1107.7254,837.25388 1114.9959,844.80759 C 1121.7685,851.84403 1149.9955,835.91648 1149.9955,850.00227 C 1149.9955,868.58821 1154.9954,853.61347 1154.9954,865.58634 C 1154.9954,869.49799 1179.9952,866.53631 1179.9952,855.19695 C 1197.5368,837.77512 1168.3763,855.46552 1189.995,855.19695 C 1199.4728,855.19695 1200.5643,865.58634 1214.9948,865.58634 C 1230.8709,865.58634 1226.8353,855.19695 1234.9945,855.19695 C 1240.7812,855.19695 1244.9944,865.58634 1254.9943,865.58634 C 1259.9942,865.58634 1267.1427,855.19695 1269.9941,855.19695 C 1289.9938,870.78102 1294.9939,850.00227 1299.9938,850.00227 C 1299.9938,850.00227 1299.9938,738.07668 1299.9938,730.52448 C 1299.9938,719.26934 1294.9939,731.39027 1294.9939,720.1351 C 1294.9939,715.21464 1289.9938,725.99099 1289.9938,714.94041 C 1289.9938,713.35828 1274.994,715.58051 1274.994,725.32978 C 1274.994,741.59755 1269.9941,737.67215 1269.9941,725.32978 C 1269.9941,718.46385 1265.0437,709.74573 1259.9942,709.74573 C 1258.3276,709.74573 1259.9942,706.28262 1259.9942,704.55105 C 1259.9942,702.81949 1259.9942,708.01418 1259.9942,709.74573 C 1259.9942,713.61762 1254.9943,716.26322 1254.9943,720.1351 C 1254.9943,729.48554 1257.8275,720.1351 1249.9943,720.1351 C 1248.3276,720.1351 1249.9943,716.67197 1249.9943,714.94041 C 1249.9943,709.53565 1239.9944,705.3553 1239.9944,714.94041 C 1239.9944,716.67197 1236.6612,714.94041 1234.9945,714.94041 C 1227.6376,714.94041 1246.5773,732.16905 1229.9946,714.94041 C 1221.282,705.88845 1214.9948,736.35264 1214.9948,709.74573 C 1214.9948,706.28262 1209.9948,711.47729 1209.9948,714.94041 C 1209.9948,716.67197 1206.6615,714.94041 1204.9948,714.94041 C 1199.7927,714.94041 1195.7691,725.32978 1204.9948,725.32978 C 1205.3827,725.32978 1202.149,730.52448 1209.9948,730.52448 C 1211.6614,730.52448 1213.328,730.52448 1214.9948,730.52448 z"
+       id="path3284"
+       sodipodi:nodetypes="csssssssssssssssscsscssssssssssssccsssccsssssssssssssssssssc"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-mixed.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="850.00226"
+       x="1176.2451"
+       height="71.426933"
+       width="82.499062"
+       id="rect3286"
+       style="fill:#808080;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-mixed.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#a0a0a0;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3288"
+       width="27.499685"
+       height="85.712318"
+       x="1258.7441"
+       y="835.71686"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-mixed.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="835.71686"
+       x="1148.7456"
+       height="85.712318"
+       width="27.499685"
+       id="rect3290"
+       style="fill:#a0a0a0;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-mixed.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#c0c0c0;fill-opacity:1;stroke:#c0c0c0;stroke-width:1.99999976;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:90;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 1162.4954,807.14609 L 1162.4954,807.14609 L 1176.2452,835.71686 L 1148.7455,835.71686 L 1162.4954,807.14609 z"
+       id="rect3294"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-mixed.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       id="path3297"
+       d="M 1272.494,807.14606 L 1272.494,807.14606 L 1286.2439,835.71683 L 1258.7442,835.71683 L 1272.494,807.14606 z"
+       style="fill:#c0c0c0;fill-opacity:1;stroke:#c0c0c0;stroke-width:1.99999976;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:90;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-mixed.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#606060;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:90;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path3303"
+       sodipodi:cx="440"
+       sodipodi:cy="312.36218"
+       sodipodi:rx="5"
+       sodipodi:ry="10"
+       d="M 445,312.36218 A 5,10 0 1 1 435,312.36218 A 5,10 0 1 1 445,312.36218 z"
+       transform="matrix(2.7499686,0,0,2.8570775,7.5085099,0.4154605)"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-mixed.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="892.85834"
+       x="1121.2458"
+       height="28.570774"
+       width="178.74796"
+       id="rect3301"
+       style="fill:#c0c0c0;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-mixed.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.99999988;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1, 1.99999998;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 859.99877,821.43147 C 846.24892,821.43147 887.49845,821.43147 901.24829,821.43147 C 914.93178,821.43147 899.05126,807.14609 928.74798,807.14609 C 967.80463,807.14609 930.94086,792.8607 969.9975,792.8607 C 983.68099,792.8607 967.80048,778.57531 997.4972,778.57531 C 1029.1882,778.57531 989.55146,764.28992 1038.7467,764.28992 C 1070.4377,764.28992 1030.801,750.00454 1079.9963,750.00454 C 1096.1016,750.00454 1103.761,721.43376 1121.2458,721.43376 C 1151.0371,721.43376 1118.9542,707.14837 1148.7455,707.14837"
+       id="path3311"
+       sodipodi:nodetypes="csssssssc"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-mixed.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.99999988;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.00000002, 2.00000003;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 969.9975,792.86073 C 1003.6082,792.86073 977.63631,814.94799 1011.2471,814.94799 C 1024.9969,814.94799 1011.2471,837.03526 1011.2471,848.07889 C 1011.2471,872.00677 1024.9969,846.2383 1024.9969,870.16615 C 1043.33,870.16615 1038.7467,866.48495 1038.7467,881.20979 C 1038.7467,884.89102 1066.2464,872.00677 1066.2464,892.25342 C 1066.2464,903.29705 1093.7462,892.25342 1107.4959,892.25342 C 1112.0793,892.25342 1116.6625,892.25342 1121.2458,892.25342"
+       id="path3313"
+       sodipodi:nodetypes="csscsssc"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-mixed.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.99999988;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1, 1.99999998;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 1011.2471,821.43147 C 1042.9381,821.43147 1017.0512,835.71686 1066.2464,835.71686 C 1075.413,835.71686 1084.5796,835.71686 1093.7462,835.71686"
+       id="path3315"
+       sodipodi:nodetypes="csc"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-mixed.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="907.14374"
+       x="750"
+       height="42.856159"
+       width="549.99371"
+       id="rect5937"
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-mixed.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5939"
+       width="549.99371"
+       height="42.856159"
+       x="750"
+       y="550.00916"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-mixed.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <image
+       xlink:href="../rogue/healthy.png"
+       width="44.686989"
+       height="51.784531"
+       id="image5945"
+       x="942.4978"
+       y="769.64697"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-mixed.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <image
+       y="751.79022"
+       x="866.87366"
+       id="image5949"
+       height="62.498569"
+       width="54.999371"
+       xlink:href="../wizard/healthy.png"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-mixed.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <image
+       xlink:href="../priest/injured.png"
+       width="32.999622"
+       height="59.641491"
+       id="image5943"
+       x="901.24823"
+       y="761.79004"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-mixed.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2565"
+       width="550"
+       height="42.857143"
+       x="2050"
+       y="50"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/mountain-fg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="407.14288"
+       x="2050"
+       height="42.857143"
+       width="550"
+       id="rect2567"
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/mountain-fg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2593"
+       width="550"
+       height="42.857143"
+       x="2050"
+       y="1050"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/castle-fg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="1407.1428"
+       x="2050"
+       height="42.857143"
+       width="550"
+       id="rect2595"
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/castle-fg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="ccczzzzzzzcc"
+       id="path2609"
+       d="M 2050,550 L 2600,550 L 2600,692.85714 C 2600,692.85714 2565.625,664.28571 2545,664.28571 C 2524.375,664.28571 2483.125,664.28571 2462.5,664.28571 C 2441.875,664.28571 2428.125,635.71428 2407.5,635.71428 C 2386.875,635.71428 2352.5,664.28574 2325,664.28571 C 2297.5,664.28571 2290.625,664.28571 2270,664.28571 C 2249.375,664.28571 2208.125,692.85714 2187.5,692.85714 C 2166.875,692.85714 2125.625,664.28571 2105,664.28571 C 2084.375,664.28571 2050,692.85714 2050,692.85714 L 2050,550 z"
+       style="fill:#36611f;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/forest-fg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2621"
+       width="550"
+       height="42.857143"
+       x="2050"
+       y="550"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/forest-fg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="907.14282"
+       x="2050"
+       height="42.857143"
+       width="550"
+       id="rect2623"
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/forest-fg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#81bdff;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2697"
+       width="549.99371"
+       height="399.99081"
+       x="750"
+       y="50.009163"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-rogues.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="164.29227"
+       x="750"
+       height="285.70773"
+       width="549.99371"
+       id="rect2699"
+       style="fill:#529130;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-rogues.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccccc"
+       id="path2703"
+       d="M 750.00001,364.28766 L 832.49908,364.28766 L 832.49908,307.14612 L 777.49971,250.00457 L 750.00001,278.57534 L 750.00001,364.28766 z"
+       style="fill:#c27b3e;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-rogues.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       id="path2705"
+       d="M 832.49908,364.28766 L 887.49844,278.57534 L 887.49844,250.00457 L 832.49908,307.14612 L 832.49908,364.28766 z"
+       style="fill:#9c5c24;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-rogues.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#d19c6f;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 777.49971,250.00457 L 859.99876,221.43379 L 887.49844,250.00457 L 832.49908,307.14612 L 777.49971,250.00457 z"
+       id="path2707"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-rogues.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:url(#linearGradient2596);fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 1024.9969,221.43379 L 1299.9938,221.43379 L 1299.9938,164.29224 L 1244.9944,107.1507 L 1189.995,164.29224 L 1024.9969,221.43379 z"
+       id="path2709"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-rogues.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="csssssssssssssssscsscssssssssssssccsssccsssssssssssssssssssc"
+       id="path2711"
+       d="M 1214.9948,230.5245 C 1216.6614,230.5245 1211.6614,230.5245 1209.9948,230.5245 C 1208.3281,230.5245 1209.9948,227.06137 1209.9948,225.32979 C 1209.9948,219.802 1199.9949,217.6863 1199.9949,209.74574 C 1199.9949,197.65448 1189.995,214.96388 1189.995,220.13511 C 1189.995,233.72852 1179.9952,214.72203 1179.9952,235.71918 C 1179.9952,241.68908 1174.9952,229.19642 1174.9952,240.91386 C 1174.9952,244.02964 1178.9912,230.5245 1169.9952,230.5245 C 1156.9596,230.5245 1172.7127,214.94043 1159.9954,214.94043 C 1155.0196,214.94043 1165.7942,209.74574 1154.9954,209.74574 C 1147.515,209.74574 1163.5575,225.32979 1149.9955,225.32979 C 1142.6386,225.32979 1161.5783,208.10122 1144.9956,225.32979 C 1143.3289,227.06137 1148.3288,228.79294 1149.9955,230.5245 C 1151.174,231.7489 1149.9955,233.98762 1149.9955,235.71918 C 1149.9955,246.76675 1147.9231,225.32979 1134.9956,225.32979 C 1128.5386,225.32979 1124.9958,208.34666 1124.9958,230.5245 C 1124.9958,231.73659 1138.4956,225.32979 1124.9958,225.32979 C 1117.1527,225.32979 1117.1527,235.71918 1124.9958,235.71918 C 1126.5305,244.04602 1120.4346,240.91386 1114.9959,240.91386 C 1107.794,240.91386 1098.2811,251.30325 1109.9959,251.30325 C 1114.9959,251.30325 1099.9961,251.30325 1094.996,251.30325 C 1092.0993,260.03499 1106.3134,256.49793 1094.996,256.49793 C 1088.3164,256.49793 1079.9963,261.03437 1079.9963,266.88729 C 1079.9963,273.29474 1089.3373,272.08197 1074.9963,272.08197 C 1067.1533,272.08197 1067.1533,282.47133 1074.9963,282.47133 C 1076.663,282.47133 1070.8297,292.86073 1079.9963,292.86073 C 1080.6761,292.86073 1077.7201,308.4448 1069.9964,308.4448 C 1066.6631,308.4448 1071.6631,313.63948 1074.9963,313.63948 C 1078.3296,313.63948 1074.9963,320.56572 1074.9963,324.02884 C 1074.9963,351.3681 1094.996,313.09229 1094.996,329.22352 C 1094.996,342.98412 1107.7254,337.25388 1114.9959,344.80759 C 1121.7685,351.84403 1149.9955,335.91649 1149.9955,350.00228 C 1149.9955,368.58822 1154.9954,353.61347 1154.9954,365.58635 C 1154.9954,369.498 1179.9952,366.53632 1179.9952,355.19695 C 1197.5368,337.77513 1168.3763,355.46552 1189.995,355.19695 C 1199.4728,355.19695 1200.5643,365.58635 1214.9948,365.58635 C 1230.8709,365.58635 1226.8353,355.19695 1234.9945,355.19695 C 1240.7812,355.19695 1244.9944,365.58635 1254.9943,365.58635 C 1259.9942,365.58635 1267.1427,355.19695 1269.9941,355.19695 C 1289.9938,370.78102 1294.9939,350.00228 1299.9938,350.00228 C 1299.9938,350.00228 1299.9938,238.0767 1299.9938,230.5245 C 1299.9938,219.26935 1294.9939,231.39028 1294.9939,220.13511 C 1294.9939,215.21465 1289.9938,225.99101 1289.9938,214.94043 C 1289.9938,213.35829 1274.994,215.58053 1274.994,225.32979 C 1274.994,241.59756 1269.9941,237.67216 1269.9941,225.32979 C 1269.9941,218.46386 1265.0437,209.74574 1259.9942,209.74574 C 1258.3276,209.74574 1259.9942,206.28263 1259.9942,204.55107 C 1259.9942,202.81951 1259.9942,208.01419 1259.9942,209.74574 C 1259.9942,213.61763 1254.9943,216.26323 1254.9943,220.13511 C 1254.9943,229.48555 1257.8275,220.13511 1249.9943,220.13511 C 1248.3276,220.13511 1249.9943,216.67199 1249.9943,214.94043 C 1249.9943,209.53567 1239.9944,205.35531 1239.9944,214.94043 C 1239.9944,216.67199 1236.6612,214.94043 1234.9945,214.94043 C 1227.6376,214.94043 1246.5773,232.16906 1229.9946,214.94043 C 1221.282,205.88847 1214.9948,236.35266 1214.9948,209.74574 C 1214.9948,206.28263 1209.9948,211.4773 1209.9948,214.94043 C 1209.9948,216.67199 1206.6615,214.94043 1204.9948,214.94043 C 1199.7927,214.94043 1195.7691,225.32979 1204.9948,225.32979 C 1205.3827,225.32979 1202.149,230.5245 1209.9948,230.5245 C 1211.6614,230.5245 1213.328,230.5245 1214.9948,230.5245 z"
+       style="fill:#36611f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-rogues.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#808080;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2713"
+       width="82.499062"
+       height="71.426933"
+       x="1176.2451"
+       y="350.00223"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-rogues.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="335.71686"
+       x="1258.7441"
+       height="85.712318"
+       width="27.499685"
+       id="rect2715"
+       style="fill:#a0a0a0;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-rogues.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#a0a0a0;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2717"
+       width="27.499685"
+       height="85.712318"
+       x="1148.7456"
+       y="335.71686"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-rogues.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       id="path2719"
+       d="M 1162.4954,307.14613 L 1162.4954,307.14613 L 1176.2452,335.71691 L 1148.7455,335.71691 L 1162.4954,307.14613 z"
+       style="fill:#c0c0c0;fill-opacity:1;stroke:#c0c0c0;stroke-width:1.99999976;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:90;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-rogues.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#c0c0c0;fill-opacity:1;stroke:#c0c0c0;stroke-width:1.99999976;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:90;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 1272.494,307.1461 L 1272.494,307.1461 L 1286.2439,335.71688 L 1258.7442,335.71688 L 1272.494,307.1461 z"
+       id="path2721"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-rogues.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(2.7499686,0,0,2.8570773,7.5085099,-499.58448)"
+       d="M 445,312.36218 A 5,10 0 1 1 435,312.36218 A 5,10 0 1 1 445,312.36218 z"
+       sodipodi:ry="10"
+       sodipodi:rx="5"
+       sodipodi:cy="312.36218"
+       sodipodi:cx="440"
+       id="path2723"
+       style="fill:#606060;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:90;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-rogues.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#c0c0c0;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2725"
+       width="178.74796"
+       height="28.570772"
+       x="1121.2458"
+       y="392.8584"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-rogues.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="csssssssc"
+       id="path2727"
+       d="M 859.99877,321.43152 C 846.24892,321.43152 887.49845,321.43152 901.24829,321.43152 C 914.93178,321.43152 899.05126,307.14613 928.74798,307.14613 C 967.80463,307.14613 930.94086,292.86075 969.9975,292.86075 C 983.68099,292.86075 967.80048,278.57536 997.4972,278.57536 C 1029.1882,278.57536 989.55146,264.28997 1038.7467,264.28997 C 1070.4377,264.28997 1030.801,250.00458 1079.9963,250.00458 C 1096.1016,250.00458 1103.761,221.43381 1121.2458,221.43381 C 1151.0371,221.43381 1118.9542,207.14842 1148.7455,207.14842"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.99999988;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.00000001, 2.00000004;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-rogues.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <image
+       xlink:href="../rogue/healthy.png"
+       width="44.686989"
+       height="51.784527"
+       id="image2629"
+       x="911.73987"
+       y="258.50995"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-rogues.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="csscsssc"
+       id="path2729"
+       d="M 969.9975,292.86077 C 1003.6082,292.86077 977.63631,314.94804 1011.2471,314.94804 C 1024.9969,314.94804 1011.2471,337.0353 1011.2471,348.07894 C 1011.2471,372.00681 1024.9969,346.23834 1024.9969,370.1662 C 1043.33,370.1662 1038.7467,366.48499 1038.7467,381.20984 C 1038.7467,384.89106 1066.2464,372.00681 1066.2464,392.25346 C 1066.2464,403.2971 1093.7462,392.25346 1107.4959,392.25346 C 1112.0793,392.25346 1116.6625,392.25346 1121.2458,392.25346"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.99999988;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.00000004, 2.00000009;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-rogues.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="csc"
+       id="path2731"
+       d="M 1011.2471,321.43152 C 1042.9381,321.43152 1017.0512,335.71691 1066.2464,335.71691 C 1075.413,335.71691 1084.5796,335.71691 1093.7462,335.71691"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.99999988;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.00000001, 2.00000004;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-rogues.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2733"
+       width="549.99371"
+       height="42.856159"
+       x="750"
+       y="407.1438"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-rogues.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="50.009163"
+       x="750"
+       height="42.856159"
+       width="549.99371"
+       id="rect2735"
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-rogues.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <image
+       y="269.64697"
+       x="942.4978"
+       id="image2737"
+       height="51.784527"
+       width="44.686989"
+       xlink:href="../rogue/healthy.png"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-rogues.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="1050.0092"
+       x="750"
+       height="399.99084"
+       width="549.99371"
+       id="rect2749"
+       style="fill:#81bdff;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-warriors.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#529130;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2751"
+       width="549.99371"
+       height="285.70773"
+       x="750"
+       y="1164.292"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-warriors.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <image
+       xlink:href="../warrior/healthy.png"
+       width="40.218292"
+       height="59.641491"
+       id="image2753"
+       x="916.02936"
+       y="1250.0044"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-warriors.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#c27b3e;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 750,1364.2875 L 832.49907,1364.2875 L 832.49907,1307.1459 L 777.4997,1250.0044 L 750,1278.5752 L 750,1364.2875 z"
+       id="path2755"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-warriors.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#9c5c24;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 832.49907,1364.2875 L 887.49843,1278.5752 L 887.49843,1250.0044 L 832.49907,1307.1459 L 832.49907,1364.2875 z"
+       id="path2757"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-warriors.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       id="path2759"
+       d="M 777.4997,1250.0044 L 859.99875,1221.4336 L 887.49843,1250.0044 L 832.49907,1307.1459 L 777.4997,1250.0044 z"
+       style="fill:#d19c6f;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-warriors.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccccc"
+       id="path2761"
+       d="M 1024.9968,1221.4336 L 1299.9938,1221.4336 L 1299.9938,1164.2921 L 1244.9944,1107.1505 L 1189.995,1164.2921 L 1024.9968,1221.4336 z"
+       style="fill:url(#linearGradient2571);fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-warriors.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#36611f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 1214.9947,1230.5243 C 1216.6613,1230.5243 1211.6614,1230.5243 1209.9948,1230.5243 C 1208.3281,1230.5243 1209.9948,1227.0612 1209.9948,1225.3296 C 1209.9948,1219.8018 1199.9949,1217.6862 1199.9949,1209.7456 C 1199.9949,1197.6543 1189.995,1214.9637 1189.995,1220.1349 C 1189.995,1233.7284 1179.9952,1214.7219 1179.9952,1235.719 C 1179.9952,1241.6889 1174.9952,1229.1962 1174.9952,1240.9137 C 1174.9952,1244.0295 1178.9912,1230.5243 1169.9952,1230.5243 C 1156.9596,1230.5243 1172.7127,1214.9403 1159.9954,1214.9403 C 1155.0196,1214.9403 1165.7942,1209.7456 1154.9954,1209.7456 C 1147.515,1209.7456 1163.5575,1225.3296 1149.9955,1225.3296 C 1142.6386,1225.3296 1161.5783,1208.101 1144.9956,1225.3296 C 1143.3289,1227.0612 1148.3288,1228.7928 1149.9955,1230.5243 C 1151.174,1231.7487 1149.9955,1233.9875 1149.9955,1235.719 C 1149.9955,1246.7666 1147.9231,1225.3296 1134.9956,1225.3296 C 1128.5386,1225.3296 1124.9958,1208.3465 1124.9958,1230.5243 C 1124.9958,1231.7364 1138.4956,1225.3296 1124.9958,1225.3296 C 1117.1527,1225.3296 1117.1527,1235.719 1124.9958,1235.719 C 1126.5305,1244.0458 1120.4346,1240.9137 1114.9959,1240.9137 C 1107.794,1240.9137 1098.2811,1251.3031 1109.9959,1251.3031 C 1114.9959,1251.3031 1099.996,1251.3031 1094.996,1251.3031 C 1092.0993,1260.0348 1106.3134,1256.4977 1094.996,1256.4977 C 1088.3164,1256.4977 1079.9963,1261.0342 1079.9963,1266.8871 C 1079.9963,1273.2946 1089.3373,1272.0818 1074.9963,1272.0818 C 1067.1532,1272.0818 1067.1532,1282.4711 1074.9963,1282.4711 C 1076.663,1282.4711 1070.8297,1292.8606 1079.9963,1292.8606 C 1080.6761,1292.8606 1077.7201,1308.4446 1069.9964,1308.4446 C 1066.6631,1308.4446 1071.6631,1313.6394 1074.9963,1313.6394 C 1078.3296,1313.6394 1074.9963,1320.5655 1074.9963,1324.0287 C 1074.9963,1351.368 1094.996,1313.0922 1094.996,1329.2234 C 1094.996,1342.9839 1107.7254,1337.2537 1114.9959,1344.8074 C 1121.7685,1351.8438 1149.9955,1335.9163 1149.9955,1350.0021 C 1149.9955,1368.588 1154.9954,1353.6133 1154.9954,1365.5862 C 1154.9954,1369.4978 1179.9952,1366.5361 1179.9952,1355.1967 C 1197.5368,1337.7749 1168.3763,1355.4654 1189.995,1355.1967 C 1199.4728,1355.1967 1200.5642,1365.5862 1214.9947,1365.5862 C 1230.8708,1365.5862 1226.8353,1355.1967 1234.9945,1355.1967 C 1240.7812,1355.1967 1244.9944,1365.5862 1254.9942,1365.5862 C 1259.9942,1365.5862 1267.1427,1355.1967 1269.9941,1355.1967 C 1289.9938,1370.7809 1294.9939,1350.0021 1299.9938,1350.0021 C 1299.9938,1350.0021 1299.9938,1238.0765 1299.9938,1230.5243 C 1299.9938,1219.2691 1294.9939,1231.3901 1294.9939,1220.1349 C 1294.9939,1215.2144 1289.9938,1225.9908 1289.9938,1214.9403 C 1289.9938,1213.3581 1274.994,1215.5803 1274.994,1225.3296 C 1274.994,1241.5974 1269.9941,1237.672 1269.9941,1225.3296 C 1269.9941,1218.4636 1265.0437,1209.7456 1259.9942,1209.7456 C 1258.3276,1209.7456 1259.9942,1206.2825 1259.9942,1204.5509 C 1259.9942,1202.8193 1259.9942,1208.014 1259.9942,1209.7456 C 1259.9942,1213.6175 1254.9942,1216.263 1254.9942,1220.1349 C 1254.9942,1229.4854 1257.8275,1220.1349 1249.9943,1220.1349 C 1248.3276,1220.1349 1249.9943,1216.6718 1249.9943,1214.9403 C 1249.9943,1209.5355 1239.9944,1205.3551 1239.9944,1214.9403 C 1239.9944,1216.6718 1236.6612,1214.9403 1234.9945,1214.9403 C 1227.6376,1214.9403 1246.5773,1232.1688 1229.9946,1214.9403 C 1221.282,1205.8883 1214.9947,1236.3525 1214.9947,1209.7456 C 1214.9947,1206.2825 1209.9948,1211.4772 1209.9948,1214.9403 C 1209.9948,1216.6718 1206.6615,1214.9403 1204.9948,1214.9403 C 1199.7927,1214.9403 1195.7691,1225.3296 1204.9948,1225.3296 C 1205.3827,1225.3296 1202.149,1230.5243 1209.9948,1230.5243 C 1211.6614,1230.5243 1213.328,1230.5243 1214.9947,1230.5243 z"
+       id="path2763"
+       sodipodi:nodetypes="csssssssssssssssscsscssssssssssssccsssccsssssssssssssssssssc"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-warriors.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="1350.0022"
+       x="1176.2451"
+       height="71.426933"
+       width="82.499062"
+       id="rect2765"
+       style="fill:#808080;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-warriors.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#a0a0a0;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2767"
+       width="27.499685"
+       height="85.712318"
+       x="1258.7441"
+       y="1335.7168"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-warriors.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="1335.7168"
+       x="1148.7455"
+       height="85.712318"
+       width="27.499685"
+       id="rect2769"
+       style="fill:#a0a0a0;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-warriors.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#c0c0c0;fill-opacity:1;stroke:#c0c0c0;stroke-width:1.99999976;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:90;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 1162.4953,1307.1459 L 1162.4953,1307.1459 L 1176.2452,1335.7166 L 1148.7455,1335.7166 L 1162.4953,1307.1459 z"
+       id="path2771"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-warriors.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       id="path2773"
+       d="M 1272.494,1307.1459 L 1272.494,1307.1459 L 1286.2439,1335.7166 L 1258.7442,1335.7166 L 1272.494,1307.1459 z"
+       style="fill:#c0c0c0;fill-opacity:1;stroke:#c0c0c0;stroke-width:1.99999976;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:90;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-warriors.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#606060;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:90;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path2775"
+       sodipodi:cx="440"
+       sodipodi:cy="312.36218"
+       sodipodi:rx="5"
+       sodipodi:ry="10"
+       d="M 445,312.36218 A 5,10 0 1 1 435,312.36218 A 5,10 0 1 1 445,312.36218 z"
+       transform="matrix(2.7499686,0,0,2.8570775,7.5084975,500.41537)"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-warriors.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="1392.8584"
+       x="1121.2457"
+       height="28.570774"
+       width="178.74796"
+       id="rect2777"
+       style="fill:#c0c0c0;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-warriors.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.99999988;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1, 1.99999998;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 859.99876,1321.4313 C 846.24891,1321.4313 887.49844,1321.4313 901.24828,1321.4313 C 914.93177,1321.4313 899.05125,1307.1459 928.74797,1307.1459 C 967.80462,1307.1459 930.94085,1292.8605 969.99749,1292.8605 C 983.68098,1292.8605 967.80047,1278.5751 997.49719,1278.5751 C 1029.1882,1278.5751 989.55145,1264.2898 1038.7467,1264.2898 C 1070.4377,1264.2898 1030.801,1250.0044 1079.9963,1250.0044 C 1096.1015,1250.0044 1103.761,1221.4336 1121.2458,1221.4336 C 1151.0371,1221.4336 1118.9542,1207.1481 1148.7455,1207.1481"
+       id="path2779"
+       sodipodi:nodetypes="csssssssc"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-warriors.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.99999988;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.00000002, 2.00000003;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 969.99749,1292.8605 C 1003.6082,1292.8605 977.6363,1314.9478 1011.2471,1314.9478 C 1024.9969,1314.9478 1011.2471,1337.0351 1011.2471,1348.0787 C 1011.2471,1372.0065 1024.9969,1346.2381 1024.9969,1370.166 C 1043.33,1370.166 1038.7467,1366.4847 1038.7467,1381.2096 C 1038.7467,1384.8908 1066.2464,1372.0065 1066.2464,1392.2532 C 1066.2464,1403.2969 1093.7461,1392.2532 1107.4959,1392.2532 C 1112.0793,1392.2532 1116.6625,1392.2532 1121.2458,1392.2532"
+       id="path2781"
+       sodipodi:nodetypes="csscsssc"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-warriors.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.99999988;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1, 1.99999998;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 1011.2471,1321.4313 C 1042.938,1321.4313 1017.0512,1335.7166 1066.2464,1335.7166 C 1075.413,1335.7166 1084.5796,1335.7166 1093.7461,1335.7166"
+       id="path2783"
+       sodipodi:nodetypes="csc"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-warriors.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="1407.1438"
+       x="750"
+       height="42.856159"
+       width="549.99371"
+       id="rect2785"
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-warriors.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2787"
+       width="549.99371"
+       height="42.856159"
+       x="750"
+       y="1050.0092"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-warriors.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#81bdff;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3302"
+       width="550"
+       height="400"
+       x="1450"
+       y="50"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/mountain-bg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:url(#linearGradient3368);fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 1450,250 L 1532.5,221.42858 L 1587.5,164.28572 L 1642.5,192.85715 L 1697.5,250 L 1780,192.85715 L 1835,221.42858 L 1917.5,221.42858 L 2000,192.85715 C 2000,307.14287 2000,56.44136 2000,450.00001 L 1450,450.00001 L 1450,250 z"
+       id="path3304"
+       sodipodi:nodetypes="cccccccccccc"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/mountain-bg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#d19c6f;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 1450,335.71429 L 1587.5,307.14287 L 1725,335.71429 L 1862.5,335.71429 L 2000,307.14287 L 2000,450.00001 L 1450,450.00001 L 1450,335.71429 z"
+       id="path3306"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/mountain-bg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="1050"
+       x="1450"
+       height="400"
+       width="550"
+       id="rect3314"
+       style="fill:#81bdff;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/castle-bg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#a0a0a0;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3316"
+       width="550"
+       height="285.71429"
+       x="1450"
+       y="1164.2858"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/castle-bg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#808080;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3318"
+       width="82.5"
+       height="128.57143"
+       x="-1532.5"
+       y="1050"
+       transform="scale(-1,1)"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/castle-bg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#808080;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3320"
+       width="550"
+       height="57.142857"
+       x="1450"
+       y="1192.8572"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/castle-bg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       transform="scale(-1,1)"
+       y="1050"
+       x="-1697.5"
+       height="128.57143"
+       width="110"
+       id="rect3322"
+       style="fill:#808080;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/castle-bg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#808080;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3324"
+       width="110"
+       height="128.57143"
+       x="-1862.5"
+       y="1050"
+       transform="scale(-1,1)"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/castle-bg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       transform="scale(-1,1)"
+       y="1050"
+       x="-2000"
+       height="128.57143"
+       width="82.5"
+       id="rect3326"
+       style="fill:#808080;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/castle-bg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="1278.5714"
+       x="1450"
+       height="114.28571"
+       width="550"
+       id="rect3328"
+       style="fill:#d12f2f;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/castle-bg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="550"
+       x="1450"
+       height="400"
+       width="550"
+       id="rect3336"
+       style="fill:url(#linearGradient3352);fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/forest-bg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <image
+       xlink:href="../rogue/healthy.png"
+       width="44.686989"
+       height="51.784527"
+       id="image2631"
+       x="921.69513"
+       y="280.49084"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-rogues.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <image
+       y="1270.5562"
+       x="951.56079"
+       id="image2633"
+       height="54.939228"
+       width="59.731361"
+       xlink:href="../warrior/attack.png"
+       inkscape:export-filename="/home/seth/Code/and-svn/graphics/maps/journey-warriors.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+</svg>
