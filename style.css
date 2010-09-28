@@ -6,6 +6,12 @@
   margin:0 auto;
 }
 
+/* account management menu */
+#login {
+  text-align:center;
+  width: 100%;
+}
+
 /* A container for character graphics, selection icons and menus */
 .character {
   position:absolute;
