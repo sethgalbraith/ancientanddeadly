@@ -1,39 +1,35 @@
-body {
-  background-repeat:no-repeat;
-  background-position:top center;
-  cursor: url(cursor.gif) 3 15, url(cursor.cur), auto;
-}
-a {
-  color:#99F;
-}
-#playarea {
+/* The element containing game action */
+.game {
   position:relative;
-  width:300px;
-  height:150px;
-  border:1px dashed black;
+  width:700px;
+  height:500px;
   margin:0 auto;
 }
-.inventory {
-  font-size:small;
-  width:135px;
-  float:left;
-}
-.avatar {
+
+/* A container for character graphics, selection icons and menus */
+.character {
   position:absolute;
-  width:0px;
+  left:0;
+  top:0;
+  width:0;
   font-size:xx-small;
 }
+
 .status {
   width:20px;
   margin:0 -10px;
   text-align:center;
 }
+
+/* Hit point guage, outside */
 .maxHP {
   width:18px;
   padding:1px;
   background:black;
   margin-top:3px;
 }
+
+/* Hit point gauge, inside */
 .hp {
   height:3px;
   width:100%;
