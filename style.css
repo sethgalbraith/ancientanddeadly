@@ -1,5 +1,5 @@
 /* The element containing game action */
-.game {
+#game {
   position:relative;
   width:700px;
   height:500px;
