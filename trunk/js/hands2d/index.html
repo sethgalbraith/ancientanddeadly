@@ -1,0 +1,81 @@
+<html>
+
+<head>
+  <title></title>
+  <script src="include.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body style="background-color:#1c2f3d;background-image:url(kingscreek.jpg);color:white">
+
+  <div id="playarea" style="width:550px;height:75px;margin-top:180px;border-color:white"></div>
+
+  <div id="menus" style="width:550px;margin:0 auto"></div>
+
+  <div style="position:absolute;right:0;top:0;text-align:center;">
+    <h1 style="margin:0 0.2em">Hack&Slash2D<br />(tech preview)</h1>
+    <div id="audio">audio
+      <a href="#" onclick="disableSound()" style="color:#99F">off</a> |
+      <a href="#" onclick="enableSlowSound()" style="color:#99F">slow</a> |
+      <a href="#" onclick="enableFastSound()" style="color:#99F">fast</a>
+    </div>
+    <select id="newPlayerTemplate">
+      <option value="swordsman">sword fighter</option>
+      <option value="karateman">krotty man</option>
+      <option value="bowman" selected="selected">archer</option>
+      <option value="horseman" selected="selected">horseman</option>
+    </select>
+    <input id="newPlayerMouse" type="checkbox" checked="checked" /> use mouse<br />
+    <select id="newPlayerControls">
+      <option value="wasd">WASD (left side, US keyboard)</option>
+      <option value="esdf">ESDF (left side, international)</option>
+      <option value="arrows">arrows (right side, laptop friendly)</option>
+      <option value="numpad">numpad (right side, full keyboard)</option>
+      <option value="none" selected="selected">no keyboard control</option>
+      <option value="evil">evil computer-controlled AI</option>
+      <option value="good">good computer-controlled AI</option>
+    </select><br />
+    <a href="#" onclick="addNewPlayerFromForm()">add new player</a>
+  </div>
+
+  <div class="licenseMenu" style="position:absolute;left:0.5em;top:0.5em">
+    <a href="#" onclick="toggleVisible('licenses')">licenses</a>
+    <ul id="licenses" style="visibility:hidden;font-size:small">
+      <li>
+        Copyright (C) 2008  Seth Galbraith<br />
+        This program comes with ABSOLUTELY NO WARRANTY<br />
+        This is free software, and you are welcome to redistribute it<br />
+	    under <a href="gpl-3.0-standalone.html">certain conditions.</a>
+      </li>
+      <li>
+        kingscreek.jpg from Daniel Schwen's<br />
+        <a href="http://commons.wikimedia.org/wiki/Image:USA_Lassen_NP_Kings_Creek_CA_edit3.jpg"
+        >USA_Lassen_NP_Kings_Creek_CA_edit3.jpg</a><br />
+        <a href="http://creativecommons.org/licenses/by-sa/2.5/"
+        >creative commons attribution-sharealike license</a>
+      </li>
+      <li>
+        all other graphics by Seth Galbraith and B. F. Galbraith<br />
+        <a href="http://creativecommons.org/licenses/by-sa/2.5/"
+        >creative commons attribution-sharealike license</a>
+      </li>
+      <li>
+        hit.wav is Fransico Padilla's<br />
+        <a href="http://www.freesound.org/samplesViewSingle.php?id=22742"
+        >22742_FranciscoPadilla_39_Hand_Clap.wav</a><br />
+        <a href="http://creativecommons.org/licenses/sampling+/1.0/"
+        >creative commons sampling plus license</a>
+      </li>
+      <li>
+        miss.wav from Fransisco Padilla's<br /> 
+        <a href="http://www.freesound.org/samplesViewSingle.php?id=22785"
+        >22785_FranciscoPadilla_Blow.wav</a><br />
+        <a href="http://creativecommons.org/licenses/sampling+/1.0/"
+        >creative commons sampling plus license</a>
+      </li>
+    </ul>
+  </div>
+
+</body>
+
+</html>

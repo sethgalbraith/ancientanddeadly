@@ -1,0 +1,42 @@
+body {
+  background-repeat:no-repeat;
+  background-position:top center;
+  cursor: url(cursor.gif) 3 15, url(cursor.cur), auto;
+}
+a {
+  color:#99F;
+}
+#playarea {
+  position:relative;
+  width:300px;
+  height:150px;
+  border:1px dashed black;
+  margin:0 auto;
+}
+.inventory {
+  font-size:small;
+  width:135px;
+  float:left;
+}
+.avatar {
+  position:absolute;
+  width:0px;
+  font-size:xx-small;
+}
+.status {
+  width:20px;
+  margin:0 -10px;
+  text-align:center;
+}
+.maxHP {
+  width:18px;
+  padding:1px;
+  background:black;
+  margin-top:3px;
+}
+.hp {
+  height:3px;
+  width:100%;
+  background:#0C0;
+}
+
