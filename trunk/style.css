@@ -1,3 +1,8 @@
+body {
+  background:black;
+  color:silver;
+}
+
 /* The element containing game action */
 #game {
   position:relative;
@@ -6,10 +11,10 @@
   margin:0 auto;
 }
 
-/* account management menu */
-#login {
+/* The account management menu */
+#userForm {
   text-align:center;
-  width: 100%;
+  width:100%;
 }
 
 /* A container for character graphics, selection icons and menus */
