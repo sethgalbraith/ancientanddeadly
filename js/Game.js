@@ -1,3 +1,8 @@
+// Game is a singleton object - meaning there is only one Game object.
+// We create Game using literal object notation. For example we can create
+// an object named point with x and y properties using the literal notation:
+// var point = {x: 3, y: 10};
+
 var Game = {
 
   // GAME STATE
@@ -101,24 +106,31 @@ var Game = {
 
 };
 
-
-// RUN SOME CODE AFTER THE PAGE LOADS:
+// Attach a function to the window's "load" event, so that it will be called
+// when the page is done loading. This is similar to onload = function() {...};
+// except that addEventListener allows us to attach as many handlers as we want
+// to the same event.
 
 addEventListener('load', function() {
 
-  // USER INTERFACE
+  // variables that point to elements of the user interface
 
   Game.container = document.getElementById("game");
   Game.userForm = document.getElementById("userForm");
   Game.menu = Game.createElement("div", {className: "menu"}, Game.container);
 
-  // User Account Form
+  // hide everything but the default account management menu features
 
   Game.setUserForm("defaultUserForm");
+
+  // attach event handlers to the account management menu buttons
+
+  // default mode (not logged in) buttons: log in, register
   document.getElementById("showLogin").onclick = function () {
     Game.setUserForm("loginUserForm");};
   document.getElementById("showRegister").onclick = function () {
     Game.setUserForm("registerUserForm");};
+  // login mode buttons: log in, cancel
   document.getElementById("login").onclick = function () {
     var username = document.getElementById("loginUserName").value;
     var password = document.getElementById("loginPassword").value;
@@ -126,6 +138,7 @@ addEventListener('load', function() {
   };
   document.getElementById("cancelLogin").onclick = function () {
     Game.setUserForm("defaultUserForm");};
+  // register mode buttons: register, cancel
   document.getElementById("register").onclick = function () {
     var username = document.getElementById("registerUserName").value;
     var password = document.getElementById("registerPassword").value;
@@ -135,16 +148,19 @@ addEventListener('load', function() {
   };
   document.getElementById("cancelRegister").onclick = function () {
     Game.setUserForm("defaultUserForm");};
+  // logged in mode buttons: log out, account options
   document.getElementById("logout").onclick = function () {
     Game.logout();};
   document.getElementById("showAccountOptions").onclick = function () {
     Game.setUserForm("optionsUserForm");};
+  // account options mode buttons: change password, delete user, cancel
   document.getElementById("showChangePassword").onclick = function () {
     Game.setUserForm("passwordUserForm");};
   document.getElementById("showDeleteUser").onclick = function () {
     Game.setUserForm("deleteUserForm");};
   document.getElementById("cancelAccountOptions").onclick = function () {
     Game.setUserForm("loggedInUserForm");};
+  // change password mode buttons: change password, cancel
   document.getElementById("changePassword").onclick = function () {
     var oldPassword = document.getElementById("passwordOld").value;
     var newPassword = document.getElementById("passwordNew").value;
@@ -154,6 +170,7 @@ addEventListener('load', function() {
   };
   document.getElementById("cancelChangePassword").onclick = function () {
     Game.setUserForm("optionsUserForm");};
+  // delete user mode buttons: delete user, cancel
   document.getElementById("deleteUser").onclick = function () {
     Game.deleteUser();};
   document.getElementById("cancelDeleteUser").onclick = function () {
