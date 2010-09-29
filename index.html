@@ -1,5 +1,7 @@
 <html>
+
   <head>
+
     <title>Ancient &amp; Deadly</title>
     <!-- 
       Game.js creates the singleton Game object that all Ancient & Deadly
@@ -22,9 +24,56 @@
     <script src="js/Slide.js"></script>
 
     <link rel="stylesheet" type="text/css" href="style.css">
+
   </head>
+
   <body>
+
     <div id="game"></div>
-    <div id="login"></div>
+
+    <div id="userForm">
+      <span id="defaultUserForm">
+        <input type="submit" value="log in" id="showLogin"/>
+        <input type="submit" value="register" id="showRegister"/>
+      </span>
+      <span id="loginUserForm">
+        <input type="text" placeholder="username" id="loginUserName"/>
+        <input type="password" placeholder="password" id="loginPassword"/>
+        <input type="submit" value="log in" id="login"/>
+        <input type="submit" value="cancel" id="cancelLogin"/>
+      </span>
+      <span id="registerUserForm">
+        <input type="text" placeholder="new username" id="registerUserName"/>
+        <input type="password" placeholder="new password" id="registerPassword"/>
+        <input type="password" placeholder="type new password again" id="registerRetype"/>
+        <input type="submit" value="register" id="register"/>
+        <input type="submit" value="cancel" id="cancelRegister"/>
+      </span>
+      <span id="loggedInUserForm">
+        <input type="submit" value="log out" id="logout"/>
+        <input type="submit" value="account options" id="showAccountOptions"/>
+      </span>
+      <span id="optionsUserForm">
+        <input type="submit" value="change password" id="showChangePassword"/>
+        <input type="submit" value="delete my account" id="showDeleteUser"/>
+        <input type="submit" value="cancel" id="cancelAccountOptions"/>
+      </span>
+      <span id="passwordUserForm">
+        <input type="password" placeholder="old password" id="passwordOld"/>
+        <input type="password" placeholder="new password" id="passwordNew"/>
+        <input type="password" placeholder="type new password again" id="passwordRetype"/>
+        <input type="submit" value="change password" id="changePassword"/>
+        <input type="submit" value="cancel" id="cancelChangePassword"/>
+      </span>
+      <span id="deleteUserForm">
+        Are you sure you want to delete your account?
+        This operation cannot be undone. All your saved games will be lost.
+        <input type="submit" value="delete my account" id="deleteUser"/>
+        <input type="submit" value="cancel" id="cancelDeleteUser"/>
+      </span>
+    </div>
+
   </body>
+
 </html>
+
