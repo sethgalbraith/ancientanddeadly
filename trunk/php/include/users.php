@@ -23,11 +23,4 @@ function AD_hash_password($password, $salt) {
   return md5($salt . $password);
 }
 
-function AD_write_user_row($row) {
-  // URL-encode strings to be decoded by javascript's decodeURIComponent.
-  echo "  <user id=\"{$row['id']}"
-    . "\" name=\"" . rawurlencode($row['name'])
-    . "\"/>\n";
-}
-
 ?>
