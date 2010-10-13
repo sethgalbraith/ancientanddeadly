@@ -6,11 +6,11 @@
 // The other arguments are passed to the stored procedure.
 // On success, this function returns an empty array or
 // the first result set as an array of associative arrays.
-function LT_call_silent() {
+function AD_call_silent() {
   $proc = func_get_arg(0);
   $args = array_slice(func_get_args(), 1);
   $die = FALSE;
-  return LT_call($proc, $args, $die);
+  return AD_call($proc, $args, $die);
 }
 
 // Call an SQL stored procedure.
@@ -25,7 +25,7 @@ function LT_call_silent() {
 //   with an error message or returns FALSE on failure.
 // On success, this function returns an empty array or
 // the first result set as an array of associative arrays.
-function LT_call($proc, $args = array(), $die = TRUE) {
+function AD_call($proc, $args = array(), $die = TRUE) {
 
   // if $args is not an array, then assume all arguments after $proc
   // are arguments to the stored procedure and $die is false.
@@ -45,20 +45,20 @@ function LT_call($proc, $args = array(), $die = TRUE) {
   $query .= ");";
 
   // query the database and return the result;
-  return LT_query($query, $die);
+  return AD_query($query, $die);
 }
 
 // Make an SQL query, returning the result as an array of associative arrays.
 // This function only returns the first result set, and it will return an empty
 // array for queries that do not generate a result set.
-function LT_query($query, $die = TRUE) {
-  global $LT_SQL;
+function AD_query($query, $die = TRUE) {
+  global $AD_SQL;
 
   // perform query
-  $success = $LT_SQL->multi_query($query);
+  $success = $AD_SQL->multi_query($query);
   if (!$success) {
     if ($die) {
-      die('Query failed: ' . $LT_SQL->error);
+      die('Query failed: ' . $AD_SQL->error);
     }
     else {
       return FALSE;
@@ -67,7 +67,7 @@ function LT_query($query, $die = TRUE) {
 
   // get the first result set as an array of associative arrays
   $rows = array();
-  $result = $LT_SQL->store_result();
+  $result = $AD_SQL->store_result();
   if ($result) {
     while ($row = $result->fetch_assoc()) {
       $rows[] = $row;
@@ -76,8 +76,8 @@ function LT_query($query, $die = TRUE) {
   }
 
   // ignore subsequent result sets
-  if ($LT_SQL->more_results()) {
-    while($LT_SQL->next_result());
+  if ($AD_SQL->more_results()) {
+    while($AD_SQL->next_result());
   }
 
   // return first result set array
