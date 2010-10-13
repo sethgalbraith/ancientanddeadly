@@ -1,9 +1,9 @@
 <?php
 
-if (file_exists('db_config.php')) die ("Live Tabletop is already installed.");
+if (file_exists('db_config.php')) 
+  die("Ancient & Deadly is already installed.");
 
 include('include/users.php');
-include('include/query.php');
 
 
 // Interpret the Request
@@ -15,9 +15,6 @@ $database = $_REQUEST['database'];
 
 $AD_SQL = new mysqli($location , $username , $password, $database);
 if ($AD_SQL->connect_errno != 0) die('Could not connect.');
-
-$admin_username = $AD_SQL->real_escape_string($_REQUEST['admin_username']);
-$admin_password = $AD_SQL->real_escape_string($_REQUEST['admin_password']);
 
 
 // Create the Database Schema (tables and stored procedures)
@@ -37,14 +34,6 @@ else {
   $AD_SQL->rollback();
   die("Query failed: " . $AD_SQL->error);
 }
-
-
-// Create an Administrator Account
-
-$salt = AD_random_salt();
-$hash = AD_hash_password($admin_password, $salt);
-$query = "CALL create_user('$admin_username', '$hash', '$salt', NULL, 'administrator')";
-$AD_SQL->query($query) or die('Query failed: ' . $AD_SQL->error);
 
 
 // Create db_config.php
