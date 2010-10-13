@@ -20,7 +20,7 @@ if ($AD_SQL->connect_errno != 0) die('Could not connect.');
 // Create the Database Schema (tables and stored procedures)
 
 $AD_SQL->autocommit(FALSE);
-if ($AD_SQL->multi_query(file_get_contents('include/schema.sql'))) {
+if ($AD_SQL->multi_query(file_get_contents('../schema.sql'))) {
   do {
     $result = $AD_SQL->store_result();
     if ($AD_SQL->errno != 0) {
