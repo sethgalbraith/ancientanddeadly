@@ -3,7 +3,7 @@ body {
   color:silver;
 }
 
-/* The element containing game action */
+/* The element containing game action. */
 #game {
   position:relative;
   width:700px;
