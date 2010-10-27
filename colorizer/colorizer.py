@@ -1,6 +1,5 @@
 import pygame
 import sys
-import glob
 import os.path
 
 # load magenta team color palette
@@ -51,5 +50,5 @@ for path2file in sys.argv[4:]:
             count += 1
             break
   print count
-  pygame.image.save(image, filename[:-4] + "-%x.png" % code)
+  pygame.image.save(image, filename[:-4] + "-%06x.png" % code)
 
