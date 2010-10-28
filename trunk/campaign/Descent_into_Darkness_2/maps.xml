@@ -1,20 +1,4 @@
 <maps>
-<!--
-2079, 458
-transform translate 0, 495
-2079, 522
-/usr/share/games/wesnoth/1.8/data/core/images/scenery/fire1.png
-
-684, 404
-transform translate 0, 495
-684, 576
-/usr/share/games/wesnoth/1.8/data/core/images/scenery/windmill-01.png
-
-1107, 116
-transform translate 0, 495
-1107, 864
-/usr/share/games/wesnoth/1.8/data/core/images/items/brazier-lit1.png
--->
   <map name="Parthyn" background="maps/Parthyn_chapter_1.jpg">
     <animation x="2079" y="953">
       <frame>images/scenery/fire1.png</frame>
@@ -58,7 +42,7 @@ transform translate 0, 495
     </animation>
   </map>
   <map name="Parthyn" background="maps/Parthyn_chapter_4.jpg">
-    <animation x="2079" y="522">
+    <animation x="2079" y="953">
       <frame>images/scenery/fire1.png</frame>
       <frame>images/scenery/fire2.png</frame>
       <frame>images/scenery/fire3.png</frame>
@@ -68,7 +52,7 @@ transform translate 0, 495
       <frame>images/scenery/fire7.png</frame>
       <frame>images/scenery/fire8.png</frame>
     </animation>
-    <animation x="684" y="576">
+    <animation x="684" y="899">
       <frame>images/scenery/windmill-01.png</frame>
       <frame>images/scenery/windmill-02.png</frame>
       <frame>images/scenery/windmill-03.png</frame>

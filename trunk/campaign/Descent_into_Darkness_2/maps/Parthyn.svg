@@ -639,11 +639,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70593673"
-     inkscape:cx="1150.2988"
-     inkscape:cy="816.21573"
+     inkscape:zoom="1.4118735"
+     inkscape:cx="100.81404"
+     inkscape:cy="1326.1764"
      inkscape:document-units="px"
-     inkscape:current-layer="layer8"
+     inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:window-width="764"
      inkscape:window-height="743"
@@ -679,7 +679,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -878,11 +878,12 @@
        xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/tent-ruin-1.png" />
     <image
        y="-351.63782"
-       x="90"
+       x="-162"
        id="image4344"
        height="72"
        width="72"
-       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/mine-abandoned.png" />
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/mine-abandoned.png"
+       transform="scale(-1,1)" />
     <image
        y="404.36218"
        x="198"
@@ -2348,7 +2349,7 @@
      inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="chapter 4 animations"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <image
        transform="translate(0,494.63782)"
