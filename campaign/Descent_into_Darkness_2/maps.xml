@@ -15,7 +15,7 @@ transform translate 0, 495
 1107, 864
 /usr/share/games/wesnoth/1.8/data/core/images/items/brazier-lit1.png
 -->
-  <map name="Parthyn" background="maps/Parthyn_chapter_1.png">
+  <map name="Parthyn" background="maps/Parthyn_chapter_1.jpg">
     <animation x="2079" y="953">
       <frame>images/scenery/fire1.png</frame>
       <frame>images/scenery/fire2.png</frame>
@@ -57,7 +57,7 @@ transform translate 0, 495
       <frame>images/items/brazier-lit8.png</frame>
     </animation>
   </map>
-  <map name="Parthyn" background="maps/Parthyn_chapter_4.png">
+  <map name="Parthyn" background="maps/Parthyn_chapter_4.jpg">
     <animation x="2079" y="522">
       <frame>images/scenery/fire1.png</frame>
       <frame>images/scenery/fire2.png</frame>
