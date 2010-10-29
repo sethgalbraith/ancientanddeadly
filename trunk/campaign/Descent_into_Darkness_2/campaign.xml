@@ -10,7 +10,7 @@
       </sequence>
     </character>
     <!-- animated firepit prop -->
-    <character x="2079" y="953">
+    <character x="2115" y="990">
       <sequence action="stand">
         <frame>campaign/Descent_into_Darkness_2/images/scenery/fire1.png</frame>
         <frame>campaign/Descent_into_Darkness_2/images/scenery/fire2.png</frame>
@@ -23,7 +23,7 @@
       </sequence>
     </character>
     <!-- animated windmill prop -->
-    <character x="684" y="899">
+    <character x="720" y="936">
       <sequence action="stand">
         <frame>campaign/Descent_into_Darkness_2/images/scenery/windmill-01.png</frame>
         <frame>campaign/Descent_into_Darkness_2/images/scenery/windmill-02.png</frame>
@@ -46,7 +46,7 @@
       </sequence>
     </character>
     <!-- animated brazier prop -->
-    <character x="1107" y="611">
+    <character x="1143" y="639">
       <sequence action="stand">
         <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit1.png</frame>
         <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit2.png</frame>
@@ -84,24 +84,24 @@
       <p x="1197" y="971"/>
       <p x="1359" y="1007"/>
     </path>
-    <path from="ruin" to="windmill" direction="north">
-      <p x="567" y="1241"/>
-      <p x="810" y="1448"/>
-      <p x="927" y="1367"/>
-      <p x="927" y="1295"/>
-    </path>
-    <path from="windmill" to="ruin" direction="south">
-      <p x="927" y="1295"/>
-      <p x="927" y="1367"/>
-      <p x="810" y="1448"/>
-      <p x="567" y="1241"/>
-    </path>
     <path from="ruin" to="shop" direction="south">
+      <p x="567" y="1241"/>
+      <p x="810" y="1448"/>
+      <p x="927" y="1367"/>
+      <p x="927" y="1295"/>
+    </path>
+    <path from="shop" to="ruin" direction="south">
+      <p x="927" y="1295"/>
+      <p x="927" y="1367"/>
+      <p x="810" y="1448"/>
+      <p x="567" y="1241"/>
+    </path>
+    <path from="ruin" to="windmill" direction="north">
       <p x="567" y="1241"/>
       <p x="567" y="1097"/>
       <p x="693" y="989"/>
     </path>
-    <path from="shop" to="ruin" direction="west">
+    <path from="windmill" to="ruin" direction="south">
       <p x="693" y="989"/>
       <p x="567" y="1097"/>
       <p x="567" y="1241"/>
@@ -127,7 +127,7 @@
       <p x="2061" y="1403"/>
       <p x="1953" y="1322"/>
     </path>
-    <path from="well" to="camp" direction="north">
+    <path from="well" to="camp" direction="east">
       <p x="1953" y="1322"/>
       <p x="2061" y="1403"/>
       <p x="2178" y="1331"/>
@@ -176,12 +176,12 @@
       <p x="1737" y="899"/>
       <p x="1629" y="962"/>
     </path>
-    <path from="cemetery" to="cabin" direction="east">
+    <path from="cemetery" to="hills" direction="east">
       <p x="1530" y="197"/>
       <p x="1710" y="125"/>
       <p x="1800" y="125"/>
     </path>
-    <path from="cabin" to="cemetery" direction="west">
+    <path from="hills" to="cemetery" direction="west">
       <p x="1800" y="125"/>
       <p x="1710" y="125"/>
       <p x="1530" y="197"/>
@@ -230,7 +230,7 @@
     </path>
   </map>
   <map name="Parthyn" background="campaign/Descent_into_Darkness_2/maps/Parthyn_chapter_4.jpg">
-    <character x="2079" y="953">
+    <character x="2115" y="990">
       <sequence action="stand">
         <frame>campaign/Descent_into_Darkness_2/images/scenery/fire1.png</frame>
         <frame>campaign/Descent_into_Darkness_2/images/scenery/fire2.png</frame>
@@ -242,7 +242,7 @@
         <frame>campaign/Descent_into_Darkness_2/images/scenery/fire8.png</frame>
       </sequence>
     </character>
-    <character x="684" y="899">
+    <character x="720" y="936">
       <sequence action="stand">
         <frame>campaign/Descent_into_Darkness_2/images/scenery/windmill-01.png</frame>
         <frame>campaign/Descent_into_Darkness_2/images/scenery/windmill-02.png</frame>

@@ -3,11 +3,26 @@ body {
   color:silver;
 }
 
+
+/* An example ad banner. */
+#banner {
+  position:relative;
+  width:468px;
+  height:60px;
+  margin:10px auto;
+  font-size:50px;
+  text-align:center;
+  color:red;
+  background-color:yellow;
+  font-family:comic sans;
+}
+
 /* The element containing game action. */
 #game {
   position:relative;
-  width:700px;
-  height:500px;
+  width:600px;
+  height:400px;
+  display:block;
   margin:0 auto;
 }
 
