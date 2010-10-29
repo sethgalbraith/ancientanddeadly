@@ -14,7 +14,7 @@ body {
   text-align:center;
   color:red;
   background-color:yellow;
-  font-family:comic sans;
+  font-family:"Comic Sans", sans-serif;
 }
 
 /* The element containing game action. */
@@ -24,6 +24,7 @@ body {
   height:400px;
   display:block;
   margin:0 auto;
+  border:0;
 }
 
 /* The account management menu */

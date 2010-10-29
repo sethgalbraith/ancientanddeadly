@@ -11,6 +11,7 @@ Game.Character = function (element) {
   this.pathStep = 0;
   this.speed = 10;
   this.sequences = {};
+  this.facing = "right";
 
   // get settings from XML element
 
@@ -30,25 +31,23 @@ Game.Character = function (element) {
     }
   }
 
-  var self = this;
+  var xOffset = element.getAttribute("xOffset");
+  var yOffset = element.getAttribute("yOffset");
 
   // create character image
-
+  var self = this;
   this.image = new Image();
   this.image.src = this.sequences[this.action][this.frame];
   this.image.onload = function () {
     self.image.style.position = "absolute";
     self.image.style.left = self.x + "px";
     self.image.style.top = self.y + "px";
-    self.image.style.marginLeft = -self.image.width / 2 + "px";
-    self.image.style.marginTop = -self.image.height / 2 + "px";
-    document.getElementById("game").contentDocument.body.appendChild(self.image)
+    var x = (xOffset ? parseInt(xOffset) : 0) + self.image.width / 2;
+    var y = (yOffset ? parseInt(yOffset) : 0) + self.image.height / 2;
+    self.image.style.marginLeft = -x + "px";
+    self.image.style.marginTop = -y + "px";
   }
 
-  // start animation and movement
-
-  setInterval(function () {self.animate();}, 100);
-  setInterval(function () {self.move();}, 50);
 };
 
 Game.Character.prototype.animate = function () {
@@ -71,7 +70,7 @@ Game.Character.prototype.move = function () {
       this.y = goal.y;
       this.pathStep++;
       if (this.pathStep == this.path.steps.length) {
-        this.location = this.path.destination;
+        this.location = this.path.to;
         this.path = null;
         this.pathStep = 0;
       }
@@ -81,15 +80,18 @@ Game.Character.prototype.move = function () {
       this.x += this.speed * deltaX / distance;
       this.y += this.speed * deltaY / distance;
     }
-    this.image.style.left = this.x + "px";
-    this.image.style.top = this.y + "px";
-
-    // TODO: fix this hack
-    if (this == Game.characters[0]) {
-      var body = document.getElementById("game").contentDocument.body;
-      body.scrollTop = this.y - 200;
-      body.scrollLeft = this.x - 300;
+    if (deltaX > 0) {
+      this.facing = "right";
     }
+    if (deltaX < 0) {
+      this.facing = "left";
+    }
+    var transform = (this.facing == "right") ? "" : "scaleX(-1)";
+    this.image.style.oTransform = transform;
+    this.image.style.mozTransform = transform;
+    this.image.style.webkitTransform = transform;
   }
+  this.image.style.left = this.x + "px";
+  this.image.style.top = this.y + "px";
 };
 
