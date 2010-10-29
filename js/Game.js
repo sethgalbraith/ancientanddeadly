@@ -33,18 +33,18 @@ var Game = {
 
   ajaxRequest: function(url, arguments, callback) {
     // combine arguments into urlencoded string
-    var argumentlist = [];
+    var argumentList = [];
     for (var argumentName in arguments) {
       var argumentValue = encodeURIComponent(arguments[argumentName]);
       argumentList.push(argumentName + "=" + argumentValue);
     }
     var argumentString = argumentList.join("&");
     // create and send ajax request
-    var ajax = new XmlHttpRequest();
+    var ajax = new XMLHttpRequest();
     ajax.onreadystatechange = function () {
       if (ajax.readyState == 4) callback(ajax);
     };
-    ajax.open("POST", url, TRUE);
+    ajax.open("POST", url, true);
     ajax.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
     ajax.setRequestHeader("Content-length", argumentString.length);
     ajax.setRequestHeader("Connection", "close");
@@ -176,8 +176,80 @@ addEventListener('load', function() {
   document.getElementById("cancelDeleteUser").onclick = function () {
     Game.setUserForm("optionsUserForm");};
 
+  // load the campaign list
+  Game.ajaxRequest("campaigns.xml", {}, function (ajax) {
+    var campaigns = ajax.responseXML.getElementsByTagName("campaign");
+    // use the first campaign
+    var campaign = campaigns[0];
+    document.title = campaign.getAttribute("name");
+    // load the data for this campaign
+    Game.ajaxRequest(campaign.getAttribute("src"), {}, function (ajax) {
+      // get the map list
+      var maps = ajax.responseXML.getElementsByTagName("map");
+      // use the first map
+      var map = maps[0];
+      // get the game frame
+      var doc = document.getElementById("game").contentDocument;
+      // load background image
+      var background = new Image();
+      background.src = map.getAttribute("background");
+      background.onload = function () {
+        // initialize the game frame to match the background
+        doc.body.style.backgroundImage = "url(" + background.src + ")";
+        doc.body.style.width = background.width + "px";
+        doc.body.style.height = background.height + "px";
+        doc.body.style.margin = "0";
+        // TODO: remove this when the game frame automatically scrolls to PC position.
+        doc.body.scrollTop = background.height / 2;
+        doc.body.scrollLeft = background.width / 2;
+      };
+      // create the characters
+      Game.characters = [];
+      var characterElements = map.getElementsByTagName("character");
+      for (var i = 0; i < characterElements.length; i++) {
+        Game.characters.push(new Game.Character(characterElements[i]));
+      }
+      // extract the paths
+      Game.paths = {};
+      var pathElements = map.getElementsByTagName("path");
+      for (var j = 0; j < pathElements.length; j++) {
+        var path = {};
+        var from = pathElements[j].getAttribute("from");
+        var to = pathElements[j].getAttribute("to");
+        var direction = pathElements[j].getAttribute("direction");
+        if (!Game.paths[from]) {
+          Game.paths[from] = {};
+        }
+        Game.paths[from][direction] = path;
+        path.destination = to;
+        path.steps = [];
+        var pElements = pathElements[j].getElementsByTagName("p");
+        for (var k = 0; k < pElements.length; k++) {
+          var p = {}
+          p.x = parseInt(pElements[k].getAttribute("x"));
+          p.y = parseInt(pElements[k].getAttribute("y"));
+          path.steps.push(p);
+        }
+      }
+    });
+  });
+
 }, true);
 
   
-
+addEventListener("keydown", function (e) {
+  if (!e) e = window.event;
+  var keyMap = {37: "west", 38: "north", 39: "east", 40: "south"};
+  var direction = keyMap[e.keyCode];
+  var pc = Game.characters[0];
+  document.title = direction + " from " + pc.location;
+  if (direction && !pc.path) {
+    var path = Game.paths[pc.location][direction];
+    if (path) {
+      document.title += " to " + path.destination;
+      pc.path = path;
+      pc.pathStep = 0;
+    }
+  }
+}, false);
 
