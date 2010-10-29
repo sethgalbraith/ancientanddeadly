@@ -1,7 +1,7 @@
 <maps>
   <map name="Parthyn" background="campaign/Descent_into_Darkness_2/maps/Parthyn_chapter_1.jpg">
     <!-- first character is PC -->
-    <character x="1359" y="1007">
+    <character x="1359" y="1007" yOffset="18">
       <sequence action="stand">
         <frame>campaign/Descent_into_Darkness_2/images/units/neutral-outlaw-princess.png</frame>
       </sequence>
