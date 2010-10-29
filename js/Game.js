@@ -265,7 +265,7 @@ addEventListener('load', function() {
   Game.userForm = document.getElementById("userForm");
   Game.menu = Game.createElement("div", {className: "menu"}, Game.frame);
   Game.frame = document.getElementById("game");
-  var style = getComputedStyle(Game.frame);
+  var style = getComputedStyle(Game.frame, null);
   Game.width = parseInt(style.width);
   Game.height = parseInt(style.height);
 
