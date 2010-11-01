@@ -640,16 +640,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4118735"
-     inkscape:cx="100.81404"
-     inkscape:cy="1326.1764"
+     inkscape:cx="590.75384"
+     inkscape:cy="476.2419"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
-     inkscape:window-width="764"
-     inkscape:window-height="743"
-     inkscape:window-x="514"
+     inkscape:window-width="1280"
+     inkscape:window-height="748"
+     inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="0">
+     inkscape:window-maximized="1">
     <inkscape:grid
        type="xygrid"
        id="grid2816"
@@ -683,36 +683,6 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <g
-     inkscape:groupmode="layer"
-     id="layer3"
-     inkscape:label="wilderness"
-     sodipodi:insensitive="true"
-     style="display:inline">
-    <image
-       transform="translate(0,494.63782)"
-       y="-494.63782"
-       x="0"
-       id="image2963"
-       height="1547"
-       width="2233"
-       xlink:href="file:///home/seth/ancientanddeadly/campaign/Descent_into_Darkness_2/maps/Parthyn_wilderness.png" />
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer2"
-     inkscape:label="town"
-     style="display:inline"
-     sodipodi:insensitive="true">
-    <image
-       y="-494.63782"
-       x="0"
-       id="image3061"
-       height="1547"
-       width="2233"
-       xlink:href="file:///home/seth/ancientanddeadly/campaign/Descent_into_Darkness_2/maps/Parthyn.png"
-       transform="translate(0,494.63782)" />
-  </g>
   <g
      inkscape:groupmode="layer"
      id="layer4"
@@ -1471,14 +1441,13 @@
        width="72"
        xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/windmill-01.png" />
     <image
-       transform="translate(0,494.63782)"
        style="display:inline;enable-background:new"
        xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/items/brazier-lit1.png"
        width="72"
        height="72"
        id="image9207"
        x="1107"
-       y="116.36218" />
+       y="602" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1492,7 +1461,7 @@
        id="image3057"
        height="1547"
        width="2233"
-       xlink:href="file:///home/seth/ancientanddeadly/campaign/Descent_into_Darkness_2/maps/Parthin_necropolis.png" />
+       xlink:href="file:///home/seth/ancientanddeadly/campaign/Descent_into_Darkness_2/maps/Parthyn_necropolis.png" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1555,50 +1524,45 @@
        width="72"
        xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/gate-rusty-sw.png" />
     <image
-       transform="translate(0,494.63782)"
        style="display:inline"
-       y="-405.63782"
-       x="1143"
+       y="80"
+       x="1161"
        id="image3074"
        height="72"
        width="72"
        xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/slab1.png" />
     <image
-       transform="translate(0,494.63782)"
        style="display:inline"
        xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/slab1.png"
        width="72"
        height="72"
        id="image3076"
-       x="1125"
-       y="-378.63782" />
+       x="1143"
+       y="107" />
     <image
-       transform="translate(0,494.63782)"
        style="display:inline"
        xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/slab1.png"
        width="72"
        height="72"
        id="image3078"
-       x="1089"
-       y="-432.63782" />
+       x="1107"
+       y="53" />
     <image
-       transform="translate(0,494.63782)"
        style="display:inline"
-       y="-405.63782"
-       x="1071"
+       y="80"
+       x="1089"
        id="image3080"
        height="72"
        width="72"
        xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/slab1.png" />
     <image
-       transform="translate(0,494.63782)"
        style="display:inline"
        xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/slab1.png"
        width="72"
        height="72"
        id="image3082"
-       x="1053"
-       y="-378.63782" />
+       x="1071"
+       y="107" />
     <image
        transform="translate(0,494.63782)"
        style="display:inline"
@@ -1683,14 +1647,13 @@
        x="243"
        y="764.36218" />
     <image
-       transform="translate(0,494.63782)"
        style="display:inline"
        xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/rubble.png"
        width="72"
        height="72"
        id="image3106"
-       x="198"
-       y="404.36218" />
+       x="297"
+       y="863" />
     <image
        transform="translate(0,494.63782)"
        style="display:inline"
@@ -1801,7 +1764,7 @@
        xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/gate-rusty-se.png" />
     <g
        style="display:inline"
-       transform="translate(0,494.63782)"
+       transform="translate(18,485.63782)"
        id="g3140">
       <image
          xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/slab1.png"
@@ -1812,14 +1775,13 @@
          y="-459.63782" />
     </g>
     <image
-       transform="translate(0,494.63782)"
        style="display:inline"
        xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/slab1.png"
        width="72"
        height="72"
        id="image3144"
-       x="1125"
-       y="-486.63782" />
+       x="1143"
+       y="-1" />
     <image
        transform="translate(0,494.63782)"
        style="display:inline"
@@ -1884,36 +1846,33 @@
        x="1620"
        y="-468.63782" />
     <image
-       transform="translate(0,494.63782)"
        style="display:inline"
-       y="-432.63782"
-       x="1017"
+       y="53"
+       x="1035"
        id="image3170"
        height="72"
        width="72"
        xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/slab1.png" />
     <image
-       transform="translate(0,494.63782)"
        style="display:inline"
        xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/slab1.png"
        width="72"
        height="72"
        id="image3172"
-       x="999"
-       y="-405.63782" />
+       x="1017"
+       y="80" />
     <image
-       transform="translate(0,494.63782)"
        style="display:inline"
        xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/slab1.png"
        width="72"
        height="72"
        id="image3174"
-       x="1035"
-       y="-459.63782" />
+       x="1053"
+       y="26" />
     <g
        style="display:inline"
        id="g3176"
-       transform="translate(-54,467.63782)">
+       transform="translate(-36,458.63782)">
       <image
          y="-459.63782"
          x="1107"
@@ -1986,28 +1945,25 @@
        width="72"
        xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/gate-rusty-sw.png" />
     <image
-       transform="translate(0,494.63782)"
        style="display:inline"
        xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/slab1.png"
        width="72"
        height="72"
        id="image3194"
-       x="963"
-       y="-459.63782" />
-    <image
-       transform="translate(0,494.63782)"
-       style="display:inline"
-       y="-486.63782"
        x="981"
+       y="26" />
+    <image
+       style="display:inline"
+       y="-1"
+       x="999"
        id="image3196"
        height="72"
        width="72"
        xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/slab1.png" />
     <image
-       transform="translate(0,494.63782)"
        style="display:inline"
-       y="-486.63782"
-       x="909"
+       y="-1"
+       x="927"
        id="image3198"
        height="72"
        width="72"
@@ -2058,32 +2014,29 @@
        x="954"
        y="710.36218" />
     <image
-       transform="translate(0,494.63782)"
        style="display:inline"
        xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/items/coffin-closed.png"
        width="72"
        height="72"
        id="image3218"
        x="1404"
-       y="-432.63782" />
+       y="44" />
     <image
-       transform="translate(0,494.63782)"
        style="display:inline"
-       y="-459.63782"
+       y="17"
        x="1440"
        id="image3220"
        height="72"
        width="72"
        xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/items/coffin-closed.png" />
     <image
-       transform="translate(0,494.63782)"
        style="display:inline"
        xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/items/coffin-closed.png"
        width="72"
        height="72"
        id="image3222"
        x="1476"
-       y="-486.63782" />
+       y="-10" />
     <image
        transform="translate(0,494.63782)"
        style="display:inline"
@@ -2241,29 +2194,29 @@
        width="72"
        xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/items/altar-evil.png" />
     <image
-       y="1097"
-       x="351"
+       y="1034"
+       x="387"
        id="image3677"
        height="72"
        width="72"
        xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/items/bonestack.png" />
     <image
-       y="611"
+       y="602"
        x="1107"
        id="image3748"
        height="72"
        width="72"
        xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/items/brazier.png" />
     <image
-       y="1205"
-       x="468"
+       y="1322"
+       x="72"
        id="image3819"
        height="72"
        width="72"
        xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/items/bones.png" />
     <image
-       y="1124"
-       x="576"
+       y="1214"
+       x="621"
        id="image3890"
        height="72"
        width="72"
@@ -2349,7 +2302,7 @@
      inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="chapter 4 animations"
-     style="display:none"
+     style="display:inline"
      sodipodi:insensitive="true">
     <image
        transform="translate(0,494.63782)"
