@@ -78,6 +78,7 @@ var Game = {
       Game.extractXMLPaths(map);
       Game.extractXMLCharacters(map);
       Game.party = [Game.characters[0]];
+      Game.createMovementButtons(Game.characters[0]);
       setInterval(Game.animateCharacters, 100);
       setInterval(Game.moveCharacters, 50);
     });
@@ -89,7 +90,7 @@ var Game = {
     for (var i = 0; i < characterElements.length; i++) {
       var character = new Game.Character(characterElements[i]);
       Game.characters.push(character);
-      Game.frame.contentDocument.body.appendChild(character.image);
+      Game.frame.contentDocument.body.appendChild(character.element);
     }
   },
 
@@ -232,23 +233,57 @@ var Game = {
     var body = Game.frame.contentDocument.body;
     body.scrollLeft = Game.party[0].x - Game.width / 2;
     body.scrollTop = Game.party[0].y - Game.height / 2;
+    Game.showHideMovementButtons(Game.party[0]);
+  },
+
+  choosePath: function(direction) {
+    var pc = Game.party[0];
+    if (!pc.path) {
+      var path = Game.paths[pc.location][direction]
+      if (path) {
+        pc.path = path;
+        pc.pathStep = 0;
+      }
+    }
+  },
+
+  createMovementButtons: function(character) {
+    var up = Game.createElement("div", {id:"up"}, character.container);
+    var down = Game.createElement("div", {id:"down"}, character.container);
+    var left = Game.createElement("div", {id:"left"}, character.container);
+    var right = Game.createElement("div", {id:"right"}, character.container);
+    up.onmousedown = function() {Game.choosePath("north");};
+    down.onmousedown = function() {Game.choosePath("south");};
+    left.onmousedown = function() {Game.choosePath("west");};
+    right.onmousedown = function() {Game.choosePath("east");};
+  },
+
+  showHideMovementButtons: function(character) {
+    var up = Game.frame.contentDocument.getElementById("up");
+    var down = Game.frame.contentDocument.getElementById("down");
+    var left = Game.frame.contentDocument.getElementById("left");
+    var right = Game.frame.contentDocument.getElementById("right");
+    if (character.path) {
+      up.style.visibility = "hidden";
+      down.style.visibility = "hidden";
+      left.style.visibility = "hidden";
+      right.style.visibility = "hidden";
+    }
+    else {
+      var paths = Game.paths[character.location];
+      up.style.visibility = paths["north"] ? "visible" : "hidden";
+      down.style.visibility = paths["south"] ? "visible" : "hidden";
+      left.style.visibility = paths["west"] ? "visible" : "hidden";
+      right.style.visibility = paths["east"] ? "visible" : "hidden";
+    }
   },
 
   keyDown: function(e) {
     if (!e) e = window.event;
     var keyMap = {37: "west", 38: "north", 39: "east", 40: "south"};
     var direction = keyMap[e.keyCode];
-    var pc = Game.party[0];
-    //document.title = direction + " from " + pc.location;
     if (direction) {
-      if (!pc.path) {
-        var path = Game.paths[pc.location][direction];
-        if (path) {
-          //document.title += " to " + path.destination;
-          pc.path = path;
-          pc.pathStep = 0;
-        }
-      }
+      Game.choosePath(direction);
       e.preventDefault();
     }
   },
@@ -283,6 +318,10 @@ addEventListener('load', function() {
   // listen for keyboard events in the main window and game frame
   addEventListener("keydown", Game.keyDown, false);
   Game.frame.contentWindow.addEventListener("keydown", Game.keyDown, false);
+
+  // add a stylesheet to the frame:
+  var head = Game.frame.contentDocument.getElementsByTagName("head")[0];
+  Game.createElement("link", {rel:"stylesheet", type:"text/css", href:"style.css"}, head);
 
 }, true);
 
