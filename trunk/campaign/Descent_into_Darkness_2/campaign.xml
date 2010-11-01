@@ -243,14 +243,16 @@
       <p x="1845" y="746" />
     </path>
     <path from="beacon" to="start" direction="south">
-      <p x="1197" y="827" />
+      <p x="1152" y="791" />
+      <p x="1197" y="836" />
       <p x="1197" y="881" />
       <p x="1359" y="1007" />
     </path>
     <path from="start" to="beacon" direction="north">
       <p x="1359" y="1007" />
       <p x="1197" y="881" />
-      <p x="1197" y="827" />
+      <p x="1197" y="836" />
+      <p x="1152" y="791" />
     </path>
   </map>
   <map name="Parthyn" background="campaign/Descent_into_Darkness_2/maps/Parthyn_necropolis.jpg">
