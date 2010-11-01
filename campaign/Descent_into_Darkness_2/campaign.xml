@@ -1,5 +1,5 @@
 <maps>
-  <map name="Parthyn" background="campaign/Descent_into_Darkness_2/maps/Parthyn_chapter_1.jpg">
+  <map name="Parthyn" background="campaign/Descent_into_Darkness_2/maps/Parthyn_ruined.jpg">
     <!-- first character is PC -->
     <character x="1359" y="1007" yOffset="18">
       <sequence action="stand">
@@ -58,178 +58,202 @@
         <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit8.png</frame>
       </sequence>
     </character>
+    <path from="ruins" to="shop" direction="south">
+      <p x="549" y="1259" />
+      <p x="819" y="1439" />
+      <p x="927" y="1367" />
+      <p x="927" y="1295" />
+    </path>
+    <path from="shop" to="ruins" direction="south">
+      <p x="927" y="1295" />
+      <p x="927" y="1367" />
+      <p x="819" y="1439" />
+      <p x="549" y="1259" />
+    </path>
+    <path from="start" to="ruins" direction="west">
+      <p x="1359" y="1007" />
+      <p x="1197" y="971" />
+      <p x="1062" y="1061" />
+      <p x="783" y="1106" />
+      <p x="549" y="1259" />
+    </path>
+    <path from="ruins" to="start" direction="east">
+      <p x="549" y="1259" />
+      <p x="783" y="1106" />
+      <p x="1062" y="1061" />
+      <p x="1197" y="971" />
+      <p x="1359" y="1007" />
+    </path>
     <path from="shop" to="start" direction="east">
-      <p x="1206" y="1259"/>
-      <p x="1314" y="1259"/>
-      <p x="1359" y="1232"/>
-      <p x="1359" y="1007"/>
+      <p x="1206" y="1259" />
+      <p x="1359" y="1223" />
+      <p x="1359" y="1007" />
     </path>
     <path from="start" to="shop" direction="south">
-      <p x="1359" y="1007"/>
-      <p x="1359" y="1232"/>
-      <p x="1314" y="1259"/>
-      <p x="1206" y="1259"/>
+      <p x="1359" y="1007" />
+      <p x="1359" y="1223" />
+      <p x="1206" y="1259" />
     </path>
-    <path from="start" to="ruin" direction="west">
-      <p x="1359" y="1007"/>
-      <p x="1197" y="971"/>
-      <p x="1035" y="1061"/>
-      <p x="819" y="1097"/>
-      <p x="567" y="1241"/>
+    <path from="ruins" to="windmill" direction="north">
+      <p x="549" y="1259" />
+      <p x="603" y="1205" />
+      <p x="603" y="1079" />
+      <p x="711" y="1007" />
     </path>
-    <path from="ruin" to="start" direction="east">
-      <p x="567" y="1241"/>
-      <p x="819" y="1097"/>
-      <p x="1035" y="1061"/>
-      <p x="1197" y="971"/>
-      <p x="1359" y="1007"/>
-    </path>
-    <path from="ruin" to="shop" direction="south">
-      <p x="567" y="1241"/>
-      <p x="810" y="1448"/>
-      <p x="927" y="1367"/>
-      <p x="927" y="1295"/>
-    </path>
-    <path from="shop" to="ruin" direction="south">
-      <p x="927" y="1295"/>
-      <p x="927" y="1367"/>
-      <p x="810" y="1448"/>
-      <p x="567" y="1241"/>
-    </path>
-    <path from="ruin" to="windmill" direction="north">
-      <p x="567" y="1241"/>
-      <p x="567" y="1097"/>
-      <p x="693" y="989"/>
-    </path>
-    <path from="windmill" to="ruin" direction="south">
-      <p x="693" y="989"/>
-      <p x="567" y="1097"/>
-      <p x="567" y="1241"/>
+    <path from="windmill" to="ruins" direction="south">
+      <p x="711" y="1007" />
+      <p x="603" y="1079" />
+      <p x="603" y="1205" />
+      <p x="549" y="1259" />
     </path>
     <path from="start" to="fort" direction="east">
-      <p x="1359" y="1007"/>
-      <p x="1422" y="971"/>
-      <p x="1467" y="1007"/>
-      <p x="1575" y="935"/>
-      <p x="1629" y="962"/>
+      <p x="1359" y="1007" />
+      <p x="1467" y="1007" />
+      <p x="1575" y="935" />
+      <p x="1629" y="962" />
     </path>
     <path from="fort" to="start" direction="west">
-      <p x="1629" y="962"/>
-      <p x="1575" y="935"/>
-      <p x="1467" y="1007"/>
-      <p x="1422" y="971"/>
-      <p x="1359" y="1007"/>
-    </path>
-    <path from="camp" to="well" direction="south">
-      <p x="2061" y="998"/>
-      <p x="2178" y="1115"/>
-      <p x="2178" y="1331"/>
-      <p x="2061" y="1403"/>
-      <p x="1953" y="1322"/>
-    </path>
-    <path from="well" to="camp" direction="east">
-      <p x="1953" y="1322"/>
-      <p x="2061" y="1403"/>
-      <p x="2178" y="1331"/>
-      <p x="2178" y="1115"/>
-      <p x="2061" y="998"/>
-    </path>
-    <path from="fort" to="camp" direction="east">
-      <p x="1629" y="962"/>
-      <p x="1737" y="899"/>
-      <p x="1791" y="854"/>
-      <p x="1845" y="890"/>
-      <p x="1908" y="1016"/>
-      <p x="1989" y="1070"/>
-      <p x="2061" y="998"/>
-    </path>
-    <path from="camp" to="fort" direction="west">
-      <p x="2061" y="998"/>
-      <p x="1989" y="1070"/>
-      <p x="1908" y="1016"/>
-      <p x="1845" y="890"/>
-      <p x="1791" y="854"/>
-      <p x="1737" y="899"/>
-      <p x="1629" y="962"/>
-    </path>
-    <path from="fort" to="cellar" direction="south">
-      <p x="1629" y="962"/>
-      <p x="1575" y="935"/>
-      <p x="1521" y="971"/>
-      <p x="1521" y="1043"/>
-      <p x="1629" y="1178"/>
-    </path>
-    <path from="cellar" to="fort" direction="north">
-      <p x="1629" y="1178"/>
-      <p x="1521" y="1043"/>
-      <p x="1521" y="971"/>
-      <p x="1575" y="935"/>
-      <p x="1629" y="962"/>
+      <p x="1629" y="962" />
+      <p x="1575" y="935" />
+      <p x="1467" y="1007" />
+      <p x="1359" y="1007" />
     </path>
     <path from="fort" to="ford" direction="north">
-      <p x="1629" y="962"/>
-      <p x="1737" y="899"/>
-      <p x="1845" y="746"/>
+      <p x="1629" y="962" />
+      <p x="1800" y="854" />
+      <p x="1845" y="746" />
     </path>
     <path from="ford" to="fort" direction="south">
-      <p x="1845" y="746"/>
-      <p x="1737" y="899"/>
-      <p x="1629" y="962"/>
+      <p x="1845" y="746" />
+      <p x="1800" y="854" />
+      <p x="1629" y="962" />
+    </path>
+    <path from="cellar" to="fort" direction="north">
+      <p x="1629" y="1178" />
+      <p x="1521" y="1043" />
+      <p x="1521" y="971" />
+      <p x="1575" y="935" />
+      <p x="1629" y="962" />
+    </path>
+    <path from="fort" to="cellar" direction="south">
+      <p x="1629" y="962" />
+      <p x="1575" y="935" />
+      <p x="1521" y="971" />
+      <p x="1521" y="1043" />
+      <p x="1629" y="1178" />
+    </path>
+    <path from="fort" to="camp" direction="east">
+      <p x="1629" y="962" />
+      <p x="1800" y="854" />
+      <p x="1845" y="890" />
+      <p x="1845" y="971" />
+      <p x="1989" y="1070" />
+      <p x="2061" y="998" />
+    </path>
+    <path from="camp" to="fort" direction="west">
+      <p x="2061" y="998" />
+      <p x="1989" y="1070" />
+      <p x="1845" y="971" />
+      <p x="1845" y="890" />
+      <p x="1800" y="854" />
+      <p x="1629" y="962" />
+    </path>
+    <path from="camp" to="well" direction="south">
+      <p x="2061" y="998" />
+      <p x="2178" y="1115" />
+      <p x="2178" y="1331" />
+      <p x="2061" y="1403" />
+      <p x="1953" y="1322" />
+    </path>
+    <path from="well" to="camp" direction="east">
+      <p x="1953" y="1322" />
+      <p x="2061" y="1403" />
+      <p x="2178" y="1331" />
+      <p x="2178" y="1115" />
+      <p x="2061" y="998" />
     </path>
     <path from="cemetery" to="hills" direction="east">
-      <p x="1530" y="197"/>
-      <p x="1710" y="125"/>
-      <p x="1800" y="125"/>
+      <p x="1575" y="206" />
+      <p x="1710" y="125" />
+      <p x="1791" y="134" />
     </path>
     <path from="hills" to="cemetery" direction="west">
-      <p x="1800" y="125"/>
-      <p x="1710" y="125"/>
-      <p x="1530" y="197"/>
-    </path>
-    <path from="ford" to="cemetery" direction="north">
-      <p x="1845" y="746"/>
-      <p x="1782" y="728"/>
-      <p x="1782" y="575"/>
-      <p x="1719" y="440"/>
-      <p x="1584" y="233"/>
-      <p x="1530" y="197"/>
-    </path>
-    <path from="cemetery" to="ford" direction="south">
-      <p x="1530" y="197"/>
-      <p x="1584" y="233"/>
-      <p x="1719" y="440"/>
-      <p x="1782" y="575"/>
-      <p x="1782" y="728"/>
-      <p x="1845" y="746"/>
-    </path>
-    <path from="cemetery" to="cabin" direction="west">
-      <p x="1530" y="197"/>
-      <p x="1314" y="215"/>
-      <p x="1071" y="161"/>
-      <p x="918" y="71"/>
-      <p x="900" y="116"/>
-      <p x="756" y="116"/>
-      <p x="612" y="224"/>
-    </path>
-    <path from="cabin" to="cemetery" direction="east">
-      <p x="612" y="224"/>
-      <p x="756" y="116"/>
-      <p x="900" y="116"/>
-      <p x="918" y="71"/>
-      <p x="1071" y="161"/>
-      <p x="1314" y="215"/>
-      <p x="1530" y="197"/>
+      <p x="1791" y="134" />
+      <p x="1710" y="125" />
+      <p x="1575" y="206" />
     </path>
     <path from="cabin" to="mine" direction="west">
-      <p x="612" y="224"/>
-      <p x="126" y="224"/>
+      <p x="612" y="224" />
+      <p x="549" y="251" />
+      <p x="549" y="314" />
+      <p x="495" y="359" />
+      <p x="288" y="359" />
+      <p x="126" y="224" />
     </path>
     <path from="mine" to="cabin" direction="east">
-      <p x="126" y="224"/>
-      <p x="612" y="224"/>
+      <p x="126" y="224" />
+      <p x="288" y="359" />
+      <p x="495" y="359" />
+      <p x="549" y="314" />
+      <p x="549" y="251" />
+      <p x="612" y="224" />
+    </path>
+    <path from="cemetery" to="cabin" direction="west">
+      <p x="1575" y="206" />
+      <p x="1467" y="152" />
+      <p x="1314" y="215" />
+      <p x="1071" y="161" />
+      <p x="918" y="71" />
+      <p x="900" y="116" />
+      <p x="756" y="116" />
+      <p x="612" y="224" />
+    </path>
+    <path from="cabin" to="cemetery" direction="east">
+      <p x="612" y="224" />
+      <p x="756" y="116" />
+      <p x="900" y="116" />
+      <p x="918" y="71" />
+      <p x="1071" y="161" />
+      <p x="1314" y="215" />
+      <p x="1467" y="152" />
+      <p x="1575" y="206" />
+    </path>
+    <path from="tent" to="ruins" direction="east">
+      <p x="333" y="1259" />
+      <p x="450" y="1187" />
+      <p x="549" y="1259" />
+    </path>
+    <path from="ruins" to="tent" direction="west">
+      <p x="549" y="1259" />
+      <p x="450" y="1187" />
+      <p x="333" y="1259" />
+    </path>
+    <path from="ford" to="cemetery" direction="north">
+      <p x="1845" y="746" />
+      <p x="1899" y="692" />
+      <p x="1791" y="638" />
+      <p x="1737" y="485" />
+      <p x="1575" y="206" />
+    </path>
+    <path from="cemetery" to="ford" direction="south">
+      <p x="1575" y="206" />
+      <p x="1737" y="485" />
+      <p x="1791" y="638" />
+      <p x="1899" y="692" />
+      <p x="1845" y="746" />
+    </path>
+    <path from="beacon" to="start" direction="south">
+      <p x="1197" y="827" />
+      <p x="1197" y="881" />
+      <p x="1359" y="1007" />
+    </path>
+    <path from="start" to="beacon" direction="north">
+      <p x="1359" y="1007" />
+      <p x="1197" y="881" />
+      <p x="1197" y="827" />
     </path>
   </map>
-  <map name="Parthyn" background="campaign/Descent_into_Darkness_2/maps/Parthyn_chapter_4.jpg">
+  <map name="Parthyn" background="campaign/Descent_into_Darkness_2/maps/Parthyn_necropolis.jpg">
     <character x="2115" y="990">
       <sequence action="stand">
         <frame>campaign/Descent_into_Darkness_2/images/scenery/fire1.png</frame>
