@@ -16,7 +16,7 @@
    version="1.1"
    inkscape:version="0.47 r22583"
    sodipodi:docname="Parthyn.svg"
-   inkscape:export-filename="/home/seth/ancientanddeadly/campaign/Descent_into_Darkness_2/maps/Parthyn_chapter_4.png"
+   inkscape:export-filename="/home/seth/ancientanddeadly/campaign/Descent_into_Darkness_2/maps/Parthyn_ruined.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
    style="display:inline;enable-background:new">
@@ -639,11 +639,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4118735"
-     inkscape:cx="590.75384"
-     inkscape:cy="476.2419"
+     inkscape:zoom="0.49917266"
+     inkscape:cx="865.82518"
+     inkscape:cy="600.12225"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="true"
      inkscape:window-width="1280"
      inkscape:window-height="748"
@@ -679,7 +679,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -695,7 +695,7 @@
        id="image11859"
        height="1547"
        width="2233"
-       xlink:href="file:///home/seth/ancientanddeadly/campaign/Descent_into_Darkness_2/maps/Parthyn_ruined.png" />
+       xlink:href="file:///home/seth/ancientanddeadly/campaign/Descent_into_Darkness_2/maps/Parthyn_ruined_background.png" />
   </g>
   <g
      inkscape:label="chapter 1"
@@ -1420,7 +1420,7 @@
      inkscape:groupmode="layer"
      id="layer8"
      inkscape:label="chapter 1 animations"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <image
        transform="translate(0,494.63782)"
@@ -1454,20 +1454,20 @@
      id="layer5"
      inkscape:label="necropolis"
      sodipodi:insensitive="true"
-     style="display:inline">
+     style="display:none">
     <image
        y="0"
        x="0"
        id="image3057"
        height="1547"
        width="2233"
-       xlink:href="file:///home/seth/ancientanddeadly/campaign/Descent_into_Darkness_2/maps/Parthyn_necropolis.png" />
+       xlink:href="file:///home/seth/ancientanddeadly/campaign/Descent_into_Darkness_2/maps/Parthyn_necropolis_background.png" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="chapter 4"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <image
        transform="translate(0,494.63782)"
@@ -2302,7 +2302,7 @@
      inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="chapter 4 animations"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <image
        transform="translate(0,494.63782)"
@@ -2322,5 +2322,84 @@
        id="image3150"
        x="684"
        y="404.36218" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="chapter 4 paths"
+     style="display:none">
+    <path
+       style="fill:none;stroke:#dddddd;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 549,1259 819,1439 927,1367 927,1295"
+       id="path3126"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#111111;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 1359,1007 1197,971 1062,1061 783,1106 549,1259"
+       id="path3157"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:none;stroke:#cccccc;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 1206,1259 1359,1223 1359,1007"
+       id="path3117"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 549,1259 603,1205 603,1079 711,1007"
+       id="path3119"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#222222;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 1359,1007 1467,1007 1575,935 1629,962"
+       id="path3121"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#444444;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 1629,962 1800,854 1845,746"
+       id="path3153" />
+    <path
+       style="fill:none;stroke:#aaaaaa;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 1629,1178 1521,1043 1521,971 1575,935 1629,962"
+       id="path3123" />
+    <path
+       style="fill:none;stroke:#333333;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 1629,962 1800,854 1845,890 1845,971 1989,1070 2061,998"
+       id="path3125"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="fill:none;stroke:#999999;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 2061,998 2178,1115 2178,1331 2061,1403 1953,1322"
+       id="path3127"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:none;stroke:#888888;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 1575,206 1710,125 1791,134"
+       id="path3137"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 612,224 549,251 549,314 495,359 288,359 126,224"
+       id="path3141"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="fill:none;stroke:#666666;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 1575,206 1467,152 1314,215 1071,161 918,71 900,116 756,116 612,224"
+       id="path3133"
+       sodipodi:nodetypes="cccccccc" />
+    <path
+       style="fill:none;stroke:#eeeeee;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 333,1259 450,1187 549,1259"
+       id="path3128"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#555555;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 1845,746 1899,692 1791,638 1737,485 1575,206"
+       id="path3129"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:none;stroke:#bbbbbb;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 1197,827 1197,881 1359,1007"
+       id="path3159"
+       sodipodi:nodetypes="ccc" />
   </g>
 </svg>
