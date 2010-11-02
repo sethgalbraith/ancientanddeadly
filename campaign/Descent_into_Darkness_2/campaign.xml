@@ -64,7 +64,7 @@
       <p x="927" y="1367" />
       <p x="927" y="1295" />
     </path>
-    <path from="shop" to="ruins" direction="south">
+    <path from="shop" to="ruins" direction="west">
       <p x="927" y="1295" />
       <p x="927" y="1367" />
       <p x="819" y="1439" />

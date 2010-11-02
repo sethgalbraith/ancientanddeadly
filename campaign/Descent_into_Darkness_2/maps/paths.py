@@ -1,7 +1,7 @@
 STROKE = {
   "ffffff": ("ruins", "windmill", "north", "south"),
   "eeeeee": ("tent", "ruins", "east", "west"),
-  "dddddd": ("ruins", "shop", "south", "south"),
+  "dddddd": ("ruins", "shop", "south", "west"),
   "cccccc": ("shop", "start", "east", "south"),
   "bbbbbb": ("beacon", "start", "south", "north"),
   "aaaaaa": ("cellar", "fort", "north", "south"),
