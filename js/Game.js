@@ -18,6 +18,8 @@ var Game = {
   selectedTargets: [],
   currentSlide: [],
   mode: "map",
+  animationInterval: null,
+  movementInterval: null,
 
 
   // FUNCTIONS
@@ -79,8 +81,8 @@ var Game = {
       Game.extractXMLCharacters(map);
       Game.party = [Game.characters[0]];
       Game.createMovementButtons(Game.characters[0]);
-      setInterval(Game.animateCharacters, 100);
-      setInterval(Game.moveCharacters, 50);
+      Game.startAnimation();
+      Game.startMovement();
     });
   },
 
@@ -108,6 +110,42 @@ var Game = {
       // Make the path the official path in this direction from that origin.
       Game.paths[path.from][path.direction] = path;
     }
+  },
+
+  startAnimation: function() {
+    if (Game.animationInterval == null) {
+      Game.animationInterval = setInterval(Game.animateCharacters, 100);
+    }
+  },
+
+  stopAnimation: function() {
+    if (Game.animationInterval != null) {
+      clearInterval(Game.animationInterval);
+      Game.animationInterval = null;
+    }
+  },
+
+  startMovement: function() {
+    if (Game.movementInterval == null) {
+      Game.movementInterval = setInterval(Game.moveCharacters, 50);
+    }
+  },
+
+  stopMovement: function() {
+    if (Game.movementInterval != null) {
+      clearInterval(Game.movementInterval);
+      Game.movementInterval = null;
+    }
+  },
+
+  pause: function() {
+    Game.stopMovement();
+    Game.stopAnimation();
+  },
+
+  resume: function() {
+    Game.startMovement();
+    Game.startAnimation();
   },
 
   createPlayerCharacters: function() {
@@ -318,6 +356,12 @@ addEventListener('load', function() {
   // listen for keyboard events in the main window and game frame
   addEventListener("keydown", Game.keyDown, false);
   Game.frame.contentWindow.addEventListener("keydown", Game.keyDown, false);
+
+  // pause the game when the window loses focus
+  addEventListener("blur", Game.pause, false);
+  addEventListener("focus", Game.resume, false);
+  Game.frame.contentWindow.addEventListener("blur", Game.pause, false);
+  Game.frame.contentWindow.addEventListener("focus", Game.resume, false);
 
   // add a stylesheet to the frame:
   var head = Game.frame.contentDocument.getElementsByTagName("head")[0];
