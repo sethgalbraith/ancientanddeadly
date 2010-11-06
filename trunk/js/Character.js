@@ -1,6 +1,6 @@
 Game.Character = function (xmlElement) {
 
-  // default variable values
+  // Set default variable values.
   this.element = Game.createElement("div", {className:"character"});
   this.container = Game.createElement("div", {}, this.element);
   this._x = 0;
@@ -10,11 +10,11 @@ Game.Character = function (xmlElement) {
   this.location = "start";
   this.path = null;
   this.pathStep = 0;
-  this.speed = 10;
+  this.speed = 20;
   this.sequences = {};
   this._facing = "right";
 
-  // get settings from XML element
+  // Get settings from the XML element.
   this.x = parseInt(xmlElement.getAttribute("x"));
   this.y = parseInt(xmlElement.getAttribute("y"));
   var sequenceElements = xmlElement.getElementsByTagName("sequence");
@@ -32,7 +32,7 @@ Game.Character = function (xmlElement) {
   var xOffset = xmlElement.getAttribute("xOffset");
   var yOffset = xmlElement.getAttribute("yOffset");
 
-  // create character image
+  // Create the character's image.
   var self = this;
   this.image = new Image();
   this.image.src = this.sequences[this.action][this.frame];
@@ -75,42 +75,44 @@ Game.Character.prototype.animate = function () {
   this.image.src = sequence[this.frame];
 };
 
-Game.Character.prototype.move = function () {
+Game.Character.prototype.moveRecursive = function (distance) {
   if (this.path) {
     var goal = this.path.steps[this.pathStep];
-    var deltaX = goal.x - this.x;
-    var deltaY = goal.y - this.y;
-    var distanceSquared = deltaX * deltaX + deltaY * deltaY;
-    // if you can reach the destination this frame...
-    if (distanceSquared <= this.speed * this.speed) {
+    var x = goal.x - this.x;
+    var y = goal.y - this.y;
+    var r = Math.sqrt(x * x + y * y);
+    if (r <= distance) {
+      // if you can reach the destination this frame, move to the destination,
+      // and start moving toward the next step on the path.
       this.x = goal.x;
       this.y = goal.y;
       this.pathStep++;
       if (this.pathStep == this.path.steps.length) {
+        // If this is the last step on the path, update my location
+        // and set my path to null.
         this.location = this.path.to;
         this.path = null;
         this.pathStep = 0;
         this.element.className = "character";
       }
+      else {
+        // If this is not the last step on the path, keep moving.
+        this.moveRecursive(distance - r)
+      }
     }
-    // if you cannot reach the destination this frame...
     else {
-      distance = Math.sqrt(distanceSquared);
-      this.x += this.speed * deltaX / distance;
-      this.y += this.speed * deltaY / distance;
+    // if you cannot reach the destination this frame, move as far as you can.
+      this.x += distance * x / r;
+      this.y += distance * y / r;
       this.element.className = "character moving";
     }
-    // turn to face right if moving right
-    // turn to face left if moving left
-    // but do not turn if moving straight up or down
-    if (deltaX > 0) {
-      this.facing = "right";
-    }
-    if (deltaX < 0) {
-      this.facing = "left";
-    }
+    // Face right if moving right, face left if moving left, but keep facing
+    // whatever direction you faced previously if moving straight up or down.
+    this.facing = (x > 0) ? "right" : (x < 0) ? "left" : this.facing;
   }
-//  this.image.style.left = this.x + "px";
-//  this.image.style.top = this.y + "px";
+};
+
+Game.Character.prototype.move = function () {
+  this.moveRecursive(this.speed);
 };
 
