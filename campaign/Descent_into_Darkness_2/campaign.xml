@@ -1,7 +1,7 @@
 <maps>
 
   <!-- Chapter 1: Parthyn -->
-  <map name="Parthyn" background="campaign/Descent_into_Darkness_2/maps/Parthyn_ruined.jpg">
+  <map name="Parthyn" background="campaign/Descent_into_Darkness_2/maps/Parthyn.jpg">
     <!-- first character is PC -->
     <character x="1359" y="1007" yOffset="18" location="start">
       <sequence action="stand">
@@ -768,7 +768,7 @@
   </map>
 
   <!-- Chapter 4: Parthyn Necropolis -->
-  <map name="Parthyn Necropolis" background="campaign/Descent_into_Darkness_2/maps/Parthyn_necropolis.jpg">
+  <map name="Parthyn Necropolis" background="campaign/Descent_into_Darkness_2/maps/Parthyn_Necropolis.jpg">
     <!-- first character is PC -->
     <character x="1359" y="1007" yOffset="18" location="start">
       <sequence action="stand">
