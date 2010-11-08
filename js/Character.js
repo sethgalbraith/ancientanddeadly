@@ -73,7 +73,10 @@ Game.Character.prototype.animate = function () {
   if (this.frame >= sequence.length) {
     this.frame = 0;
   }
-  this.image.src = sequence[this.frame];
+  var src = sequence[this.frame];
+  if (this.image.src != src) {
+    this.image.src = src;
+  }
 };
 
 Game.Character.prototype.moveRecursive = function (distance) {
