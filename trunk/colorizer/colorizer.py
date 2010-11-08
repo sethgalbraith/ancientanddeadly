@@ -38,7 +38,6 @@ for path2file in sys.argv[4:]:
   path, filename = os.path.split(path2file)
   if (filename[-4:].lower() != ".png"): continue
   image = pygame.image.load(path2file)
-  count = 0
   for y in range(image.get_height()):
     for x in range(image.get_width()):
       r, g, b, a = tuple(image.get_at((x, y)));
@@ -47,8 +46,6 @@ for path2file in sys.argv[4:]:
         for i in range(len(magenta)):
           if rgb == magenta[i]:
             image.set_at((x, y), palette[i])
-            count += 1
             break
-  print count
   pygame.image.save(image, filename[:-4] + "-%06x.png" % code)
 

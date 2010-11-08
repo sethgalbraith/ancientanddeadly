@@ -17,6 +17,7 @@ Game.Character = function (xmlElement) {
   // Get settings from the XML element.
   this.x = parseInt(xmlElement.getAttribute("x"));
   this.y = parseInt(xmlElement.getAttribute("y"));
+  this.location = xmlElement.getAttribute("location");
   var sequenceElements = xmlElement.getElementsByTagName("sequence");
   for (var i = 0; i < sequenceElements.length; i++) {
     var frameElements = sequenceElements[i].getElementsByTagName("frame");
@@ -94,6 +95,7 @@ Game.Character.prototype.moveRecursive = function (distance) {
         this.path = null;
         this.pathStep = 0;
         this.element.className = "character";
+        this.action = "stand";
       }
       else {
         // If this is not the last step on the path, keep moving.
@@ -101,10 +103,11 @@ Game.Character.prototype.moveRecursive = function (distance) {
       }
     }
     else {
-    // if you cannot reach the destination this frame, move as far as you can.
+      // if you cannot reach the destination this frame, move as far as you can.
       this.x += distance * x / r;
       this.y += distance * y / r;
       this.element.className = "character moving";
+      this.action = "move";
     }
     // Face right if moving right, face left if moving left, but keep facing
     // whatever direction you faced previously if moving straight up or down.

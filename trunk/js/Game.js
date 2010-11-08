@@ -75,7 +75,14 @@ var Game = {
   loadCampaign: function(campaignName) {
     Game.ajaxRequest(campaignName, {}, function (ajax) {
       var maps = ajax.responseXML.getElementsByTagName("map");
-      var map = maps[0]; // use the first map in the the map list
+      var chapter = Game.arguments.chapter;
+      if (typeof(chapter) == "undefined") {
+        chapter = 0;
+      }
+      else {
+        chapter = parseInt(chapter);
+      }
+      var map = maps[chapter]; // use the first map in the the map list
       Game.loadBackground(map.getAttribute("background"));
       Game.extractXMLPaths(map);
       Game.extractXMLCharacters(map);
@@ -302,17 +309,17 @@ var Game = {
     var left = Game.frame.contentDocument.getElementById("left");
     var right = Game.frame.contentDocument.getElementById("right");
     if (character.path) {
-      up.style.visibility = "hidden";
-      down.style.visibility = "hidden";
-      left.style.visibility = "hidden";
-      right.style.visibility = "hidden";
+      up.style.display = "none";
+      down.style.display = "none";
+      left.style.display = "none";
+      right.style.display = "none";
     }
     else {
       var paths = Game.paths[character.location];
-      up.style.visibility = paths["north"] ? "visible" : "hidden";
-      down.style.visibility = paths["south"] ? "visible" : "hidden";
-      left.style.visibility = paths["west"] ? "visible" : "hidden";
-      right.style.visibility = paths["east"] ? "visible" : "hidden";
+      up.style.display = paths["north"] ? "" : "none";
+      down.style.display = paths["south"] ? "" : "none";
+      left.style.display = paths["west"] ? "" : "none";
+      right.style.display = paths["east"] ? "" : "none";
     }
   },
 
@@ -344,6 +351,16 @@ addEventListener('load', function() {
 
   // initialize account management menu
   Game.initializeUserForm();
+
+  // parse URL arguments
+  Game.arguments = {};
+  var args = location.search.slice(1).split("&");
+  for (var i = 0; i < args.length; i++) {
+    var components = args[0].split("=");
+    var key = decodeURIComponent(components[0]);
+    var value = decodeURIComponent(components[1]);
+    Game.arguments[key] = value;
+  }
 
   // load the first campaign in the campaign list
   Game.ajaxRequest("campaigns.xml", {}, function (ajax) {
