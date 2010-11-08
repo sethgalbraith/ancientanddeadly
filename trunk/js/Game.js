@@ -80,7 +80,7 @@ var Game = {
         chapter = 0;
       }
       else {
-        chapter = parseInt(chapter);
+        chapter = parseInt(chapter) - 1;
       }
       var map = maps[chapter]; // use the first map in the the map list
       Game.loadBackground(map.getAttribute("background"));
