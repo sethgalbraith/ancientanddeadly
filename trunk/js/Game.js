@@ -24,7 +24,7 @@ var Game = {
 
   // FUNCTIONS
 
-  createElement: function(tagName, attributes, parentElement) {
+  createElement: function (tagName, attributes, parentElement) {
     var newElement = document.createElement(tagName);
     for (attributeName in attributes) {
        newElement[attributeName] = attributes[attributeName];
@@ -35,7 +35,7 @@ var Game = {
     return newElement;
   },
 
-  ajaxRequest: function(url, arguments, callback) {
+  ajaxRequest: function (url, arguments, callback) {
     // combine arguments into urlencoded string
     var argumentList = [];
     for (var argumentName in arguments) {
@@ -55,11 +55,11 @@ var Game = {
     ajax.send(argumentString);
   },
 
-  dieRoll: function() {
+  dieRoll: function () {
     return Math.floor(20 * Math.random());
   },
 
-  loadBackground: function(fileName) {
+  loadBackground: function (fileName) {
     var background = new Image();
     background.src = fileName;
     background.onload = function () {
@@ -69,27 +69,34 @@ var Game = {
       body.style.width = background.width + "px";
       body.style.height = background.height + "px";
       body.style.margin = "0";
+      // append character elements and start animation
+      Game.startCharacters();
     };
   },
 
-  loadCampaign: function(campaignName) {
-    Game.ajaxRequest(campaignName, {}, function (ajax) {
+  loadCampaign: function (campaignFile) {
+    Game.ajaxRequest(campaignFile, {}, function (ajax) {
       var maps = ajax.responseXML.getElementsByTagName("map");
-      var chapter = Game.arguments.chapter;
-      if (typeof(chapter) == "undefined") {
-        chapter = 0;
+      var map = maps[0];
+      if (Game.arguments.map) {
+        for (var i = 0; i < maps.length; i++) {
+          if (maps[i].getAttribute("name") == Game.arguments.map) {
+            map = maps[i];
+          }
+        }
       }
-      else {
-        chapter = parseInt(chapter) - 1;
-      }
-      var map = maps[chapter]; // use the first map in the the map list
-      Game.loadBackground(map.getAttribute("background"));
-      Game.extractXMLPaths(map);
-      Game.extractXMLCharacters(map);
+      Game.loadMap(map.getAttribute("src"));
+    });
+  },
+
+  loadMap: function (mapFile) {
+    Game.ajaxRequest(mapFile, {}, function (ajax) {
+      var mapElement = ajax.responseXML.documentElement;
+      Game.loadBackground(mapElement.getAttribute("background"));
+      Game.extractXMLPaths(mapElement);
+      Game.extractXMLCharacters(mapElement);
       Game.party = [Game.characters[0]];
       Game.createMovementButtons(Game.characters[0]);
-      Game.startAnimation();
-      Game.startMovement();
     });
   },
 
@@ -99,7 +106,6 @@ var Game = {
     for (var i = 0; i < characterElements.length; i++) {
       var character = new Game.Character(characterElements[i]);
       Game.characters.push(character);
-      Game.frame.contentDocument.body.appendChild(character.element);
     }
   },
 
@@ -119,78 +125,88 @@ var Game = {
     }
   },
 
-  startAnimation: function() {
+  startCharacters: function () {
+    // Attach character elements to game frame.
+    for (var i = 0; i < Game.characters.length; i++) {
+      var element = Game.characters[i].element;
+      Game.frame.contentDocument.body.appendChild(element);
+    }
+    // Start character animation and movement.
+    Game.resume();
+  },
+
+  pause: function () {
+    Game.stopMovement();
+    Game.stopAnimation();
+  },
+
+  resume: function () {
+    Game.startMovement();
+    Game.startAnimation();
+  },
+
+  startAnimation: function () {
     if (Game.animationInterval == null) {
       Game.animationInterval = setInterval(Game.animateCharacters, 100);
     }
   },
 
-  stopAnimation: function() {
+  stopAnimation: function () {
     if (Game.animationInterval != null) {
       clearInterval(Game.animationInterval);
       Game.animationInterval = null;
     }
   },
 
-  startMovement: function() {
+  startMovement: function () {
     if (Game.movementInterval == null) {
       Game.movementInterval = setInterval(Game.moveCharacters, 50);
     }
   },
 
-  stopMovement: function() {
+  stopMovement: function () {
     if (Game.movementInterval != null) {
       clearInterval(Game.movementInterval);
       Game.movementInterval = null;
     }
   },
 
-  pause: function() {
-    Game.stopMovement();
-    Game.stopAnimation();
-  },
-
-  resume: function() {
-    Game.startMovement();
-    Game.startAnimation();
-  },
-
-  createPlayerCharacters: function() {
+  createPlayerCharacters: function () {
   },
   
-  beginCampaign: function() {
+  beginCampaign: function () {
   },
   
-  saveGame: function() {
+  saveGame: function () {
   },
   
-  listSavedGames: function() {
+  listSavedGames: function () {
   },
   
-  loadGame: function() {
+  loadGame: function () {
   },
   
-  deleteSavedGame: function() {
+  deleteSavedGame: function () {
   },
   
-  createUser: function(username, password) {
+  createUser: function (username, password) {
   },
   
-  login: function(username, password) {
+  login: function (username, password) {
     Game.setUserForm("loggedInUserForm");
   },
   
-  logout: function() {
+  logout: function () {
     Game.setUserForm("defaultUserForm");
   },
 
-  changePassword: function(oldPassword, newPassword) {
+  changePassword: function (oldPassword, newPassword) {
   },
   
-  deleteUser: function() {
+  deleteUser: function () {
   },
 
-  setUserForm: function(formId) {
+  setUserForm: function (formId) {
     var node = Game.userForm.firstChild;
     while (node) {
       if (node.nodeType == document.ELEMENT_NODE) {
@@ -201,7 +217,7 @@ var Game = {
     document.getElementById(formId).style.display = "inline";
   },
 
-  initializeUserForm: function() {
+  initializeUserForm: function () {
     // hide everything but the default account management menu features
     Game.setUserForm("defaultUserForm");
 
@@ -265,13 +281,13 @@ var Game = {
       Game.setUserForm("optionsUserForm");};
   },
 
-  animateCharacters: function() {
+  animateCharacters: function () {
     for (var i = 0; i < Game.characters.length; i++) {
       Game.characters[i].animate();
     }
   },
 
-  moveCharacters: function() {
+  moveCharacters: function () {
     for (var i = 0; i < Game.characters.length; i++) {
       Game.characters[i].move();
     }
@@ -281,7 +297,7 @@ var Game = {
     Game.showHideMovementButtons(Game.party[0]);
   },
 
-  choosePath: function(direction) {
+  choosePath: function (direction) {
     var pc = Game.party[0];
     if (!pc.path) {
       var path = Game.paths[pc.location][direction]
@@ -292,18 +308,18 @@ var Game = {
     }
   },
 
-  createMovementButtons: function(character) {
+  createMovementButtons: function (character) {
     var up = Game.createElement("div", {id:"up"}, character.container);
     var down = Game.createElement("div", {id:"down"}, character.container);
     var left = Game.createElement("div", {id:"left"}, character.container);
     var right = Game.createElement("div", {id:"right"}, character.container);
-    up.onmousedown = function() {Game.choosePath("north");};
-    down.onmousedown = function() {Game.choosePath("south");};
-    left.onmousedown = function() {Game.choosePath("west");};
-    right.onmousedown = function() {Game.choosePath("east");};
+    up.onmousedown = function () {Game.choosePath("north");};
+    down.onmousedown = function () {Game.choosePath("south");};
+    left.onmousedown = function () {Game.choosePath("west");};
+    right.onmousedown = function () {Game.choosePath("east");};
   },
 
-  showHideMovementButtons: function(character) {
+  showHideMovementButtons: function (character) {
     var up = Game.frame.contentDocument.getElementById("up");
     var down = Game.frame.contentDocument.getElementById("down");
     var left = Game.frame.contentDocument.getElementById("left");
@@ -323,7 +339,7 @@ var Game = {
     }
   },
 
-  keyDown: function(e) {
+  keyDown: function (e) {
     if (!e) e = window.event;
     var keyMap = {37: "west", 38: "north", 39: "east", 40: "south"};
     var direction = keyMap[e.keyCode];
@@ -335,11 +351,11 @@ var Game = {
 };
 
 // Attach a function to the window's "load" event, so that it will be called
-// when the page is done loading. This is similar to onload = function() {...};
+// when the page is done loading. This is similar to onload = function () {...};
 // except that addEventListener allows us to attach as many handlers as we want
 // to the same event.
 
-addEventListener('load', function() {
+addEventListener('load', function () {
 
   // variables that point to elements of the user interface
   Game.userForm = document.getElementById("userForm");

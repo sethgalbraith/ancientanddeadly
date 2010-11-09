@@ -969,8 +969,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.99834532"
-     inkscape:cx="1112.2822"
-     inkscape:cy="1474.2876"
+     inkscape:cx="1655.8746"
+     inkscape:cy="472.63018"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -1008,7 +1008,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -2085,8 +2085,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="paths"
-     style="display:none"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <path
        style="fill:none;stroke:#dddddd;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        d="M 549,1259 819,1439 927,1367 927,1295"
@@ -2109,20 +2108,22 @@
        sodipodi:nodetypes="cccc" />
     <path
        style="fill:none;stroke:#222222;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="M 1359,1007 1467,1007 1575,935 1629,962"
+       d="M 1359,1007 1683,926"
        id="path3121"
-       sodipodi:nodetypes="cccc" />
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#444444;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="M 1629,962 1800,854 1845,746"
-       id="path3153" />
+       d="M 1683,926 1800,854 1845,746"
+       id="path3153"
+       sodipodi:nodetypes="ccc" />
     <path
        style="fill:none;stroke:#aaaaaa;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="M 1629,1178 1521,1043 1521,971 1575,935 1629,962"
-       id="path3123" />
+       d="M 1629,1178 1575,1070 1584,998 1683,926"
+       id="path3123"
+       sodipodi:nodetypes="cccc" />
     <path
        style="fill:none;stroke:#333333;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="M 1629,962 1800,854 1845,890 1845,971 1989,1070 2061,998"
+       d="M 1683,926 1800,854 1845,890 1845,971 1989,1070 2061,998"
        id="path3125"
        sodipodi:nodetypes="cccccc" />
     <path
