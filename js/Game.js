@@ -379,7 +379,7 @@ addEventListener('load', function () {
   }
 
   // load the first campaign in the campaign list
-  Game.ajaxRequest("campaigns.xml", {}, function (ajax) {
+  Game.ajaxRequest("game.xml", {}, function (ajax) {
     var campaigns = ajax.responseXML.getElementsByTagName("campaign");
     var campaign = campaigns[0];
     document.title = campaign.getAttribute("name");

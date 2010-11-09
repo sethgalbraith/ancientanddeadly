@@ -5,8 +5,8 @@ Game.Character = function (xmlElement) {
   this.container = Game.createElement("div", {}, this.element);
   this._x = 0;
   this._y = 0;
-  this.action = "stand";
-  this.frame = 0;
+  this._action = "stand";
+  this._frame = 0;
   this.location = "start";
   this.path = null;
   this.pathStep = 0;
@@ -18,32 +18,34 @@ Game.Character = function (xmlElement) {
   this.x = parseInt(xmlElement.getAttribute("x"));
   this.y = parseInt(xmlElement.getAttribute("y"));
   this.location = xmlElement.getAttribute("location");
+  var xOffsetAttribute = xmlElement.getAttribute("xOffset");
+  var yOffsetAttribute = xmlElement.getAttribute("yOffset");
+  xOffset = xOffsetAttribute ? parseInt(xOffsetAttribute) : 0;
+  yOffset = yOffsetAttribute ? parseInt(yOffsetAttribute) : 0;
+
+  // Load images.
   var sequenceElements = xmlElement.getElementsByTagName("sequence");
   for (var i = 0; i < sequenceElements.length; i++) {
     var frameElements = sequenceElements[i].getElementsByTagName("frame");
     var actionName = sequenceElements[i].getAttribute("action");
     this.sequences[actionName] = [];
     for (var j = 0; j < frameElements.length; j++) {
-      var url = frameElements[j].textContent;
-      this.sequences[actionName].push(url);
-      var image = new Image();
-      image.src = url;
+      var url = frameElements[j].textContent
+      this._loadImage(url, xOffset, yOffset, actionName);
     }
   }
-  var xOffset = xmlElement.getAttribute("xOffset");
-  var yOffset = xmlElement.getAttribute("yOffset");
+};
 
-  // Create the character's image.
-  var self = this;
-  this.image = new Image();
-  this.image.src = this.sequences[this.action][this.frame];
-  this.image.onload = function () {
-    var x = (xOffset ? parseInt(xOffset) : 0) + self.image.width / 2;
-    var y = (yOffset ? parseInt(yOffset) : 0) + self.image.height / 2;
-    self.image.style.marginLeft = -x + "px";
-    self.image.style.marginTop = -y + "px";
+Game.Character.prototype._loadImage = function (url, xOffset, yOffset, actionName) {
+  var image = new Image();
+  image.src = url;
+  image.onload = function () {
+    image.style.marginLeft = -(xOffset + image.width / 2) + "px";
+    image.style.marginTop = -(yOffset + image.height / 2) + "px";
   }
-  this.container.appendChild(this.image);
+  this.sequences[actionName].push(image);
+  this.container.appendChild(image);
+  image.style.visibility = "hidden";
 };
 
 Game.Character.prototype.__defineGetter__("x", function() {return this._x;});
@@ -60,23 +62,26 @@ Game.Character.prototype.__defineSetter__("y", function(value) {
 
 Game.Character.prototype.__defineGetter__("facing", function() {return this._facing;});
 Game.Character.prototype.__defineSetter__("facing", function(value) {
-  var transform = (value == "right") ? "" : "scaleX(-1)";
-  this.image.style.oTransform = transform;
-  this.image.style.mozTransform = transform;
-  this.image.style.webkitTransform = transform;
+  this.container.className = value;
   this._facing = value;
 });
 
+Game.Character.prototype.__defineGetter__("frame", function() {return this._frame;});
+Game.Character.prototype.__defineSetter__("frame", function(value) {
+  this.sequences[this._action][this._frame].style.visibility = "hidden";
+  this._frame = value % this.sequences[this._action].length;
+  this.sequences[this._action][this._frame].style.visibility = "visible";
+});
+
+Game.Character.prototype.__defineGetter__("action", function() {return this._action;});
+Game.Character.prototype.__defineSetter__("action", function(value) {
+  this.sequences[this._action][this._frame].style.visibility = "hidden";
+  this._action = value;
+  this.sequences[this._action][this._frame].style.visibility = "visible";
+});
+
 Game.Character.prototype.animate = function () {
-  var sequence = this.sequences[this.action];
   this.frame++;
-  if (this.frame >= sequence.length) {
-    this.frame = 0;
-  }
-  var src = sequence[this.frame];
-  if (this.image.src != src) {
-    this.image.src = src;
-  }
 };
 
 Game.Character.prototype.moveRecursive = function (distance) {
@@ -86,7 +91,7 @@ Game.Character.prototype.moveRecursive = function (distance) {
     var y = goal.y - this.y;
     var r = Math.sqrt(x * x + y * y);
     if (r <= distance) {
-      // if you can reach the destination this frame, move to the destination,
+      // If you can reach the destination this frame, move to the destination,
       // and start moving toward the next step on the path.
       this.x = goal.x;
       this.y = goal.y;
@@ -106,7 +111,7 @@ Game.Character.prototype.moveRecursive = function (distance) {
       }
     }
     else {
-      // if you cannot reach the destination this frame, move as far as you can.
+      // If you cannot reach the destination this frame, move as far as you can.
       this.x += distance * x / r;
       this.y += distance * y / r;
       this.element.className = "character moving";
