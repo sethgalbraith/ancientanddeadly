@@ -1259,6 +1259,76 @@
        inkscape:vp_y="0 : 1000 : 0"
        inkscape:vp_x="0 : 0.5 : 1"
        sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3307"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3381"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4298"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5776"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5850"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective6260"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3259"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3281"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3303"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3334"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -1268,10 +1338,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.0074671"
-     inkscape:cx="1505.3543"
-     inkscape:cy="736.98042"
+     inkscape:cx="1088.4764"
+     inkscape:cy="873.87919"
      inkscape:document-units="px"
-     inkscape:current-layer="layer8"
+     inkscape:current-layer="layer5"
      showgrid="true"
      inkscape:window-width="1280"
      inkscape:window-height="748"
@@ -1347,8 +1417,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,2655.6378)"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline;opacity:0.53030303">
     <image
        y="-2412.6377"
        x="1242"
@@ -1458,9 +1527,49 @@
   </g>
   <g
      inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="halo"
+     style="display:inline">
+    <image
+       transform="translate(0,2655.6378)"
+       style="opacity:0.5;display:inline;enable-background:new"
+       y="13.3622"
+       x="1184"
+       id="image3383"
+       height="400"
+       width="400"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/halo/fire-aura.png" />
+    <image
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/halo/fire-aura.png"
+       width="400"
+       height="400"
+       id="image4167"
+       x="644"
+       y="1148"
+       style="display:inline;enable-background:new;opacity:0.8" />
+    <image
+       style="display:inline;enable-background:new;opacity:0.7"
+       y="1008"
+       x="428"
+       id="image4169"
+       height="400"
+       width="400"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/halo/fire-aura.png" />
+    <image
+       style="opacity:0.5;display:inline;enable-background:new"
+       y="1949"
+       x="1517"
+       id="image4171"
+       height="400"
+       width="400"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/halo/fire-aura.png" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
      id="layer8"
      inkscape:label="animations"
-     style="display:inline">
+     style="display:none"
+     sodipodi:insensitive="true">
     <image
        style="display:inline;enable-background:new"
        y="2835"
@@ -1492,6 +1601,13 @@
        height="72"
        width="72"
        xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/scenery/fire1.png" />
+    <image
+       y="2505"
+       x="310"
+       id="image6262"
+       height="200"
+       width="100"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/halo/flame-burst-1.png" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1708,8 +1824,7 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="fog"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <image
        transform="translate(0,2655.6378)"
        style="display:inline;enable-background:new"
@@ -2932,14 +3047,6 @@
        y="1710"
        style="display:inline;enable-background:new" />
     <image
-       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog.png"
-       width="72"
-       height="72"
-       id="image4005"
-       x="108"
-       y="1566"
-       style="display:inline;enable-background:new" />
-    <image
        style="display:inline;enable-background:new"
        y="1602"
        x="162"
@@ -3072,8 +3179,8 @@
        width="72"
        height="72"
        id="image4041"
-       x="162"
-       y="1674"
+       x="324"
+       y="1854"
        style="display:inline;enable-background:new" />
     <image
        xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog-s-sw-nw.png"
@@ -3092,73 +3199,41 @@
        y="1386"
        style="display:inline;enable-background:new" />
     <image
-       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog-n-ne-se.png"
-       width="72"
-       height="72"
-       id="image4073"
-       x="270"
-       y="1674"
-       style="display:inline;enable-background:new" />
-    <image
        style="display:inline;enable-background:new"
-       y="1530"
-       x="54"
+       y="1746"
+       x="270"
        id="image4075"
        height="72"
        width="72"
        xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog-n-ne-se.png" />
-    <image
-       y="1494"
-       x="0"
-       id="image4077"
-       height="72"
-       width="72"
-       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog-nw-n-ne.png"
-       style="display:inline;enable-background:new" />
     <image
        style="display:inline;enable-background:new"
        xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog-nw-n-ne.png"
        width="72"
        height="72"
        id="image4079"
-       x="216"
-       y="1638" />
+       x="0"
+       y="1494" />
     <image
        xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog-ne.png"
        width="72"
        height="72"
        id="image4081"
-       x="270"
-       y="1746"
-       style="display:inline;enable-background:new" />
-    <image
-       style="display:inline;enable-background:new"
-       y="1602"
-       x="54"
-       id="image4083"
-       height="72"
-       width="72"
-       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog-ne.png" />
-    <image
-       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog-n-ne.png"
-       width="72"
-       height="72"
-       id="image4085"
        x="108"
        y="1638"
        style="display:inline;enable-background:new" />
     <image
        style="display:inline;enable-background:new"
-       y="1782"
-       x="324"
+       y="2214"
+       x="216"
        id="image4087"
        height="72"
        width="72"
        xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog-n-ne.png" />
     <image
        style="display:inline;enable-background:new"
-       y="1818"
-       x="378"
+       y="2250"
+       x="270"
        id="image4091"
        height="72"
        width="72"
@@ -3385,5 +3460,292 @@
        height="72"
        width="72"
        xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog-s-sw-nw-n.png" />
+    <image
+       style="display:inline;enable-background:new"
+       y="1890"
+       x="378"
+       id="image4001-1-1"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog.png" />
+    <image
+       style="display:inline;enable-background:new"
+       y="1962"
+       x="378"
+       id="image3997-5"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog.png" />
+    <image
+       style="display:inline;enable-background:new"
+       y="2034"
+       x="378"
+       id="image4001-9"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog.png" />
+    <image
+       style="display:inline;enable-background:new"
+       y="2142"
+       x="324"
+       id="image4001-1-1-7"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog.png" />
+    <image
+       style="display:inline;enable-background:new"
+       y="1782"
+       x="324"
+       id="image4001-3"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog.png" />
+    <image
+       style="display:inline;enable-background:new"
+       y="1926"
+       x="324"
+       id="image4001-1-1-5"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog.png" />
+    <image
+       style="display:inline;enable-background:new"
+       y="1998"
+       x="324"
+       id="image3997-5-6"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog.png" />
+    <image
+       style="display:inline;enable-background:new"
+       y="2070"
+       x="324"
+       id="image4001-9-3"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog.png" />
+    <image
+       style="display:inline;enable-background:new"
+       y="2142"
+       x="216"
+       id="image4001-1-7-9"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog.png" />
+    <image
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog.png"
+       width="72"
+       height="72"
+       id="image3366"
+       x="270"
+       y="2178"
+       style="display:inline;enable-background:new" />
+    <image
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog.png"
+       width="72"
+       height="72"
+       id="image3368"
+       x="270"
+       y="2106"
+       style="display:inline;enable-background:new" />
+    <image
+       style="display:inline;enable-background:new"
+       y="1530"
+       x="54"
+       id="image3376"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog-n-ne.png" />
+    <image
+       style="display:inline;enable-background:new"
+       y="1674"
+       x="270"
+       id="image3410"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog.png" />
+    <image
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog.png"
+       width="72"
+       height="72"
+       id="image3420"
+       x="270"
+       y="2034"
+       style="display:inline;enable-background:new" />
+    <image
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog.png"
+       width="72"
+       height="72"
+       id="image3422"
+       x="216"
+       y="1638"
+       style="display:inline;enable-background:new" />
+    <image
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog-nw-n.png"
+       width="72"
+       height="72"
+       id="image3460"
+       x="378"
+       y="1818"
+       style="display:inline;enable-background:new" />
+    <image
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog-n-ne.png"
+       width="72"
+       height="72"
+       id="image3462"
+       x="216"
+       y="1710"
+       style="display:inline;enable-background:new" />
+    <image
+       style="display:inline;enable-background:new"
+       y="1674"
+       x="162"
+       id="image3464"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog-n-ne.png" />
+    <image
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog-n-ne-se.png"
+       width="72"
+       height="72"
+       id="image3468"
+       x="108"
+       y="1566"
+       style="display:inline;enable-background:new" />
+    <image
+       style="display:inline;enable-background:new"
+       y="1818"
+       x="270"
+       id="image3470"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog-ne.png" />
+    <image
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog-se-s.png"
+       width="72"
+       height="72"
+       id="image3472"
+       x="324"
+       y="1854"
+       style="display:inline;enable-background:new" />
+    <image
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog-nw-n.png"
+       width="72"
+       height="72"
+       id="image3474"
+       x="324"
+       y="2214"
+       style="display:inline;enable-background:new" />
+    <image
+       y="1890"
+       x="270"
+       id="image3478"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog-se.png"
+       style="display:inline;enable-background:new" />
+    <image
+       y="2034"
+       x="162"
+       id="image3482"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog-se.png"
+       style="display:inline;enable-background:new" />
+    <image
+       y="1926"
+       x="432"
+       id="image3484"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog-sw-nw.png"
+       style="display:inline;enable-background:new" />
+    <image
+       style="display:inline;enable-background:new"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog-sw-nw.png"
+       width="72"
+       height="72"
+       id="image3486"
+       x="432"
+       y="1998" />
+    <image
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog-nw.png"
+       width="72"
+       height="72"
+       id="image3492"
+       x="432"
+       y="2070"
+       style="display:inline;enable-background:new" />
+    <image
+       style="display:inline;enable-background:new"
+       y="2178"
+       x="378"
+       id="image3494"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog-nw.png" />
+    <image
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog-sw.png"
+       width="72"
+       height="72"
+       id="image3496"
+       x="432"
+       y="1854"
+       style="display:inline;enable-background:new" />
+    <image
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog-ne.png"
+       width="72"
+       height="72"
+       id="image3498"
+       x="162"
+       y="2178"
+       style="display:inline;enable-background:new" />
+    <image
+       y="2106"
+       x="378"
+       id="image3500"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog-sw-nw-n.png"
+       style="display:inline;enable-background:new" />
+    <image
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog-s.png"
+       width="72"
+       height="72"
+       id="image3502"
+       x="378"
+       y="1818"
+       style="display:inline;enable-background:new" />
+    <image
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog-ne-se-s.png"
+       width="72"
+       height="72"
+       id="image3504"
+       x="270"
+       y="1962" />
+    <image
+       style="display:inline;enable-background:new"
+       y="2070"
+       x="216"
+       id="image3508"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog.png" />
+    <image
+       style="display:inline;enable-background:new"
+       y="1998"
+       x="216"
+       id="image3510"
+       height="72"
+       width="72"
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog-se-s.png" />
+    <image
+       xlink:href="file:///usr/share/games/wesnoth/1.8/data/core/images/terrain/fog-ne-se.png"
+       width="72"
+       height="72"
+       id="image3512"
+       x="162"
+       y="2106"
+       style="display:inline;enable-background:new" />
   </g>
 </svg>

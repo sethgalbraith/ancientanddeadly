@@ -62,6 +62,20 @@
     </sequence>
   </character>
 
+  <!-- animated swamp gas prop -->
+  <character x="360" y="2601">
+    <sequence action="idle">
+      <frame>campaign/Descent_into_Darkness_2/images/halo/flame-burst-1.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/halo/flame-burst-2.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/halo/flame-burst-3.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/halo/flame-burst-4.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/halo/flame-burst-5.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/halo/flame-burst-6.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/halo/flame-burst-7.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/halo/flame-burst-8.png</frame>
+    </sequence>
+  </character>
+
   <!-- paths -->
   <path from="entrance" to="bridge" direction="west">
     <p x="1305" y="378" />

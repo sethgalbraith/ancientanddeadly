@@ -13,6 +13,9 @@ Game.Character = function (xmlElement) {
   this.speed = 20;
   this.sequences = {};
   this._facing = "right";
+  this.idleMin = 10;
+  this.idleMax = 50;
+  this.nextIdleFrame = -1;
 
   // Get settings from the XML element.
   this.x = parseInt(xmlElement.getAttribute("x"));
@@ -34,6 +37,8 @@ Game.Character = function (xmlElement) {
       this._loadImage(url, xOffset, yOffset, actionName);
     }
   }
+
+  this.scheduleIdleAnimation();
 };
 
 Game.Character.prototype._loadImage = function (url, xOffset, yOffset, actionName) {
@@ -47,6 +52,11 @@ Game.Character.prototype._loadImage = function (url, xOffset, yOffset, actionNam
   this.container.appendChild(image);
   image.style.visibility = "hidden";
 };
+
+Game.Character.prototype.scheduleIdleAnimation = function () {
+  var range = this.idleMax - this.idleMin;
+  this.nextIdleFrame = this.idleMin + Math.floor(range * Math.random());
+}
 
 Game.Character.prototype.__defineGetter__("x", function() {return this._x;});
 Game.Character.prototype.__defineSetter__("x", function(value) {
@@ -68,20 +78,60 @@ Game.Character.prototype.__defineSetter__("facing", function(value) {
 
 Game.Character.prototype.__defineGetter__("frame", function() {return this._frame;});
 Game.Character.prototype.__defineSetter__("frame", function(value) {
-  this.sequences[this._action][this._frame].style.visibility = "hidden";
-  this._frame = value % this.sequences[this._action].length;
-  this.sequences[this._action][this._frame].style.visibility = "visible";
+  this._hideCurrentFrame();
+  // Set the frame to 0 in case the sequence does not exist
+  // or does not contain enough frames.
+  this._frame = 0;
+  // Set the frame to value only when the sequence exists
+  // and the sequence contains enough frames.
+  if (this.sequences[this._action]) {
+    if (value < this.sequences[this._action].length) {
+      this._frame = value;
+    }
+  }
+  this._showCurrentFrame();
 });
 
 Game.Character.prototype.__defineGetter__("action", function() {return this._action;});
 Game.Character.prototype.__defineSetter__("action", function(value) {
-  this.sequences[this._action][this._frame].style.visibility = "hidden";
+  this._hideCurrentFrame();
   this._action = value;
-  this.sequences[this._action][this._frame].style.visibility = "visible";
+  // Set the frame to 0 if the sequence does not exist
+  // or does not contain enough frames.
+  if (!this.sequences[this._action]) {
+    this._frame = 0;
+  }
+  else if (this._frame >= this.sequences[this._action].length) {
+    this._frame = 0;
+  }
+  this._showCurrentFrame();
 });
+
+Game.Character.prototype._hideCurrentFrame = function () {
+  if (this.sequences[this._action]) {
+    this.sequences[this._action][this._frame].style.visibility = "hidden";
+  }
+}
+
+Game.Character.prototype._showCurrentFrame = function () {
+  if (this.sequences[this._action]) {
+    this.sequences[this._action][this._frame].style.visibility = "visible";
+  }
+}
 
 Game.Character.prototype.animate = function () {
   this.frame++;
+  if (this.action == "idle" && this.frame == 0) {
+    this.action = "stand";
+    this.scheduleIdleAnimation();
+  }
+  if (this.action == "stand" && this.sequences["idle"]) {
+    this.nextIdleFrame--;
+    if (this.nextIdleFrame == 0) {
+      this.action = "idle";
+      this.frame = 0;
+    }
+  }
 };
 
 Game.Character.prototype.moveRecursive = function (distance) {
