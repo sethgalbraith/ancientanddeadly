@@ -51,30 +51,6 @@
   </character>
 
   <!-- animated magic effects -->
-  <character x="1500" y="750">
-    <sequence action="stand">
-      <frame>campaign/Descent_into_Darkness_2/images/halo/mage-halo1.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/halo/mage-halo2.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/halo/mage-halo3.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/halo/mage-halo4.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/halo/mage-halo5.png</frame>
-    </sequence>
-    <sequence action="idle">
-      <frame>campaign/Descent_into_Darkness_2/images/halo/mage-preparation-halo7.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/halo/mage-preparation-halo6.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/halo/mage-preparation-halo5.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/halo/mage-preparation-halo4.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/halo/mage-preparation-halo3.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/halo/mage-preparation-halo2.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/halo/mage-preparation-halo1.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/halo/mage-preparation-halo2.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/halo/mage-preparation-halo3.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/halo/mage-preparation-halo4.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/halo/mage-preparation-halo5.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/halo/mage-preparation-halo6.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/halo/mage-preparation-halo7.png</frame>
-    </sequence>
-  </character>
   <character x="1500" y="825">
     <sequence action="idle">
       <frame>campaign/Descent_into_Darkness_2/images/halo/saurian-magic-halo-1.png</frame>
@@ -259,9 +235,110 @@
     </sequence>
   </character>
 
-  <!-- merfolk magic -->
-  <character x="1925" y="900">
+  <!-- projectiles -->
+
+  <!-- undead magic -->
+  <character x="350" y="1100" type="shooter">
+    <sequence action="projectile">
+      <frame rotate="90">campaign/Descent_into_Darkness_2/images/projectiles/darkmissile-n.png</frame>
+    </sequence>
+    <sequence action="projectile-impact">
+      <frame>campaign/Descent_into_Darkness_2/images/halo/undead/black-magic-1.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/halo/undead/black-magic-2.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/halo/undead/black-magic-3.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/halo/undead/black-magic-4.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/halo/undead/black-magic-5.png</frame>
+    </sequence>
+  </character>
+  <character x="350" y="1150" type="shooter">
+    <sequence action="projectile">
+      <frame rotate="90">campaign/Descent_into_Darkness_2/images/projectiles/darkmissile-n.png</frame>
+    </sequence>
+    <sequence action="projectile-impact">
+      <frame>campaign/Descent_into_Darkness_2/images/halo/undead/dark-magic-1.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/halo/undead/dark-magic-2.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/halo/undead/dark-magic-3.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/halo/undead/dark-magic-4.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/halo/undead/dark-magic-5.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/halo/undead/dark-magic-6.png</frame>
+    </sequence>
+  </character>
+  <character x="350" y="1200" type="shooter">
+    <sequence action="projectile-grow">
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/wailprojectile-ne-1.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/wailprojectile-ne-2.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/wailprojectile-ne-3.png</frame>
+    </sequence>
+    <sequence action="projectile">
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/wailprojectile-ne-3.png</frame>
+    </sequence>
+    <sequence action="projectile-impact">
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/wailprojectile-ne-4.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/wailprojectile-ne-5.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/wailprojectile-ne-6.png</frame>
+    </sequence>
+  </character>
+
+  <!-- fireball -->
+  <character x="350" y="1400" type="shooter">
+    <sequence action="projectile-grow">
+      <frame rotate="90">campaign/Descent_into_Darkness_2/images/projectiles/fireball-n-1.png</frame>
+      <frame rotate="90">campaign/Descent_into_Darkness_2/images/projectiles/fireball-n-2.png</frame>
+      <frame rotate="90">campaign/Descent_into_Darkness_2/images/projectiles/fireball-n.png</frame>
+    </sequence>
+    <sequence action="projectile">
+      <frame rotate="90">campaign/Descent_into_Darkness_2/images/projectiles/fireball-n.png</frame>
+    </sequence>
+    <sequence action="projectile-impact">
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/fireball-impact-1.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/fireball-impact-2.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/fireball-impact-3.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/fireball-impact-4.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/fireball-impact-5.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/fireball-impact-6.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/fireball-impact-7.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/fireball-impact-8.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/fireball-impact-9.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/fireball-impact-10.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/fireball-impact-11.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/fireball-impact-12.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/fireball-impact-13.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/fireball-impact-14.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/fireball-impact-15.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/fireball-impact-16.png</frame>
+    </sequence>
+  </character>
+
+  <!-- flame breath -->
+  <character x="1000" y="1250">
     <sequence action="idle">
+      <frame rotate="90">campaign/Descent_into_Darkness_2/images/projectiles/fire-breath-n-1.png</frame>
+      <frame rotate="90">campaign/Descent_into_Darkness_2/images/projectiles/fire-breath-n-2.png</frame>
+      <frame rotate="90">campaign/Descent_into_Darkness_2/images/projectiles/fire-breath-n-3.png</frame>
+      <frame rotate="90">campaign/Descent_into_Darkness_2/images/projectiles/fire-breath-n-4.png</frame>
+      <frame rotate="90">campaign/Descent_into_Darkness_2/images/projectiles/fire-breath-n-5.png</frame>
+    </sequence>
+  </character>
+
+  <!-- generic magic (mage + merfolk) -->
+  <character x="1000" y="1100" type="shooter">
+    <sequence action="projectile-grow">
+      <frame>campaign/Descent_into_Darkness_2/images/halo/mage-preparation-halo1.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/halo/mage-preparation-halo2.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/halo/mage-preparation-halo3.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/halo/mage-preparation-halo4.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/halo/mage-preparation-halo5.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/halo/mage-preparation-halo6.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/halo/mage-preparation-halo7.png</frame>
+    </sequence>
+    <sequence action="projectile">
+      <frame>campaign/Descent_into_Darkness_2/images/halo/mage-halo1.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/halo/mage-halo2.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/halo/mage-halo3.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/halo/mage-halo4.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/halo/mage-halo5.png</frame>
+    </sequence>
+    <sequence action="projectile-impact">
       <frame>campaign/Descent_into_Darkness_2/images/halo/merfolk/staff-flare-1.png</frame>
       <frame>campaign/Descent_into_Darkness_2/images/halo/merfolk/staff-flare-2.png</frame>
       <frame>campaign/Descent_into_Darkness_2/images/halo/merfolk/staff-flare-3.png</frame>
@@ -271,8 +348,18 @@
       <frame>campaign/Descent_into_Darkness_2/images/halo/merfolk/staff-flare-7.png</frame>
     </sequence>
   </character>
-  <character x="1680" y="1075">
-    <sequence action="idle">
+
+  <!-- water magic -->
+  <character x="1000" y="1150" type="shooter">
+    <sequence action="projectile">
+      <frame rotate="0">campaign/Descent_into_Darkness_2/images/projectiles/water-spray.png</frame>
+      <frame rotate="60">campaign/Descent_into_Darkness_2/images/projectiles/water-spray.png</frame>
+      <frame rotate="120">campaign/Descent_into_Darkness_2/images/projectiles/water-spray.png</frame>
+      <frame rotate="180">campaign/Descent_into_Darkness_2/images/projectiles/water-spray.png</frame>
+      <frame rotate="240">campaign/Descent_into_Darkness_2/images/projectiles/water-spray.png</frame>
+      <frame rotate="300">campaign/Descent_into_Darkness_2/images/projectiles/water-spray.png</frame>
+    </sequence>
+    <sequence action="projectile-impact">
       <frame>campaign/Descent_into_Darkness_2/images/halo/merfolk/water-halo-1.png</frame>
       <frame>campaign/Descent_into_Darkness_2/images/halo/merfolk/water-halo-2.png</frame>
       <frame>campaign/Descent_into_Darkness_2/images/halo/merfolk/water-halo-3.png</frame>
@@ -283,24 +370,213 @@
     </sequence>
   </character>
 
-  <!-- undead magic -->
-  <character x="1925" y="975">
-    <sequence action="idle">
-      <frame>campaign/Descent_into_Darkness_2/images/halo/undead/black-magic-1.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/halo/undead/black-magic-2.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/halo/undead/black-magic-3.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/halo/undead/black-magic-4.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/halo/undead/black-magic-5.png</frame>
+  <!-- ice missile -->
+  <character x="1000" y="1300" type="shooter">
+    <sequence action="projectile-grow">
+      <frame rotate="90">campaign/Descent_into_Darkness_2/images/projectiles/icemissile-n-1.png</frame>
+      <frame rotate="90">campaign/Descent_into_Darkness_2/images/projectiles/icemissile-n-2.png</frame>
+      <frame rotate="90">campaign/Descent_into_Darkness_2/images/projectiles/icemissile-n-3.png</frame>
+    </sequence>
+    <sequence action="projectile">
+      <frame rotate="90">campaign/Descent_into_Darkness_2/images/projectiles/icemissile-n-3.png</frame>
+    </sequence>
+    <sequence action="projectile-impact">
+      <frame rotate="90">campaign/Descent_into_Darkness_2/images/projectiles/icemissile-n-4.png</frame>
+      <frame rotate="90">campaign/Descent_into_Darkness_2/images/projectiles/icemissile-n-5.png</frame>
+      <frame rotate="90">campaign/Descent_into_Darkness_2/images/projectiles/icemissile-n-6.png</frame>
+      <frame rotate="90">campaign/Descent_into_Darkness_2/images/projectiles/icemissile-n-7.png</frame>
     </sequence>
   </character>
-  <character x="1925" y="1050">
-    <sequence action="idle">
-      <frame>campaign/Descent_into_Darkness_2/images/halo/undead/dark-magic-1.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/halo/undead/dark-magic-2.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/halo/undead/dark-magic-3.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/halo/undead/dark-magic-4.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/halo/undead/dark-magic-5.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/halo/undead/dark-magic-6.png</frame>
+
+  <!-- white magic -->
+  <character x="1000" y="1400" type="shooter">
+    <sequence action="projectile">
+      <frame rotate="90">campaign/Descent_into_Darkness_2/images/projectiles/whitemissile-n.png</frame>
+    </sequence>
+    <sequence action="projectile-impact">
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/whitemissile-impact-1.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/whitemissile-impact-2.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/whitemissile-impact-3.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/whitemissile-impact-4.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/whitemissile-impact-5.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/whitemissile-impact-6.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/whitemissile-impact-7.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/whitemissile-impact-8.png</frame>
+    </sequence>
+  </character>
+
+  <!-- missile weapons -->
+
+  <!-- fire arrow -->
+  <character x="350" y="1250" type="shooter" height="25">
+    <sequence action="projectile">
+      <frame rotate="90">campaign/Descent_into_Darkness_2/images/projectiles/missile-fire-n.png</frame>
+    </sequence>
+    <sequence action="projectile-impact">
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/fireball-fail-1.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/fireball-fail-2.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/fireball-fail-3.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/fireball-fail-4.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/fireball-fail-5.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/fireball-fail-6.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/fireball-fail-7.png</frame>
+    </sequence>
+  </character>
+
+  <!-- regular arrow -->
+  <character x="350" y="1300" type="shooter" height="25">
+    <sequence action="projectile">
+      <frame rotate="90">campaign/Descent_into_Darkness_2/images/projectiles/missile-n.png</frame>
+    </sequence>
+  </character>
+
+  <!-- bone arrow -->
+  <character x="350" y="1350" type="shooter" height="25">
+    <sequence action="projectile">
+      <frame rotate="90">campaign/Descent_into_Darkness_2/images/projectiles/bone-n.png</frame>
+    </sequence>
+  </character>
+
+  <!-- thunder stick -->
+  <character x="1000" y="1350" type="shooter">
+    <sequence action="shoot">
+      <frame rotate="90">campaign/Descent_into_Darkness_2/images/projectiles/muzzle-flash-n-1.png</frame>
+      <frame rotate="90">campaign/Descent_into_Darkness_2/images/projectiles/muzzle-flash-n-2.png</frame>
+      <frame rotate="90">campaign/Descent_into_Darkness_2/images/projectiles/muzzle-flash-n-3.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/muzzle-flash-4.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/muzzle-flash-5.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/muzzle-flash-6.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/muzzle-flash-7.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/muzzle-flash-8.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/muzzle-flash-9.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/muzzle-flash-10.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/muzzle-flash-11.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/muzzle-flash-12.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/muzzle-flash-13.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/muzzle-flash-14.png</frame>
+    </sequence>
+    <sequence action="projectile">
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/bullet.png</frame>
+    </sequence>
+    <sequence action="projectile-impact">
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/misfire-spark-1.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/misfire-spark-2.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/misfire-spark-3.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/misfire-spark-4.png</frame>
+    </sequence>
+  </character>
+
+  <!-- thrown weapons -->
+
+  <!-- axes -->
+  <character x="850" y="650" type="shooter" height="50" range="400" speed="16">
+    <sequence action="projectile">
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/hatchet-1.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/hatchet-2.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/hatchet-3.png</frame>
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/hatchet-4.png</frame>
+    </sequence>
+  </character>
+  <character x="850" y="675" type="shooter" height="50" range="410" speed="17">
+    <sequence action="projectile">
+      <frame rotate="0">campaign/Descent_into_Darkness_2/images/items/axe.png</frame>
+      <frame rotate="60">campaign/Descent_into_Darkness_2/images/items/axe.png</frame>
+      <frame rotate="120">campaign/Descent_into_Darkness_2/images/items/axe.png</frame>
+      <frame rotate="180">campaign/Descent_into_Darkness_2/images/items/axe.png</frame>
+      <frame rotate="240">campaign/Descent_into_Darkness_2/images/items/axe.png</frame>
+      <frame rotate="300">campaign/Descent_into_Darkness_2/images/items/axe.png</frame>
+    </sequence>
+  </character>
+
+  <!-- rocks -->
+  <character x="850" y="700" type="shooter" height="50" range="420" speed="18">
+    <sequence action="projectile">
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/stone.png</frame>
+    </sequence>
+  </character>
+  <character x="850" y="725" type="shooter" height="50" range="430" speed="19">
+    <sequence action="projectile">
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/stone-large.png</frame>
+    </sequence>
+  </character>
+
+  <!-- chakram -->
+  <character x="850" y="725" type="shooter" height="25" range="440" speed="20">
+    <sequence action="projectile">
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/chakram.png</frame>
+    </sequence>
+  </character>
+
+  <!-- dagger -->
+  <character x="850" y="750" type="shooter" height="25" range="450" speed="21">
+    <sequence action="projectile">
+      <frame>campaign/Descent_into_Darkness_2/images/projectiles/dagger-n.png</frame>
+      <frame rotate="72">campaign/Descent_into_Darkness_2/images/projectiles/dagger-n.png</frame>
+      <frame rotate="144">campaign/Descent_into_Darkness_2/images/projectiles/dagger-n.png</frame>
+      <frame rotate="216">campaign/Descent_into_Darkness_2/images/projectiles/dagger-n.png</frame>
+      <frame rotate="288">campaign/Descent_into_Darkness_2/images/projectiles/dagger-n.png</frame>
+    </sequence>
+  </character>
+
+  <!-- bolas -->
+  <character x="850" y="750" type="shooter" height="10" range="460" speed="22">
+    <sequence action="projectile">
+      <frame rotate="90">campaign/Descent_into_Darkness_2/images/projectiles/bolas-n.png</frame>
+    </sequence>
+  </character>
+
+  <!-- spears and other polearms -->
+  <character x="850" y="775" type="shooter" height="10" range="470" speed="23">
+    <sequence action="projectile">
+      <frame rotate="90">campaign/Descent_into_Darkness_2/images/projectiles/spear-n.png</frame>
+    </sequence>
+  </character>
+  <character x="850" y="800" type="shooter" height="10" range="480" speed="24">
+    <sequence action="projectile">
+      <frame rotate="45">campaign/Descent_into_Darkness_2/images/items/spear-fancy.png</frame>
+    </sequence>
+  </character>
+  <character x="850" y="825" type="shooter" height="10" range="490" speed="25">
+    <sequence action="projectile">
+      <frame rotate="90">campaign/Descent_into_Darkness_2/images/projectiles/pitchfork-n.png</frame>
+    </sequence>
+  </character>
+  <character x="850" y="850" type="shooter" height="10" range="500" speed="26">
+    <sequence action="projectile">
+      <frame rotate="45">campaign/Descent_into_Darkness_2/images/items/storm-trident.png</frame>
+    </sequence>
+  </character>
+
+  <!-- swords -->
+  <character x="850" y="875" type="shooter" height="10" range="510" speed="27">
+    <sequence action="projectile">
+      <frame rotate="0">campaign/Descent_into_Darkness_2/images/items/sword.png</frame>
+      <frame rotate="40">campaign/Descent_into_Darkness_2/images/items/sword.png</frame>
+      <frame rotate="80">campaign/Descent_into_Darkness_2/images/items/sword.png</frame>
+      <frame rotate="120">campaign/Descent_into_Darkness_2/images/items/sword.png</frame>
+      <frame rotate="160">campaign/Descent_into_Darkness_2/images/items/sword.png</frame>
+      <frame rotate="200">campaign/Descent_into_Darkness_2/images/items/sword.png</frame>
+      <frame rotate="240">campaign/Descent_into_Darkness_2/images/items/sword.png</frame>
+      <frame rotate="280">campaign/Descent_into_Darkness_2/images/items/sword.png</frame>
+      <frame rotate="320">campaign/Descent_into_Darkness_2/images/items/sword.png</frame>
+    </sequence>
+  </character>
+  <character x="850" y="900" type="shooter" height="10" range="520" speed="28">
+    <sequence action="projectile">
+      <frame rotate="45">campaign/Descent_into_Darkness_2/images/items/flame-sword.png</frame>
+    </sequence>
+  </character>
+
+
+  <!-- staffs -->
+  <character x="850" y="925" type="shooter" height="10" range="530" speed="29">
+    <sequence action="projectile">
+      <frame rotate="45">campaign/Descent_into_Darkness_2/images/items/staff-magic.png</frame>
+    </sequence>
+  </character>
+  <character x="850" y="950" type="shooter" height="10" range="540" speed="30">
+    <sequence action="projectile">
+      <frame rotate="45">campaign/Descent_into_Darkness_2/images/items/staff.png</frame>
     </sequence>
   </character>
 
