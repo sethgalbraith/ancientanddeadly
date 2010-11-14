@@ -518,13 +518,6 @@
     </sequence>
   </character>
 
-  <!-- bolas -->
-  <character x="850" y="750" type="shooter" height="10" range="460" speed="22">
-    <sequence action="projectile">
-      <frame rotate="90">campaign/Descent_into_Darkness_2/images/projectiles/bolas-n.png</frame>
-    </sequence>
-  </character>
-
   <!-- spears and other polearms -->
   <character x="850" y="775" type="shooter" height="10" range="470" speed="23">
     <sequence action="projectile">
@@ -567,7 +560,6 @@
     </sequence>
   </character>
 
-
   <!-- staffs -->
   <character x="850" y="925" type="shooter" height="10" range="530" speed="29">
     <sequence action="projectile">
@@ -577,6 +569,52 @@
   <character x="850" y="950" type="shooter" height="10" range="540" speed="30">
     <sequence action="projectile">
       <frame rotate="45">campaign/Descent_into_Darkness_2/images/items/staff.png</frame>
+    </sequence>
+  </character>
+
+  <!-- traps -->
+
+  <!-- bolas -->
+  <character x="50" y="1125" type="shooter" height="25" range="250" speed="10">
+    <sequence action="projectile">
+      <frame rotate="90">campaign/Descent_into_Darkness_2/images/projectiles/bolas-n.png</frame>
+    </sequence>
+  </character>
+
+  <!-- vines -->
+  <character x="50" y="1200" type="shooter" height="50" range="250" speed="10">
+    <sequence action="projectile">
+      <frame rotate="0">campaign/Descent_into_Darkness_2/images/projectiles/entangle.png</frame>
+      <frame rotate="40">campaign/Descent_into_Darkness_2/images/projectiles/entangle.png</frame>
+      <frame rotate="80">campaign/Descent_into_Darkness_2/images/projectiles/entangle.png</frame>
+      <frame rotate="120">campaign/Descent_into_Darkness_2/images/projectiles/entangle.png</frame>
+      <frame rotate="160">campaign/Descent_into_Darkness_2/images/projectiles/entangle.png</frame>
+      <frame rotate="200">campaign/Descent_into_Darkness_2/images/projectiles/entangle.png</frame>
+      <frame rotate="240">campaign/Descent_into_Darkness_2/images/projectiles/entangle.png</frame>
+      <frame rotate="280">campaign/Descent_into_Darkness_2/images/projectiles/entangle.png</frame>
+      <frame rotate="320">campaign/Descent_into_Darkness_2/images/projectiles/entangle.png</frame>
+    </sequence>
+  </character>
+
+  <!-- web -->
+  <character x="50" y="1250" type="shooter" height="50" range="250" speed="10">
+    <sequence action="projectile">
+      <frame rotate="0">campaign/Descent_into_Darkness_2/images/projectiles/web.png</frame>
+      <frame rotate="40">campaign/Descent_into_Darkness_2/images/projectiles/web.png</frame>
+      <frame rotate="80">campaign/Descent_into_Darkness_2/images/projectiles/web.png</frame>
+      <frame rotate="120">campaign/Descent_into_Darkness_2/images/projectiles/web.png</frame>
+      <frame rotate="160">campaign/Descent_into_Darkness_2/images/projectiles/web.png</frame>
+      <frame rotate="200">campaign/Descent_into_Darkness_2/images/projectiles/web.png</frame>
+      <frame rotate="240">campaign/Descent_into_Darkness_2/images/projectiles/web.png</frame>
+      <frame rotate="280">campaign/Descent_into_Darkness_2/images/projectiles/web.png</frame>
+      <frame rotate="320">campaign/Descent_into_Darkness_2/images/projectiles/web.png</frame>
+    </sequence>
+  </character>
+
+  <!-- thorns -->
+  <character x="50" y="1300" type="shooter" height="25" range="250" speed="10">
+    <sequence action="projectile">
+      <frame rotate="90">campaign/Descent_into_Darkness_2/images/projectiles/thorns.png</frame>
     </sequence>
   </character>
 
