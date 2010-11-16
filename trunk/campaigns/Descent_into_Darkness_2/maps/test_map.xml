@@ -455,6 +455,8 @@
       <frame>campaigns/Descent_into_Darkness_2/images/projectiles/muzzle-flash-13.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/projectiles/muzzle-flash-14.png</frame>
     </sequence>
+  </character>
+  <character x="1000" y="1350" type="shooter" speed="20" range="400">
     <sequence action="projectile">
       <frame>campaigns/Descent_into_Darkness_2/images/projectiles/bullet.png</frame>
     </sequence>
