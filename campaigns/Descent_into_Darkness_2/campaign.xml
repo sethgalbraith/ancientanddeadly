@@ -4,6 +4,7 @@
   <map name="Lair of Mal Keshar" src="campaigns/Descent_into_Darkness_2/maps/Lair_of_Mal_Keshar.xml"/>
   <map name="Parthyn Necropolis" src="campaigns/Descent_into_Darkness_2/maps/Parthyn_Necropolis.xml"/>
   <map name="test" src="campaigns/Descent_into_Darkness_2/maps/test_map.xml"/>
+  <map name="test2" src="campaigns/Descent_into_Darkness_2/maps/test_map_2.xml"/>
   <stylesheet>campaigns/Descent_into_Darkness_2/style.css</stylesheet>
 </campaign>
 
