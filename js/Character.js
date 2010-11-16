@@ -144,6 +144,9 @@ Game.Character.prototype.animate = function () {
   else if (this.path) {
     this.action = "move";
   }
+  else if (this.action == "move") {
+    this.action = "stand";
+  }
   else if (this.action == "idle" && this.frame == 0) {
     this.action = "stand";
     this.scheduleIdleAnimation();
