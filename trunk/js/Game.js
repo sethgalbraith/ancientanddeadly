@@ -74,8 +74,23 @@ var Game = {
     };
   },
 
+  loadStylesheets: function(elements, doc) {
+    for (var i = 0; i < elements.length; i++) {
+      var link = doc.createElement("link");
+      link.rel = "stylesheet"
+      link.type = "text/css"
+      link.href = elements[i].textContent;
+      doc.head.appendChild(link);
+    }
+  },
+
   loadCampaign: function (campaignFile) {
     Game.ajaxRequest(campaignFile, {}, function (ajax) {
+      // load campaign-specific stylesheets
+      var stylesheets = ajax.responseXML.getElementsByTagName("stylesheet");
+      Game.loadStylesheets(stylesheets, document);
+      Game.loadStylesheets(stylesheets, Game.frame.contentDocument);
+      // load first map or requested map
       var maps = ajax.responseXML.getElementsByTagName("map");
       var map = maps[0];
       if (Game.arguments.map) {
