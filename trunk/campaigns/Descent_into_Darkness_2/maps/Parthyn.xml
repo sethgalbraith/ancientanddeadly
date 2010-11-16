@@ -1,67 +1,67 @@
 <?xml version="1.0"?>
 <!DOCTYPE map SYSTEM "map.dtd">
 
-<map name="Parthyn" background="campaign/Descent_into_Darkness_2/maps/Parthyn.jpg">
+<map name="Parthyn" background="campaigns/Descent_into_Darkness_2/maps/Parthyn.jpg">
 
   <!-- first character is PC -->
   <character x="1359" y="1007" yOffset="18" location="start">
     <sequence action="stand">
-      <frame>campaign/Descent_into_Darkness_2/images/units/neutral-outlaw-princess.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/neutral-outlaw-princess.png</frame>
     </sequence>
     <sequence action="move">
-      <frame>campaign/Descent_into_Darkness_2/images/units/neutral-outlaw-princess.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/neutral-outlaw-princess.png</frame>
     </sequence>
   </character>
 
   <!-- animated firepit prop -->
   <character x="2115" y="990">
     <sequence action="stand">
-      <frame>campaign/Descent_into_Darkness_2/images/scenery/fire1.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/scenery/fire2.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/scenery/fire3.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/scenery/fire4.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/scenery/fire5.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/scenery/fire6.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/scenery/fire7.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/scenery/fire8.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/fire1.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/fire2.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/fire3.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/fire4.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/fire5.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/fire6.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/fire7.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/fire8.png</frame>
     </sequence>
   </character>
 
   <!-- animated windmill prop -->
   <character x="720" y="936">
     <sequence action="stand">
-      <frame>campaign/Descent_into_Darkness_2/images/scenery/windmill-01.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/scenery/windmill-02.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/scenery/windmill-03.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/scenery/windmill-04.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/scenery/windmill-05.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/scenery/windmill-06.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/scenery/windmill-07.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/scenery/windmill-08.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/scenery/windmill-09.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/scenery/windmill-10.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/scenery/windmill-11.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/scenery/windmill-12.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/scenery/windmill-13.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/scenery/windmill-14.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/scenery/windmill-15.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/scenery/windmill-16.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/scenery/windmill-17.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/scenery/windmill-18.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/windmill-01.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/windmill-02.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/windmill-03.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/windmill-04.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/windmill-05.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/windmill-06.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/windmill-07.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/windmill-08.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/windmill-09.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/windmill-10.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/windmill-11.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/windmill-12.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/windmill-13.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/windmill-14.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/windmill-15.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/windmill-16.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/windmill-17.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/windmill-18.png</frame>
     </sequence>
   </character>
 
   <!-- animated brazier prop -->
   <character x="1143" y="639">
     <sequence action="stand">
-      <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit1.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit2.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit3.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit4.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit5.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit6.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit7.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit8.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit1.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit2.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit3.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit4.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit5.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit6.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit7.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit8.png</frame>
     </sequence>
   </character>
 

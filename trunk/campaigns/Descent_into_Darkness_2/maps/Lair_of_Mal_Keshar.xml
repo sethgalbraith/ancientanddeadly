@@ -1,78 +1,78 @@
-<map name="Lair of Mal Keshar" background="campaign/Descent_into_Darkness_2/maps/Lair_of_Mal_Keshar.jpg">
+<map name="Lair of Mal Keshar" background="campaigns/Descent_into_Darkness_2/maps/Lair_of_Mal_Keshar.jpg">
 
   <!-- first character is PC -->
   <character x="1305" y="378" yOffset="18" location="entrance">
     <sequence action="stand">
-      <frame>campaign/Descent_into_Darkness_2/images/units/human-loyalists/lancer.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/lancer.png</frame>
     </sequence>
     <sequence action="move">
-      <frame>campaign/Descent_into_Darkness_2/images/units/human-loyalists/lancer-moving.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/lancer-moving.png</frame>
     </sequence>
   </character>
 
   <!-- animated brazier props -->
   <character x="1386" y="2871">
     <sequence action="stand">
-      <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit1.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit2.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit3.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit4.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit5.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit6.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit7.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit8.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit1.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit2.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit3.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit4.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit5.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit6.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit7.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit8.png</frame>
     </sequence>
   </character>
   <character x="630" y="1206">
     <sequence action="stand">
-      <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit1.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit2.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit3.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit4.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit5.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit6.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit7.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit8.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit1.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit2.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit3.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit4.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit5.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit6.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit7.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit8.png</frame>
     </sequence>
   </character>
   <character x="846" y="1350">
     <sequence action="stand">
-      <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit1.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit2.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit3.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit4.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit5.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit6.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit7.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit8.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit1.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit2.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit3.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit4.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit5.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit6.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit7.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit8.png</frame>
     </sequence>
   </character>
 
   <!-- animated firepit prop -->
   <character x="1710" y="2151">
     <sequence action="stand">
-      <frame>campaign/Descent_into_Darkness_2/images/scenery/fire1.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/scenery/fire2.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/scenery/fire3.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/scenery/fire4.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/scenery/fire5.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/scenery/fire6.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/scenery/fire7.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/scenery/fire8.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/fire1.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/fire2.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/fire3.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/fire4.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/fire5.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/fire6.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/fire7.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/fire8.png</frame>
     </sequence>
   </character>
 
   <!-- animated swamp gas prop -->
   <character x="360" y="2601">
     <sequence action="idle">
-      <frame>campaign/Descent_into_Darkness_2/images/halo/flame-burst-1.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/halo/flame-burst-2.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/halo/flame-burst-3.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/halo/flame-burst-4.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/halo/flame-burst-5.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/halo/flame-burst-6.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/halo/flame-burst-7.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/halo/flame-burst-8.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/flame-burst-1.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/flame-burst-2.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/flame-burst-3.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/flame-burst-4.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/flame-burst-5.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/flame-burst-6.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/flame-burst-7.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/flame-burst-8.png</frame>
     </sequence>
   </character>
 

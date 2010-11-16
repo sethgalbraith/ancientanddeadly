@@ -1,40 +1,40 @@
-<map name="Emetria" background="campaign/Descent_into_Darkness_2/maps/Emetria.jpg">
+<map name="Emetria" background="campaigns/Descent_into_Darkness_2/maps/Emetria.jpg">
 
   <!-- first character is PC -->
   <character x="2493" y="2772" yOffset="18" location="ruin">
     <sequence action="stand">
-      <frame>campaign/Descent_into_Darkness_2/images/units/human-loyalists/lancer.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/lancer.png</frame>
     </sequence>
     <sequence action="move">
-      <frame>campaign/Descent_into_Darkness_2/images/units/human-loyalists/lancer-moving.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/lancer-moving.png</frame>
     </sequence>
   </character>
 
   <!-- animated brazier props -->
   <character x="2007" y="279">
     <sequence action="stand">
-      <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit1.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit2.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit3.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit4.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit5.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit6.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit7.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/items/brazier-lit8.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit1.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit2.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit3.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit4.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit5.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit6.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit7.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/items/brazier-lit8.png</frame>
     </sequence>
   </character>
 
   <!-- animated firepit prop -->
   <character x="2493" y="2619">
     <sequence action="stand">
-      <frame>campaign/Descent_into_Darkness_2/images/scenery/fire1.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/scenery/fire2.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/scenery/fire3.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/scenery/fire4.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/scenery/fire5.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/scenery/fire6.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/scenery/fire7.png</frame>
-      <frame>campaign/Descent_into_Darkness_2/images/scenery/fire8.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/fire1.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/fire2.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/fire3.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/fire4.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/fire5.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/fire6.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/fire7.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/scenery/fire8.png</frame>
     </sequence>
   </character>
 
