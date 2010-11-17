@@ -1,15 +1,5 @@
 <map name="Parthyn Necropolis" background="campaigns/Descent_into_Darkness_2/maps/Parthyn_Necropolis.jpg">
 
-  <!-- first character is PC -->
-  <character x="1359" y="1007" yOffset="18" location="start">
-    <sequence action="stand">
-      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/lancer.png</frame>
-    </sequence>
-    <sequence action="move">
-      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/lancer-moving.png</frame>
-    </sequence>
-  </character>
-
   <!-- animated firepit prop -->
   <character x="2115" y="990">
     <sequence action="stand">
@@ -45,6 +35,16 @@
       <frame>campaigns/Descent_into_Darkness_2/images/scenery/windmill-16.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/scenery/windmill-17.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/scenery/windmill-18.png</frame>
+    </sequence>
+  </character>
+
+  <!-- PC -->
+  <character x="1359" y="1007" yOffset="18" location="start" type="PC">
+    <sequence action="stand">
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/lancer.png</frame>
+    </sequence>
+    <sequence action="move">
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/lancer-moving.png</frame>
     </sequence>
   </character>
 
