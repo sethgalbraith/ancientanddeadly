@@ -57,17 +57,29 @@ Game.Character.prototype._loadImage = function (xmlElement, offset, action) {
     image.style.marginLeft = -(offset.x + image.width / 2) + "px";
     image.style.marginTop = -(offset.y + image.height / 2) + "px";
   }
-  this.sequences[action].push(image);
-  this.container.appendChild(image);
   image.style.visibility = "hidden";
   var rotate = xmlElement.getAttribute("rotate");
+  var scale = xmlElement.getAttribute("scale");
+  var transforms = [];
   if (rotate) {
-    var transform = "rotate(" + rotate + "deg)";
+    transforms.push("rotate(" + rotate + ")");
+  }
+  if (scale) {
+    transforms.push("scale(" + scale + ")");
+  }
+  if (transforms.length > 0) {
+    var transform = transforms.join(" ");
     image.style.transform = transform;
     image.style.WebkitTransform = transform;
     image.style.MozTransform = transform;
     image.style.OTransform = transform;
   }
+  var durationString = xmlElement.getAttribute("duration");
+  var duration = durationString ? parseInt(durationString) : 1;
+  for (var i = 0; i < duration; i++) {
+    this.sequences[action].push(image);
+  }
+  this.container.appendChild(image);
 };
 
 Game.Character.prototype.scheduleIdleAnimation = function () {

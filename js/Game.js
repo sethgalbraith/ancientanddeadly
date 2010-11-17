@@ -110,8 +110,8 @@ var Game = {
       Game.loadBackground(mapElement.getAttribute("background"));
       Game.extractXMLPaths(mapElement);
       Game.extractXMLCharacters(mapElement);
-      Game.party = [Game.characters[0]];
-      Game.createMovementButtons(Game.characters[0]);
+//      Game.party = [Game.characters[0]];
+      Game.createMovementButtons(Game.party[0]);
     });
   },
 
@@ -121,6 +121,9 @@ var Game = {
     for (var i = 0; i < characterElements.length; i++) {
       var character = new Game.Character(characterElements[i]);
       Game.characters.push(character);
+      if (character.type == "PC") {
+        Game.party.push(character);
+      }
     }
   },
 

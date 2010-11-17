@@ -103,7 +103,6 @@ body {
   position: absolute;
   left: 36px;
   top: 36px;
-  z-index: 2;
 }
 .character .left img {
   transform: scaleX(-1);
