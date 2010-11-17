@@ -62,7 +62,7 @@ Game.Character.prototype._loadImage = function (xmlElement, offset, action) {
   var scale = xmlElement.getAttribute("scale");
   var transforms = [];
   if (rotate) {
-    transforms.push("rotate(" + rotate + ")");
+    transforms.push("rotate(" + rotate + "deg)");
   }
   if (scale) {
     transforms.push("scale(" + scale + ")");
