@@ -1,7 +1,248 @@
 <map name="test" background="campaigns/Descent_into_Darkness_2/maps/Emetria.jpg">
 
-  <!-- first character is PC -->
-  <character x="300" y="200" yOffset="18" location="a1">
+  <!-- Dela Keshar -->
+  <character x="65" y="75">
+    <sequence action="stand">
+      <frame duration="2" scale="0.65">campaigns/Descent_into_Darkness_2/images/portraits/dela.png</frame>
+   </sequence>
+  </character>
+  <character x="30" y="50" yOffset="18">
+    <sequence action="stand">
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/neutral-outlaw-princess.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/neutral-outlaw-princess-attack-sling1.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/neutral-outlaw-princess-attack-sling2.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/neutral-outlaw-princess.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/neutral-outlaw-princess-attack-staff1.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/neutral-outlaw-princess-attack-staff2.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/neutral-outlaw-princess.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/neutral-outlaw-princess-defend-1-1.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/neutral-outlaw-princess-defend-1-2.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/neutral-outlaw-princess-defend-1-1.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/neutral-outlaw-princess.png</frame>
+      <frame duration="5">campaigns/Descent_into_Darkness_2/images/units/neutral-outlaw-princess-defend.png</frame>
+   </sequence>
+  </character>
+
+  <!-- bandit -->
+  <character x="200" y="100">
+    <sequence action="stand">
+      <frame duration="2" scale="0.5">campaigns/Descent_into_Darkness_2/images/portraits/humans/transparent/bandit.png</frame>
+   </sequence>
+  </character>
+  <character x="260" y="50" yOffset="18">
+    <sequence action="stand">
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/human-outlaws/bandit-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-outlaws/bandit-defend-1-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-outlaws/bandit-defend-2-ff8000.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/human-outlaws/bandit-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-outlaws/bandit-melee-1-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-outlaws/bandit-melee-2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-outlaws/bandit-melee-3-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-outlaws/bandit-melee-4-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-outlaws/bandit-melee-5-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-outlaws/bandit-melee-6-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-outlaws/bandit-melee-7-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-outlaws/bandit-melee-8-ff8000.png</frame>
+   </sequence>
+  </character>
+
+  <!-- fencer -->
+  <character x="400" y="95">
+    <sequence action="stand">
+      <frame scale="0.53">campaigns/Descent_into_Darkness_2/images/portraits/humans/transparent/fencer.png</frame>
+   </sequence>
+  </character>
+  <character x="430" y="50" yOffset="18">
+    <sequence action="stand">
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/fencer-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/fencer-attack-1-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/fencer-attack-2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/fencer-attack-3-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/fencer-attack-4-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/fencer-attack-5-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/fencer-attack-6-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/fencer-attack-7-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/fencer-attack-8-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/fencer-attack-9-ff8000.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/fencer-ff8000.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/fencer-defend-1-1-ff8000.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/fencer-defend-1-2-ff8000.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/fencer-defend-1-1-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/fencer-ff8000.png</frame>
+      <frame duration="6">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/fencer-defend-ff8000.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/fencer-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/fencer-die1-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/fencer-die2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/fencer-die3-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/fencer-die4-ff8000.png</frame>
+      <frame duration="5">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/fencer-die5-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/fencer-die4-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/fencer-die3-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/fencer-die2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/fencer-die1-ff8000.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/fencer-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/fencer-idle-1-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/fencer-idle-2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/fencer-idle-3-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/fencer-idle-4-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/fencer-idle-5-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/fencer-idle-6-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/fencer-idle-7-ff8000.png</frame>
+   </sequence>
+  </character>
+
+  <!-- general -->
+  <character x="510" y="95">
+    <sequence action="stand">
+      <frame scale="0.5">campaigns/Descent_into_Darkness_2/images/portraits/humans/transparent/general.png</frame>
+   </sequence>
+  </character>
+  <character x="565" y="55" yOffset="18">
+    <sequence action="stand">
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/general-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/general-attack-sword1-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/general-attack-sword2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/general-attack-sword3-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/general-attack-sword4-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/general-attack-sword5-ff8000.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/general-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/general-crossbow-ff8000.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/general-crossbow-attack1-ff8000.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/general-crossbow-attack2-ff8000.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/general-crossbow-attack1-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/general-crossbow-ff8000.png</frame>
+      <frame duration="8">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/general-crossbow-defend-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/general-crossbow-ff8000.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/general-ff8000.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/general-defend-1-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/general-defend-2-ff8000.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/general-defend-1-ff8000.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/general-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/general-idle-1-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/general-idle-2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/general-idle-3-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/general-idle-4-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/general-idle-5-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/general-idle-6-ff8000.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/general-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/general-leading-ff8000.png</frame>
+   </sequence>
+  </character>
+
+  <!-- marshal/sergeant/field marshal -->
+  <character x="100" y="300">
+    <sequence action="stand">
+      <frame scale="0.5">campaigns/Descent_into_Darkness_2/images/portraits/humans/transparent/marshal.png</frame>
+   </sequence>
+  </character>
+  <character x="35" y="270" yOffset="18">
+    <sequence action="stand">
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-attack-sword-1-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-attack-sword-2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-attack-sword-3-ff8000.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-crossbow-ff8000.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-crossbow-attack1-ff8000.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-crossbow-attack2-ff8000.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-crossbow-attack1-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-crossbow-ff8000.png</frame>
+      <frame duration="8">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-crossbow-defend-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-crossbow-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-ff8000.png</frame>
+      <frame duration="8">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-defend-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-idle-1-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-idle-2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-idle-3-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-idle-4-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-idle-5-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-idle-6-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-idle-7-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-idle-8-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-idle-9-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-idle-10-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-idle-11-ff8000.png</frame>
+      <frame duration="6">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-ff8000.png</frame>
+      <frame duration="8">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-leading-ff8000.png</frame>
+   </sequence>
+  </character>
+
+  <!-- grand marshal -->
+  <character x="290" y="300">
+    <sequence action="stand">
+      <frame scale="0.5">campaigns/Descent_into_Darkness_2/images/portraits/humans/transparent/marshal-2.png</frame>
+   </sequence>
+  </character>
+  <character x="205" y="270" yOffset="18">
+    <sequence action="stand">
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/marshal-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/marshal-attack-sword1-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/marshal-attack-sword2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/marshal-attack-sword3-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/marshal-attack-sword4-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/marshal-attack-sword5-ff8000.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/marshal-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/marshal-crossbow-ff8000.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/marshal-crossbow-attack1-ff8000.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/marshal-crossbow-attack2-ff8000.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/marshal-crossbow-attack1-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/marshal-crossbow-ff8000.png</frame>
+      <frame duration="8">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/marshal-crossbow-defend-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/marshal-crossbow-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/marshal-ff8000.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/marshal-defend-1-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/marshal-defend-2-ff8000.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/marshal-defend-1-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/marshal-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/marshal-die-1-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/marshal-die-2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/marshal-die-3-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/marshal-die-4-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/marshal-die-5-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/marshal-die-6-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/marshal-die-7-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/marshal-die-8-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/marshal-die-9-ff8000.png</frame>
+      <frame duration="8">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/marshal-die-10-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/marshal-die-9-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/marshal-die-8-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/marshal-die-7-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/marshal-die-6-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/marshal-die-5-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/marshal-die-4-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/marshal-die-3-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/marshal-die-2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/marshal-die-1-ff8000.png</frame>
+      <frame duration="6">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/marshal-ff8000.png</frame>
+      <frame duration="8">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/marshal-leading-ff8000.png</frame>
+   </sequence>
+  </character>
+
+  <!-- heavy infantry -->
+  <character x="490" y="300">
+    <sequence action="stand">
+      <frame scale="0.5">campaigns/Descent_into_Darkness_2/images/portraits/humans/transparent/heavy-infantry.png</frame>
+   </sequence>
+  </character>
+  <character x="550" y="260" yOffset="18">
+    <sequence action="stand">
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/shocktrooper-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/shocktrooper-attack-1-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/shocktrooper-attack-2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/shocktrooper-attack-3-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/shocktrooper-attack-4-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/shocktrooper-attack-5-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/shocktrooper-attack-6-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/shocktrooper-ff8000.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/shocktrooper-defend-1-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/shocktrooper-defend-2-ff8000.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/shocktrooper-defend-1-ff8000.png</frame>
+   </sequence>
+  </character>
+
+  <!-- PC -->
+  <character x="300" y="200" yOffset="18" location="a1" type="PC">
     <sequence action="stand">
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/gryphon.png</frame>
     </sequence>
