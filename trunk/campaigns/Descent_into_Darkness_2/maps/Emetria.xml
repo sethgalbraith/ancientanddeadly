@@ -1,15 +1,5 @@
 <map name="Emetria" background="campaigns/Descent_into_Darkness_2/maps/Emetria.jpg">
 
-  <!-- first character is PC -->
-  <character x="2493" y="2772" yOffset="18" location="ruin">
-    <sequence action="stand">
-      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/lancer.png</frame>
-    </sequence>
-    <sequence action="move">
-      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/lancer-moving.png</frame>
-    </sequence>
-  </character>
-
   <!-- animated brazier props -->
   <character x="2007" y="279">
     <sequence action="stand">
@@ -35,6 +25,16 @@
       <frame>campaigns/Descent_into_Darkness_2/images/scenery/fire6.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/scenery/fire7.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/scenery/fire8.png</frame>
+    </sequence>
+  </character>
+
+  <!-- PC -->
+  <character x="2493" y="2772" yOffset="18" location="ruin" type="PC">
+    <sequence action="stand">
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/lancer.png</frame>
+    </sequence>
+    <sequence action="move">
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/lancer-moving.png</frame>
     </sequence>
   </character>
 

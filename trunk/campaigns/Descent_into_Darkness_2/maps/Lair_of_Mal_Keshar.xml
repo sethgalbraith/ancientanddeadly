@@ -1,15 +1,5 @@
 <map name="Lair of Mal Keshar" background="campaigns/Descent_into_Darkness_2/maps/Lair_of_Mal_Keshar.jpg">
 
-  <!-- first character is PC -->
-  <character x="1305" y="378" yOffset="18" location="entrance">
-    <sequence action="stand">
-      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/lancer.png</frame>
-    </sequence>
-    <sequence action="move">
-      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/lancer-moving.png</frame>
-    </sequence>
-  </character>
-
   <!-- animated brazier props -->
   <character x="1386" y="2871">
     <sequence action="stand">
@@ -73,6 +63,16 @@
       <frame>campaigns/Descent_into_Darkness_2/images/halo/flame-burst-6.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/halo/flame-burst-7.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/halo/flame-burst-8.png</frame>
+    </sequence>
+  </character>
+
+  <!-- PC -->
+  <character x="1305" y="378" yOffset="18" location="entrance" type="PC">
+    <sequence action="stand">
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/lancer.png</frame>
+    </sequence>
+    <sequence action="move">
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/lancer-moving.png</frame>
     </sequence>
   </character>
 
