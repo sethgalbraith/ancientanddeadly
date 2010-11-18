@@ -37,6 +37,7 @@ Game.Character = function (xmlElement) {
   }
 
   // Load images.
+  this.images = {};
   var sequenceElements = xmlElement.getElementsByTagName("sequence");
   for (var i = 0; i < sequenceElements.length; i++) {
     var frameElements = sequenceElements[i].getElementsByTagName("frame");
@@ -51,28 +52,35 @@ Game.Character = function (xmlElement) {
 };
 
 Game.Character.prototype._loadImage = function (xmlElement, offset, action) {
-  var image = new Image();
-  image.src = xmlElement.textContent;
-  image.onload = function () {
-    image.style.marginLeft = -(offset.x + image.width / 2) + "px";
-    image.style.marginTop = -(offset.y + image.height / 2) + "px";
-  }
-  image.style.visibility = "hidden";
+
   var rotate = xmlElement.getAttribute("rotate");
   var scale = xmlElement.getAttribute("scale");
-  var transforms = [];
-  if (rotate) {
-    transforms.push("rotate(" + rotate + "deg)");
-  }
-  if (scale) {
-    transforms.push("scale(" + scale + ")");
-  }
-  if (transforms.length > 0) {
-    var transform = transforms.join(" ");
-    image.style.transform = transform;
-    image.style.WebkitTransform = transform;
-    image.style.MozTransform = transform;
-    image.style.OTransform = transform;
+  var url = xmlElement.textContent;
+  var key = [rotate, scale, url].join("\n");
+  var image = this.images[key];
+  if (!image) {
+    image = new Image();
+    image.src = xmlElement.textContent;
+    image.onload = function () {
+      image.style.marginLeft = -(offset.x + image.width / 2) + "px";
+      image.style.marginTop = -(offset.y + image.height / 2) + "px";
+    }
+    image.style.visibility = "hidden";
+    var transforms = [];
+    if (rotate) {
+      transforms.push("rotate(" + rotate + "deg)");
+    }
+    if (scale) {
+      transforms.push("scale(" + scale + ")");
+    }
+    if (transforms.length > 0) {
+      var transform = transforms.join(" ");
+      image.style.transform = transform;
+      image.style.WebkitTransform = transform;
+      image.style.MozTransform = transform;
+      image.style.OTransform = transform;
+    }
+    this.images[key] = image;
   }
   var durationString = xmlElement.getAttribute("duration");
   var duration = durationString ? parseInt(durationString) : 1;
