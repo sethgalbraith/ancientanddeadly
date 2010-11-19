@@ -52,33 +52,18 @@ Game.Character = function (xmlElement) {
 };
 
 Game.Character.prototype._loadImage = function (xmlElement, offset, action) {
-
+  var opacity = xmlElement.getAttribute("opacity");
   var rotate = xmlElement.getAttribute("rotate");
   var scale = xmlElement.getAttribute("scale");
   var url = xmlElement.textContent;
-  var key = [rotate, scale, url].join("\n");
+  var key = [opacity, rotate, scale, url].join("\n");
   var image = this.images[key];
   if (!image) {
-    image = new Image();
-    image.src = xmlElement.textContent;
-    image.onload = function () {
-      image.style.marginLeft = -(offset.x + image.width / 2) + "px";
-      image.style.marginTop = -(offset.y + image.height / 2) + "px";
+    if (url) { // Create a new image.
+      image = this._makeImage(url, offset, rotate, scale, opacity);
     }
-    image.style.visibility = "hidden";
-    var transforms = [];
-    if (rotate) {
-      transforms.push("rotate(" + rotate + "deg)");
-    }
-    if (scale) {
-      transforms.push("scale(" + scale + ")");
-    }
-    if (transforms.length > 0) {
-      var transform = transforms.join(" ");
-      image.style.transform = transform;
-      image.style.WebkitTransform = transform;
-      image.style.MozTransform = transform;
-      image.style.OTransform = transform;
+    else { // Create an empty div which can be hidden or shown like an image.
+      image = Game.createElement("div");
     }
     this.images[key] = image;
   }
@@ -89,6 +74,34 @@ Game.Character.prototype._loadImage = function (xmlElement, offset, action) {
   }
   this.container.appendChild(image);
 };
+
+Game.Character.prototype._makeImage = function (url, offset, rotate, scale, opacity) {
+  var image = new Image();
+  image.src = url;
+  image.onload = function () {
+    image.style.marginLeft = -(offset.x + image.width / 2) + "px";
+    image.style.marginTop = -(offset.y + image.height / 2) + "px";
+  }
+  image.style.visibility = "hidden";
+  if (opacity) {
+    image.style.opacity = opacity;
+  }
+  var transforms = [];
+  if (rotate) {
+    transforms.push("rotate(" + rotate + "deg)");
+  }
+  if (scale) {
+    transforms.push("scale(" + scale + ")");
+  }
+  if (transforms.length > 0) {
+    var transform = transforms.join(" ");
+    image.style.transform = transform;
+    image.style.WebkitTransform = transform;
+    image.style.MozTransform = transform;
+    image.style.OTransform = transform;
+  }
+  return image
+}
 
 Game.Character.prototype.scheduleIdleAnimation = function () {
   var range = this.idleMax - this.idleMin;
