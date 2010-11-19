@@ -4,45 +4,63 @@
   <character x="1840" y="450" yOffset="18">
     <sequence action="stand">
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/cuttlefish-defend-1.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/monsters/cuttlefish-defend-2.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/cuttlefish-defend-2.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/cuttlefish.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/cuttlefish-die-1.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/cuttlefish-die-2.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/cuttlefish-die-3.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/cuttlefish-die-4.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/cuttlefish-die-5.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/cuttlefish-die-6.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/cuttlefish-die-5.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/cuttlefish-die-4.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/cuttlefish-die-3.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/cuttlefish-die-2.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/cuttlefish-die-1.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/cuttlefish.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/cuttlefish-melee-1.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/cuttlefish-melee-2.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/cuttlefish-melee-3.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/cuttlefish-melee-4.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/cuttlefish-melee-5.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/cuttlefish-melee-6.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/cuttlefish.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/cuttlefish-ranged-1.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/cuttlefish-ranged-2.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/cuttlefish-ranged-3.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/cuttlefish-ranged-4.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/cuttlefish-ranged-5.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/cuttlefish-ranged-6.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/cuttlefish.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/cuttlefish.png</frame>
     </sequence>
   </character>
   <character x="1900" y="450" yOffset="18">
     <sequence action="stand">
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/deep-tentacle-attack.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/deep-tentacle-defend.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/monsters/deep-tentacle-attack.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/deep-tentacle.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/monsters/deep-tentacle-defend.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/deep-tentacle.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/deep-tentacle-die-1.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/deep-tentacle-die-2.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/deep-tentacle-die-3.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/deep-tentacle-die-4.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/deep-tentacle-die-5.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/deep-tentacle-die-6.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/deep-tentacle.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/deep-tentacle-die-5.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/deep-tentacle-die-4.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/deep-tentacle-die-3.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/deep-tentacle-die-2.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/deep-tentacle-die-1.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/deep-tentacle.png</frame>
     </sequence>
   </character>
   <character x="1960" y="450" yOffset="18">
     <sequence action="stand">
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/seaserpent-attack.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/seaserpent-defend.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/seaserpent-attack.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/seaserpent.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/seaserpent-defend.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/seaserpent.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/seaserpent-die-1.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/seaserpent-die-2.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/seaserpent-die-3.png</frame>
@@ -52,65 +70,99 @@
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/seaserpent-die-7.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/seaserpent-die-8.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/seaserpent-die-9.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/seaserpent.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/seaserpent-die-8.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/seaserpent-die-7.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/seaserpent-die-6.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/seaserpent-die-5.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/seaserpent-die-4.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/seaserpent-die-3.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/seaserpent-die-2.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/seaserpent-die-1.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/seaserpent.png</frame>
     </sequence>
   </character>
   <character x="2020" y="450" yOffset="18">
     <sequence action="stand">
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/water-serpent-n.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/water-serpent-attack-ne-1.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/water-serpent-attack-ne-2.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/water-serpent-attack-ne-3.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/water-serpent-attack-ne-4.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/water-serpent-attack-n-5.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/water-serpent-attack-n-6.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/water-serpent-n.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/water-serpent-attack-ne-1.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/water-serpent-attack-ne-2.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/water-serpent-attack-ne-3.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/water-serpent-attack-ne-4.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/water-serpent-attack-ne-5.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/water-serpent-attack-ne-6.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/water-serpent-n.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/water-serpent.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/water-serpent-attack-se-1.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/water-serpent-attack-se-2.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/water-serpent-attack-se-3.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/water-serpent-attack-se-4.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/water-serpent-attack-s-5.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/water-serpent-attack-s-6.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/water-serpent.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/water-serpent-attack-se-1.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/water-serpent-attack-se-2.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/water-serpent-attack-se-3.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/water-serpent-attack-se-4.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/water-serpent-attack-se-5.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/water-serpent-attack-se-6.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/water-serpent-n.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/water-serpent.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/water-serpent.png</frame>
     </sequence>
   </character>
 
   <!-- mudcrawlers -->
   <character x="2080" y="450" yOffset="18">
     <sequence action="stand">
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/giant-mudcrawler-attack.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/giant-mudcrawler-attack.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/giant-mudcrawler.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/giant-mudcrawler-attack1.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/giant-mudcrawler-attack2.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/monsters/giant-mudcrawler-attack2.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/giant-mudcrawler-attack1.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/giant-mudcrawler.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/giant-mudcrawler-death1.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/giant-mudcrawler-death2.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/giant-mudcrawler-death3.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/giant-mudcrawler-death4.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/giant-mudcrawler-defend.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/giant-mudcrawler.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/giant-mudcrawler-death3.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/giant-mudcrawler-death2.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/giant-mudcrawler-death1.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/giant-mudcrawler.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/giant-mudcrawler-defend.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/giant-mudcrawler.png</frame>
     </sequence>
   </character>
   <character x="2125" y="450" yOffset="18">
     <sequence action="stand">
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/mudcrawler-attack.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/monsters/mudcrawler-attack.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/mudcrawler.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/mudcrawler-death1.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/mudcrawler-death2.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/mudcrawler-death3.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/mudcrawler-death4.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/mudcrawler-death3.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/mudcrawler-death2.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/mudcrawler-death1.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/mudcrawler.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/mudcrawler-defend.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/mudcrawler.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/mudcrawler.png</frame>
     </sequence>
   </character>
 
   <!-- scorpion -->
   <character x="2175" y="450" yOffset="18">
     <sequence action="stand">
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/scorpion-defend.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/scorpion-pincers-attack.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/scorpion-sting-attack.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/scorpion.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/scorpion-defend.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/scorpion.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/scorpion-pincers-attack.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/scorpion.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/scorpion-sting-attack.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/scorpion.png</frame>
     </sequence>
   </character>
 
@@ -118,10 +170,6 @@
   <character x="2230" y="450" yOffset="18">
     <sequence action="stand">
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/spider-melee-1.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/spider-melee-10.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/spider-melee-11.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/spider-melee-12.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/spider-melee-13.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/spider-melee-2.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/spider-melee-3.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/spider-melee-4.png</frame>
@@ -130,6 +178,11 @@
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/spider-melee-7.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/spider-melee-8.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/spider-melee-9.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/spider-melee-10.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/spider-melee-11.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/spider-melee-12.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/spider-melee-13.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/spider.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/spider-ranged-1.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/spider-ranged-2.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/spider-ranged-3.png</frame>
@@ -137,37 +190,70 @@
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/spider-ranged-5.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/spider-ranged-6.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/spider-ranged-7.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/spider.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/spider.png</frame>
     </sequence>
   </character>
 
   <!-- wolves -->
   <character x="2295" y="450" yOffset="18">
     <sequence action="stand">
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/direwolf-attack.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/direwolf-attack.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/direwolf.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/direwolf-defend-1.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/direwolf-defend-2.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/monsters/direwolf-defend-2.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/direwolf-defend-1.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/direwolf.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/direwolf-idle-1.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/direwolf-idle-2.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/direwolf-idle-3.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/direwolf-idle-4.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/direwolf-moving.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/direwolf.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/direwolf.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/monsters/direwolf-moving.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/monsters/direwolf.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/monsters/direwolf-moving.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/monsters/direwolf.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/monsters/direwolf-moving.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/monsters/direwolf.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/monsters/direwolf-moving.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/direwolf.png</frame>
     </sequence>
   </character>
   <character x="2360" y="450" yOffset="18">
     <sequence action="stand">
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/wolf-attack.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/wolf-defend-1.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/wolf-defend-2.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/wolf-great-attack.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/wolf-great-attack.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/wolf-great.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/wolf-great-defend-1.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/wolf-great-defend-2.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/wolf-great-moving.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/wolf-great.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/wolf-moving.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/wolf-water.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/wolf.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/monsters/wolf-great-defend-2.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/wolf-great-defend-1.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/wolf-great.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/monsters/wolf-great-moving.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/monsters/wolf-great.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/monsters/wolf-great-moving.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/monsters/wolf-great.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/monsters/wolf-great-moving.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/monsters/wolf-great.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/monsters/wolf-great-moving.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/wolf-great.png</frame>
+    </sequence>
+  </character>
+  <character x="2360" y="495" yOffset="18">
+    <sequence action="stand">
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/wolf-attack.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/wolf.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/wolf-defend-1.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/monsters/wolf-defend-2.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/wolf-defend-1.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/wolf.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/monsters/wolf-moving.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/monsters/wolf.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/monsters/wolf-moving.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/monsters/wolf.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/monsters/wolf-moving.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/monsters/wolf.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/monsters/wolf-moving.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/wolf.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/wolf-water.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/wolf.png</frame>
     </sequence>
   </character>
 
@@ -180,15 +266,17 @@
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/fire-dragon-attack-fire-4.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/fire-dragon-attack-fire-5.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/fire-dragon-attack-fire-6.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/fire-dragon.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/fire-dragon-attack-tail-1.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/fire-dragon-attack-tail-2.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/fire-dragon-attack-tail-3.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/fire-dragon-attack-tail-4.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/fire-dragon.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/fire-dragon-defend-ranged-1.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/fire-dragon-defend-ranged-2.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/fire-dragon-defend-ranged-3.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/fire-dragon-defend-ranged-4.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/fire-dragon.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/fire-dragon.png</frame>
     </sequence>
   </character>
 
@@ -198,21 +286,30 @@
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/yeti-attack1.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/yeti-attack2.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/yeti-attack3.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/yeti-defend.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/yeti.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/yeti-defend.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/yeti.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/yeti-die1.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/yeti-die2.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/yeti-die3.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/yeti-die4.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/yeti-die5.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/yeti.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/yeti-die4.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/yeti-die3.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/yeti-die2.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/yeti-die1.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/yeti.png</frame>
     </sequence>
   </character>
 
   <!-- female necromancers -->
-  <character x="1890" y="520" yOffset="18">
+  <character x="1895" y="520" yOffset="18">
     <sequence action="stand">
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept+female-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept+female-defend-1-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept+female-defend-2-ff8000.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept+female-defend-2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept+female-defend-1-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept+female-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die1-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die2-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die3-ff8000.png</frame>
@@ -228,7 +325,7 @@
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die3-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die2-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die1-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept+female-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept+female-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept+female-magic-1-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept+female-magic-2-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept+female-magic-3-ff8000.png</frame>
@@ -236,9 +333,12 @@
   </character>
   <character x="1940" y="520" yOffset="18">
     <sequence action="stand">
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/dark-sorcerer+female-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/dark-sorcerer+female-attack-staff-1-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/dark-sorcerer+female-attack-staff-2-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/dark-sorcerer+female-defend-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/dark-sorcerer+female-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/dark-sorcerer+female-defend-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/dark-sorcerer+female-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die4-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die5-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die6-ff8000.png</frame>
@@ -248,7 +348,7 @@
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die6-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die5-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die4-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/dark-sorcerer+female-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/dark-sorcerer+female-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/dark-sorcerer+female-magic-1-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/dark-sorcerer+female-magic-2-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/dark-sorcerer+female-magic-3-ff8000.png</frame>
@@ -256,9 +356,12 @@
   </character>
   <character x="1990" y="520" yOffset="18">
     <sequence action="stand">
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/necromancer+female-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/necromancer+female-attack-staff-1-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/necromancer+female-attack-staff-2-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/necromancer+female-defend-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/necromancer+female-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/necromancer+female-defend-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/necromancer+female-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die4-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die5-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die6-ff8000.png</frame>
@@ -268,7 +371,7 @@
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die6-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die5-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die4-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/necromancer+female-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/necromancer+female-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/necromancer+female-magic-1-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/necromancer+female-magic-2-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/necromancer+female-magic-3-ff8000.png</frame>
@@ -276,10 +379,13 @@
   </character>
 
   <!-- male necromancers -->
-  <character x="1890" y="600" yOffset="18">
+  <character x="1895" y="580" yOffset="18">
     <sequence action="stand">
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-defend-1-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-defend-2-ff8000.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-defend-2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-defend-1-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die1-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die2-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die3-ff8000.png</frame>
@@ -295,17 +401,20 @@
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die3-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die2-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die1-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-magic-1-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-magic-2-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-magic-3-ff8000.png</frame>
     </sequence>
   </character>
-  <character x="1940" y="600" yOffset="18">
+  <character x="1940" y="580" yOffset="18">
     <sequence action="stand">
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/dark-sorcerer-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/dark-sorcerer-attack-staff-1-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/dark-sorcerer-attack-staff-2-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/dark-sorcerer-defend-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/dark-sorcerer-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/dark-sorcerer-defend-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/dark-sorcerer-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die4-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die5-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die6-ff8000.png</frame>
@@ -315,17 +424,20 @@
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die6-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die5-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die4-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/dark-sorcerer-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/dark-sorcerer-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/dark-sorcerer-magic-1-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/dark-sorcerer-magic-2-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/dark-sorcerer-magic-3-ff8000.png</frame>
     </sequence>
   </character>
-  <character x="1990" y="600" yOffset="18">
+  <character x="1990" y="580" yOffset="18">
     <sequence action="stand">
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/necromancer-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/necromancer-attack-staff-1-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/necromancer-attack-staff-2-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/necromancer-defend-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/necromancer-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/necromancer-defend-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/necromancer-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die4-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die5-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die6-ff8000.png</frame>
@@ -335,7 +447,7 @@
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die6-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die5-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die4-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/necromancer-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/necromancer-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/necromancer-magic-1-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/necromancer-magic-2-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/necromancer-magic-3-ff8000.png</frame>
@@ -345,7 +457,9 @@
   <!-- liches -->
   <character x="2040" y="520" yOffset="18">
     <sequence action="stand">
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/lich-defend-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/lich-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/lich-defend-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/lich-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die4-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die5-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die6-ff8000.png</frame>
@@ -355,17 +469,38 @@
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die6-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die5-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die4-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/lich-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/lich-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/lich-magic-1-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/lich-magic-2-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/lich-magic-3-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/lich-magic-3-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/lich-magic-3-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/lich-magic-3-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/lich-magic-3-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/lich-magic-2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/lich-magic-1-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/lich-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/lich-melee-1-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/lich-melee-2-ff8000.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/lich-melee-2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/lich-magic-1-ff8000.png</frame>
     </sequence>
   </character>
-  <character x="2090" y="520" yOffset="18">
+  <character x="2040" y="520" yOffset="18">
     <sequence action="stand">
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/ancient-lich-defend-ff8000.png</frame>
+      <frame duration="27"></frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/undead/black-magic-1.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/undead/black-magic-2.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/undead/black-magic-3.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/undead/black-magic-4.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/undead/black-magic-5.png</frame>
+      <frame duration="10"></frame>
+    </sequence>
+  </character>
+  <character x="2040" y="580" yOffset="18">
+    <sequence action="stand">
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/ancient-lich-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/ancient-lich-defend-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/ancient-lich-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die4-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die5-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die6-ff8000.png</frame>
@@ -375,11 +510,13 @@
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die6-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die5-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die4-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/ancient-lich-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/ancient-lich-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/ancient-lich-magic-1-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/ancient-lich-magic-2-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/ancient-lich-magic-3-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/ancient-lich-melee-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/ancient-lich-magic-1-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/ancient-lich-ff8000.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/ancient-lich-melee-ff8000.png</frame>
     </sequence>
   </character>
 
@@ -389,29 +526,35 @@
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/skeletal-dragon-attack-claws1.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/skeletal-dragon-attack-claws2.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/skeletal-dragon-attack-claws3.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/skeletal-dragon.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/skeletal-dragon-attack-jaw1.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/skeletal-dragon-attack-jaw2.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/skeletal-dragon-defend.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/skeletal-dragon.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/skeletal-dragon.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/skeletal-dragon-defend.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/skeletal-dragon.png</frame>
     </sequence>
   </character>
 
   <!-- skeletal archers -->
-  <character x="2140" y="520" yOffset="18">
+  <character x="2140" y="550" yOffset="18">
     <sequence action="stand">
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-attack-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-attack-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-defend-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-bow-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-bow-attack-1-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-bow-attack-2-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-bow-attack-3-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-bow-attack-4-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-bow-defend-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-bow-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-defend-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-bow-ff8000.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-bow-defend-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-bow-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-die-1-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-die-10-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-die-11-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-die-12-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-die-13-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-die-2-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-die-3-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-die-4-ff8000.png</frame>
@@ -420,6 +563,23 @@
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-die-7-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-die-8-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-die-9-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-die-10-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-die-11-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-die-12-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-die-13-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-die-12-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-die-11-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-die-10-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-die-9-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-die-8-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-die-7-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-die-6-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-die-5-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-die-4-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-die-3-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-die-2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-die-1-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-die2-1-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-die2-2-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-die2-3-ff8000.png</frame>
@@ -427,13 +587,14 @@
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-die2-5-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-die2-6-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-die2-7-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-die2-6-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-die2-5-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-die2-4-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-die2-3-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-die2-2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-die2-1-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-idle-1-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-idle-10-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-idle-11-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-idle-12-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-idle-13-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-idle-14-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-idle-2-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-idle-3-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-idle-4-ff8000.png</frame>
@@ -442,64 +603,116 @@
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-idle-7-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-idle-8-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-idle-9-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-idle-10-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-idle-11-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-idle-12-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-idle-13-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/archer-idle-14-ff8000.png</frame>
     </sequence>
   </character>
-  <character x="2190" y="520" yOffset="18">
+  <character x="2190" y="550" yOffset="18">
     <sequence action="stand">
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/banebow-bow-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/banebow-bow-attack-1-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/banebow-bow-attack-2-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/banebow-bow-attack-3-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/banebow-bow-attack-4-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/banebow-bow-defend-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/banebow-bow-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/banebow-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/banebow-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/banebow-bow-ff8000.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/banebow-bow-defend-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/banebow-bow-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/banebow-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/banebow-melee-defend-1-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/banebow-melee-attack-1-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/banebow-melee-attack-2-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/banebow-melee-attack-3-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/banebow-melee-attack-4-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/banebow-melee-defend-1-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/banebow-melee-defend-2-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/banebow-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/banebow-melee-defend-1-ff8000.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/banebow-melee-defend-2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/banebow-melee-defend-1-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/banebow-ff8000.png</frame>
+      <frame opacity="0.8">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/banebow-ff8000.png</frame>
+      <frame opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/banebow-ff8000.png</frame>
+      <frame opacity="0.4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/banebow-ff8000.png</frame>
+      <frame opacity="0.2">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/banebow-ff8000.png</frame>
+      <frame opacity="0.0">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/banebow-ff8000.png</frame>
+      <frame opacity="0.2">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/banebow-ff8000.png</frame>
+      <frame opacity="0.4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/banebow-ff8000.png</frame>
+      <frame opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/banebow-ff8000.png</frame>
+      <frame opacity="0.8">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/banebow-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/banebow-ff8000.png</frame>
     </sequence>
   </character>
-  <character x="2240" y="520" yOffset="18">
+  <character x="2240" y="550" yOffset="18">
     <sequence action="stand">
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/bone-shooter-bow-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/bone-shooter-bow-attack-1-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/bone-shooter-bow-attack-2-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/bone-shooter-bow-attack-3-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/bone-shooter-bow-attack-4-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/bone-shooter-bow-defend-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/bone-shooter-bow-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/bone-shooter-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/bone-shooter-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/bone-shooter-bow-ff8000.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/bone-shooter-bow-defend-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/bone-shooter-bow-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/bone-shooter-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/bone-shooter-melee-defend-1-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/bone-shooter-melee-attack-1-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/bone-shooter-melee-attack-2-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/bone-shooter-melee-attack-3-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/bone-shooter-melee-attack-4-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/bone-shooter-melee-defend-1-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/bone-shooter-melee-defend-2-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/bone-shooter-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/bone-shooter-melee-defend-1-ff8000.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/bone-shooter-melee-defend-2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/bone-shooter-melee-defend-1-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/bone-shooter-ff8000.png</frame>
+      <frame opacity="0.8">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/bone-shooter-ff8000.png</frame>
+      <frame opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/bone-shooter-ff8000.png</frame>
+      <frame opacity="0.4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/bone-shooter-ff8000.png</frame>
+      <frame opacity="0.2">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/bone-shooter-ff8000.png</frame>
+      <frame opacity="0.0">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/bone-shooter-ff8000.png</frame>
+      <frame opacity="0.2">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/bone-shooter-ff8000.png</frame>
+      <frame opacity="0.4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/bone-shooter-ff8000.png</frame>
+      <frame opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/bone-shooter-ff8000.png</frame>
+      <frame opacity="0.8">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/bone-shooter-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/bone-shooter-ff8000.png</frame>
     </sequence>
   </character>
 
   <!-- chocobone -->
-  <character x="2290" y="520" yOffset="18">
+  <character x="2290" y="550" yOffset="18">
     <sequence action="stand">
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/chocobone-attack-1-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/chocobone-attack-2-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/chocobone-attack-3-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/chocobone-attack-4-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/chocobone-attack-2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/chocobone-attack-1-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/chocobone-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/chocobone-defend-1-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/chocobone-defend-2-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/chocobone-ff8000.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/chocobone-defend-2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/chocobone-defend-1-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/chocobone-ff8000.png</frame>
     </sequence>
   </character>
 
   <!-- deathblade -->
-  <character x="2340" y="520" yOffset="18">
+  <character x="2340" y="550" yOffset="18">
     <sequence action="stand">
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathblade-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathblade-attack1-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathblade-attack2-ff8000.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathblade-attack2-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathblade-attack3-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathblade-defend-1-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathblade-defend-2-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathblade-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathblade-defend-1-ff8000.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathblade-defend-2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathblade-defend-1-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathblade-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathblade-dying-1-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathblade-dying-2-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathblade-dying-3-ff8000.png</frame>
@@ -507,27 +720,47 @@
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathblade-dying-5-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathblade-dying-6-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathblade-dying-7-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathblade-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathblade-dying-6-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathblade-dying-5-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathblade-dying-4-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathblade-dying-3-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathblade-dying-2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathblade-dying-1-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathblade-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathblade-idle-1-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathblade-idle-2-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathblade-idle-3-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathblade-idle-4-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathblade-idle-5-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathblade-idle-4-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathblade-idle-5-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathblade-idle-4-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathblade-idle-2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathblade-idle-1-ff8000.png</frame>
     </sequence>
   </character>
 
   <!-- deathknight -->
-  <character x="2350" y="600" yOffset="18">
+  <character x="2350" y="610" yOffset="18">
     <sequence action="stand">
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathknight-crossbow-attack1-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathknight-crossbow-attack2-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathknight-crossbow-defend-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathknight-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathknight-crossbow-ff8000.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathknight-crossbow-attack1-ff8000.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathknight-crossbow-attack2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathknight-crossbow-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathknight-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathknight-crossbow-ff8000.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathknight-crossbow-defend-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathknight-crossbow-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathknight-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathknight-defend-1-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathknight-defend-2-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathknight-ff8000.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathknight-defend-2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathknight-defend-1-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathknight-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathknight-lead-1-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathknight-lead-2-ff8000.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathknight-lead-2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathknight-lead-1-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathknight-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathknight-melee-attack-1-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathknight-melee-attack-2-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathknight-melee-attack-3-ff8000.png</frame>
@@ -538,21 +771,23 @@
   </character>
 
   <!-- draug -->
-  <character x="2300" y="600" yOffset="18">
+  <character x="2300" y="610" yOffset="18">
     <sequence action="stand">
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/draug-attack1-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/draug-attack2-ff8000.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/draug-attack1-ff8000.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/draug-attack2-ff8000.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/draug-defend-1-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/draug-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/draug-defend-1-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/draug-defend-2-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/draug-ff8000.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/draug-defend-2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/draug-defend-1-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/draug-ff8000.png</frame>
     </sequence>
   </character>
 
   <!-- revenant -->
-  <character x="2250" y="600" yOffset="18">
+  <character x="2250" y="610" yOffset="18">
     <sequence action="stand">
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/revenant-attack-1-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/revenant-attack-10-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/revenant-attack-2-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/revenant-attack-3-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/revenant-attack-4-ff8000.png</frame>
@@ -561,8 +796,12 @@
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/revenant-attack-7-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/revenant-attack-8-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/revenant-attack-9-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/revenant-attack-10-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/revenant-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/revenant-defend-1-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/revenant-defend-2-ff8000.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/revenant-defend-2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/revenant-defend-1-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/revenant-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/revenant-dying-1-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/revenant-dying-2-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/revenant-dying-3-ff8000.png</frame>
@@ -570,20 +809,29 @@
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/revenant-dying-5-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/revenant-dying-6-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/revenant-dying-7-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/revenant-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/revenant-dying-6-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/revenant-dying-5-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/revenant-dying-4-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/revenant-dying-3-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/revenant-dying-2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/revenant-dying-1-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/revenant-ff8000.png</frame>
     </sequence>
   </character>
 
   <!-- skeleton -->
-  <character x="2200" y="600" yOffset="18">
+  <character x="2200" y="610" yOffset="18">
     <sequence action="stand">
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/skeleton-attack-1-ff8000.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/skeleton-attack-1-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/skeleton-attack-2-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/skeleton-attack-3-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/skeleton-attack-4-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/skeleton-attack-5-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/skeleton-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/skeleton-defend-1-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/skeleton-defend-2-ff8000.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/skeleton-defend-2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/skeleton-defend-1-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/skeleton-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/skeleton-dying-1-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/skeleton-dying-2-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/skeleton-dying-3-ff8000.png</frame>
@@ -591,10 +839,25 @@
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/skeleton-dying-5-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/skeleton-dying-6-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/skeleton-dying-7-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/skeleton-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/skeleton-dying-6-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/skeleton-dying-5-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/skeleton-dying-4-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/skeleton-dying-3-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/skeleton-dying-2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/skeleton-dying-1-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/skeleton-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/skeleton-idle-1-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/skeleton-idle-2-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/skeleton-idle-3-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/skeleton-idle-2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/skeleton-idle-3-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/skeleton-idle-2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/skeleton-idle-3-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/skeleton-idle-2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/skeleton-idle-3-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/skeleton-idle-2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/skeleton-idle-3-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/skeleton-idle-2-ff8000.png</frame>
     </sequence>
   </character>
 
@@ -667,9 +930,11 @@
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead/ghoul-attack-2-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead/ghoul-attack-3-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead/ghoul-attack-4-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead/ghoul-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead/ghoul-defend-1-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead/ghoul-defend-2-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead/ghoul-ff8000.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/undead/ghoul-defend-2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead/ghoul-defend-1-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead/ghoul-ff8000.png</frame>
     </sequence>
   </character>
   <character x="2350" y="660" yOffset="18">
@@ -678,184 +943,186 @@
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead/necrophage-attack-2-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead/necrophage-attack-3-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead/necrophage-attack-4-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead/necrophage-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead/necrophage-defend-1-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead/necrophage-defend-2-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead/necrophage-ff8000.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/undead/necrophage-defend-2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead/necrophage-defend-1-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead/necrophage-ff8000.png</frame>
     </sequence>
   </character>
 
   <!-- ghosts -->
   <character x="1850" y="660" yOffset="18">
     <sequence action="stand">
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-1-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-2-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-3-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-2-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-1-ff8000.png</frame>
+      <frame duration="2" opacity="0.7">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-1-ff8000.png</frame>
+      <frame duration="2" opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-2-ff8000.png</frame>
+      <frame duration="2" opacity="0.5">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-3-ff8000.png</frame>
+      <frame duration="2" opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-2-ff8000.png</frame>
+      <frame duration="2" opacity="0.7">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-1-ff8000.png</frame>
 
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-attack-1-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-attack-2-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-attack-3-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-attack-2-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-attack-1-ff8000.png</frame>
+      <frame duration="2" opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-attack-1-ff8000.png</frame>
+      <frame duration="2" opacity="0.4">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-attack-2-ff8000.png</frame>
+      <frame opacity="0.2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-attack-3-ff8000.png</frame>
+      <frame opacity="0.4">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-attack-2-ff8000.png</frame>
+      <frame opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-attack-1-ff8000.png</frame>
 
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-1-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-2-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-3-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-2-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-1-ff8000.png</frame>
+      <frame duration="2" opacity="0.7">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-1-ff8000.png</frame>
+      <frame duration="2" opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-2-ff8000.png</frame>
+      <frame duration="2" opacity="0.5">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-3-ff8000.png</frame>
+      <frame duration="2" opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-2-ff8000.png</frame>
+      <frame duration="2" opacity="0.7">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-1-ff8000.png</frame>
 
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-attack-1-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-attack-2-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-attack-1-ff8000.png</frame>
+      <frame opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-attack-1-ff8000.png</frame>
+      <frame duration="2" opacity="0.4">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-attack-2-ff8000.png</frame>
+      <frame opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-attack-1-ff8000.png</frame>
 
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-1-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-2-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-3-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-2-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-1-ff8000.png</frame>
+      <frame duration="2" opacity="0.7">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-1-ff8000.png</frame>
+      <frame duration="2" opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-2-ff8000.png</frame>
+      <frame duration="2" opacity="0.5">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-3-ff8000.png</frame>
+      <frame duration="2" opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-2-ff8000.png</frame>
+      <frame duration="2" opacity="0.7">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-1-ff8000.png</frame>
 
-      <frame duractio="3">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-attack-1-ff8000.png</frame>
+      <frame duration="3" opacity="0.3">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-attack-1-ff8000.png</frame>
 
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-1-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-2-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-3-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-2-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-1-ff8000.png</frame>
+      <frame duration="2" opacity="0.7">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-1-ff8000.png</frame>
+      <frame duration="2" opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-2-ff8000.png</frame>
+      <frame duration="2" opacity="0.5">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-3-ff8000.png</frame>
+      <frame duration="2" opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-2-ff8000.png</frame>
+      <frame duration="2" opacity="0.7">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-n-1-ff8000.png</frame>
 
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-1-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-2-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-3-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-2-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-1-ff8000.png</frame>
+      <frame duration="2" opacity="0.7">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-1-ff8000.png</frame>
+      <frame duration="2" opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-2-ff8000.png</frame>
+      <frame duration="2" opacity="0.5">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-3-ff8000.png</frame>
+      <frame duration="2" opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-2-ff8000.png</frame>
+      <frame duration="2" opacity="0.7">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-1-ff8000.png</frame>
 
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-attack-1-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-attack-2-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-attack-3-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-attack-2-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-attack-1-ff8000.png</frame>
+      <frame duration="2" opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-attack-1-ff8000.png</frame>
+      <frame duration="2" opacity="0.4">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-attack-2-ff8000.png</frame>
+      <frame opacity="0.2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-attack-3-ff8000.png</frame>
+      <frame opacity="0.4">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-attack-2-ff8000.png</frame>
+      <frame opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-attack-1-ff8000.png</frame>
 
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-1-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-2-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-3-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-2-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-1-ff8000.png</frame>
+      <frame duration="2" opacity="0.7">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-1-ff8000.png</frame>
+      <frame duration="2" opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-2-ff8000.png</frame>
+      <frame duration="2" opacity="0.5">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-3-ff8000.png</frame>
+      <frame duration="2" opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-2-ff8000.png</frame>
+      <frame duration="2" opacity="0.7">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-1-ff8000.png</frame>
 
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-attack-1-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-attack-2-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-attack-1-ff8000.png</frame>
+      <frame opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-attack-1-ff8000.png</frame>
+      <frame duration="2" opacity="0.4">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-attack-2-ff8000.png</frame>
+      <frame opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-attack-1-ff8000.png</frame>
 
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-1-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-2-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-3-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-2-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-1-ff8000.png</frame>
+      <frame duration="2" opacity="0.7">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-1-ff8000.png</frame>
+      <frame duration="2" opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-2-ff8000.png</frame>
+      <frame duration="2" opacity="0.5">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-3-ff8000.png</frame>
+      <frame duration="2" opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-2-ff8000.png</frame>
+      <frame duration="2" opacity="0.7">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-1-ff8000.png</frame>
 
-      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-attack-1-ff8000.png</frame>
+      <frame duration="3" opacity="0.3">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-attack-1-ff8000.png</frame>
 
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-1-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-2-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-3-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-2-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-1-ff8000.png</frame>
+      <frame duration="2" opacity="0.7">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-1-ff8000.png</frame>
+      <frame duration="2" opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-2-ff8000.png</frame>
+      <frame duration="2" opacity="0.5">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-3-ff8000.png</frame>
+      <frame duration="2" opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-2-ff8000.png</frame>
+      <frame duration="2" opacity="0.7">campaigns/Descent_into_Darkness_2/images/units/undead/ghost-s-1-ff8000.png</frame>
     </sequence>
   </character>
   <character x="1900" y="660" yOffset="18">
     <sequence action="stand">
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-1-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-2-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-3-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-2-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-1-ff8000.png</frame>
+      <frame duration="2" opacity="0.7">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-1-ff8000.png</frame>
+      <frame duration="2" opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-2-ff8000.png</frame>
+      <frame duration="2" opacity="0.5">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-3-ff8000.png</frame>
+      <frame duration="2" opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-2-ff8000.png</frame>
+      <frame duration="2" opacity="0.7">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-1-ff8000.png</frame>
 
-      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-attack-1-ff8000.png</frame>
+      <frame duration="3" opacity="0.3">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-attack-1-ff8000.png</frame>
 
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-1-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-2-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-3-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-2-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-1-ff8000.png</frame>
+      <frame duration="2" opacity="0.7">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-1-ff8000.png</frame>
+      <frame duration="2" opacity="0.4">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-2-ff8000.png</frame>
+      <frame duration="2" opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-3-ff8000.png</frame>
+      <frame duration="2" opacity="0.4">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-2-ff8000.png</frame>
+      <frame duration="2" opacity="0.7">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-1-ff8000.png</frame>
 
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-attack-1-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-attack-2-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-attack-3-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-attack-4-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-attack-5-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-attack-6-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-attack-2-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-attack-1-ff8000.png</frame>
+      <frame opacity="0.79">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-attack-1-ff8000.png</frame>
+      <frame opacity="0.78">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-attack-2-ff8000.png</frame>
+      <frame opacity="0.76">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-attack-3-ff8000.png</frame>
+      <frame opacity="0.74">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-attack-4-ff8000.png</frame>
+      <frame opacity="0.72">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-attack-5-ff8000.png</frame>
+      <frame duration="2" opacity="0.70">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-attack-6-ff8000.png</frame>
+      <frame opacity="0.73">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-attack-2-ff8000.png</frame>
+      <frame opacity="0.77">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-attack-1-ff8000.png</frame>
 
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-1-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-2-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-3-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-2-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-1-ff8000.png</frame>
+      <frame duration="2" opacity="0.7">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-1-ff8000.png</frame>
+      <frame duration="2" opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-2-ff8000.png</frame>
+      <frame duration="2" opacity="0.5">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-3-ff8000.png</frame>
+      <frame duration="2" opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-2-ff8000.png</frame>
+      <frame duration="2" opacity="0.7">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-n-1-ff8000.png</frame>
 
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-1-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-2-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-3-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-2-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-1-ff8000.png</frame>
+      <frame duration="2" opacity="0.7">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-1-ff8000.png</frame>
+      <frame duration="2" opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-2-ff8000.png</frame>
+      <frame duration="2" opacity="0.5">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-3-ff8000.png</frame>
+      <frame duration="2" opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-2-ff8000.png</frame>
+      <frame duration="2" opacity="0.7">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-1-ff8000.png</frame>
 
-      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-attack-1-ff8000.png</frame>
+      <frame duration="3" opacity="0.3">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-attack-1-ff8000.png</frame>
 
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-1-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-2-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-3-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-2-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-1-ff8000.png</frame>
+      <frame duration="2" opacity="0.7">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-1-ff8000.png</frame>
+      <frame duration="2" opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-2-ff8000.png</frame>
+      <frame duration="2" opacity="0.5">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-3-ff8000.png</frame>
+      <frame duration="2" opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-2-ff8000.png</frame>
+      <frame duration="2" opacity="0.7">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-1-ff8000.png</frame>
 
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-attack-1-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-attack-2-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-attack-3-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-attack-4-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-attack-5-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-attack-6-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-attack-2-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-attack-1-ff8000.png</frame>
+      <frame opacity="0.79">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-attack-1-ff8000.png</frame>
+      <frame opacity="0.78">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-attack-2-ff8000.png</frame>
+      <frame opacity="0.76">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-attack-3-ff8000.png</frame>
+      <frame opacity="0.74">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-attack-4-ff8000.png</frame>
+      <frame opacity="0.72">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-attack-5-ff8000.png</frame>
+      <frame duration="2" opacity="0.7">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-attack-6-ff8000.png</frame>
+      <frame opacity="0.73">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-attack-2-ff8000.png</frame>
+      <frame opacity="0.77">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-attack-1-ff8000.png</frame>
 
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-1-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-2-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-3-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-2-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-1-ff8000.png</frame>
+      <frame duration="2" opacity="0.7">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-1-ff8000.png</frame>
+      <frame duration="2" opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-2-ff8000.png</frame>
+      <frame duration="2" opacity="0.5">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-3-ff8000.png</frame>
+      <frame duration="2" opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-2-ff8000.png</frame>
+      <frame duration="2" opacity="0.7">campaigns/Descent_into_Darkness_2/images/units/undead/shadow-s-1-ff8000.png</frame>
     </sequence>
   </character>
   <character x="1950" y="660" yOffset="18">
     <sequence action="stand">
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-1-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-2-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-3-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-4-ff8000.png</frame>
+      <frame duration="2" opacity="0.7">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-1-ff8000.png</frame>
+      <frame duration="2" opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-2-ff8000.png</frame>
+      <frame duration="2" opacity="0.5">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-3-ff8000.png</frame>
+      <frame duration="2" opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-4-ff8000.png</frame>
 
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-attack-1-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-attack-2-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-attack-3-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-attack-4-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-attack-5-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-defend-1-ff8000.png</frame>
+      <frame opacity="0.7">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-attack-1-ff8000.png</frame>
+      <frame opacity="0.5">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-attack-2-ff8000.png</frame>
+      <frame opacity="0.5">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-attack-3-ff8000.png</frame>
+      <frame opacity="0.7">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-attack-4-ff8000.png</frame>
+      <frame opacity="0.8">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-attack-5-ff8000.png</frame>
+      <frame opacity="0.8">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-defend-1-ff8000.png</frame>
 
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-1-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-2-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-3-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-4-ff8000.png</frame>
+      <frame duration="2" opacity="0.7">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-1-ff8000.png</frame>
+      <frame duration="2" opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-2-ff8000.png</frame>
+      <frame duration="2" opacity="0.5">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-3-ff8000.png</frame>
+      <frame duration="2" opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-4-ff8000.png</frame>
 
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-defend-1-ff8000.png</frame>
-      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-defend-2-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-defend-1-ff8000.png</frame>
+      <frame opacity="0.55">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-defend-1-ff8000.png</frame>
+      <frame duration="3" opacity="0.3">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-defend-2-ff8000.png</frame>
+      <frame opacity="0.55">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-defend-1-ff8000.png</frame>
 
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-1-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-2-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-3-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-4-ff8000.png</frame>
+      <frame duration="2" opacity="0.7">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-1-ff8000.png</frame>
+      <frame duration="2" opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-2-ff8000.png</frame>
+      <frame duration="2" opacity="0.5">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-3-ff8000.png</frame>
+      <frame duration="2" opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-4-ff8000.png</frame>
 
-      <frame>campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-ff8000.png</frame>
-      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-defend-1-ff8000.png</frame>
+      <frame opacity="0.7">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-ff8000.png</frame>
+      <frame duration="3" opacity="0.7">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-defend-1-ff8000.png</frame>
 
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-1-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-2-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-3-ff8000.png</frame>
-      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-4-ff8000.png</frame>
+      <frame duration="2" opacity="0.7">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-1-ff8000.png</frame>
+      <frame duration="2" opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-2-ff8000.png</frame>
+      <frame duration="2" opacity="0.5">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-3-ff8000.png</frame>
+      <frame duration="2" opacity="0.6">campaigns/Descent_into_Darkness_2/images/units/undead/wraith-s-4-ff8000.png</frame>
     </sequence>
   </character>
 
@@ -1381,6 +1648,42 @@
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead/soulless-die-9-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead/soulless-die-10-ff8000.png</frame>
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead/zombie-wose-ff8000.png</frame>
+     </sequence>
+  </character>
+
+  <!-- ghast -->
+  <character x="2350" y="720" yOffset="18">
+    <sequence action="stand">
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/ghast.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/ghast-defend.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/ghast.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/ghast-attack1.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/ghast-attack2.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/ghast-attack1.png</frame>
+     </sequence>
+  </character>
+
+  <!-- giant rat -->
+  <character x="2350" y="780" yOffset="18">
+    <sequence action="stand">
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/giant-rat.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/giant-rat-defend-1.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/giant-rat-defend-2.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/giant-rat-defend-1.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/giant-rat.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/giant-rat-attack-1.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/giant-rat-attack-2.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/giant-rat-attack-3.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/giant-rat-attack-4.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/giant-rat-attack-5.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/giant-rat-attack-6.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/giant-rat-attack-7.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/giant-rat.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/giant-rat-die-1.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/giant-rat-die-2.png</frame>
+      <frame duration="8">campaigns/Descent_into_Darkness_2/images/units/giant-rat-die-3.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/giant-rat-die-2.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/giant-rat-die-1.png</frame>
      </sequence>
   </character>
 
