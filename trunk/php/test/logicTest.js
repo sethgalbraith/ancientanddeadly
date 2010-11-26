@@ -18,7 +18,7 @@ addEventListener("load", function () {
     if (arguments) {
       url += "?" + argumentObjectToUrlString(arguments);
     }
-    var ajax = new XmlHttpRequest();
+    var ajax = new XMLHttpRequest();
     ajax.open("GET", url, false);
     if (xml) {
       ajax.setRequestHeader("Content-Type", "text/xml");
@@ -44,5 +44,7 @@ addEventListener("load", function () {
   output.appendChild(document.createTextNode(argumentMap.database));
   output.appendChild(document.createTextNode(argumentMap.username));
   output.appendChild(document.createTextNode(argumentMap.password));
+
+  var request = synchronousHttpRequest("../install.php", argumentMap);
 
 }, false);
