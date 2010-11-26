@@ -1,5 +1,5 @@
 // When the window is done loading...
-addEventHandler("load", function () {
+addEventListener("load", function () {
 
   // function to convert arguments into a URL string.
   var argumentObjectToUrlString = function (arguments) {
@@ -31,18 +31,18 @@ addEventHandler("load", function () {
     return ajax;
   };
 
-  // When the start button is clicked...
-  document.getElementById("start").addEventHandler("click", function () {
-
-    // Get the location, database, username and password entered by the user.
-    var location = document.getElementById("location").value;
-    var database = document.getElementById("database").value;
-    var username = document.getElementById("username").value;
-    var password = document.getElementById("password").value;
-
-    // Check whether Ancient & Deadly is already installed.
-    var ajax = synchronousHttpRequest("../db_config.php");
-    
-  }, false);
+  var output = document.getElementById("output");
+  var arguments = document.location.search.slice(1).split("&");
+  var argumentMap = {};
+  for (i = 0; i < arguments.length; i++) {
+    var parts = arguments[i].split("=");
+    var argumentName = parts[0];
+    var argumentValue = parts[1];
+    argumentMap[argumentName] = argumentValue;
+  }
+  output.appendChild(document.createTextNode(argumentMap.location));
+  output.appendChild(document.createTextNode(argumentMap.database));
+  output.appendChild(document.createTextNode(argumentMap.username));
+  output.appendChild(document.createTextNode(argumentMap.password));
 
 }, false);
