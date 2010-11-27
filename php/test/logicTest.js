@@ -144,6 +144,10 @@ addEventListener("load", function () {
      }
   };
 
+  // TESTS START HERE
+
+  // Configure the game’s database.
+
   // Convert the arguments to this page into a javascript object.
   var arguments = document.location.search.slice(1).split("&");
   var argumentMap = {};
@@ -153,9 +157,121 @@ addEventListener("load", function () {
     var argumentValue = parts[1];
     argumentMap[argumentName] = argumentValue;
   }
-
-  // TESTS START HERE
-
+  // Call the install script.
   var request = synchronousHttpRequest("../install.php", argumentMap);
+// request should return a blank page
+
+  // try to reconfigure the game after it has already been configured.
+  // argumentMap was already populated by the previous test.
+
+// request = synchronousHTTPRequest(“../install.php", argumentMap);
+// request should return an error message
+
+  // create a new user
+  // there is no user foo with password bar before running this test
+
+// request = synchronousHTTPRequest(“../create_user.php", {username: "foo", password: "bar"});
+// request should return a blank page
+// request = synchronousHTTPRequest(“../login.php", {username: "foo", password: "bar"});
+// request should return a blank page
+
+  // fail to create a new user with the same name as an existing user
+  // there will already be a user foo because of the previous test
+
+// request = synchronousHTTPRequest(“../create_user.php", {username: "foo", password: "baz"});
+// request should return an error message
+// it should not be possible to log in as user foo with password baz
+// request = synchronousHTTPRequest(“../login.php", {username: "foo", password: "baz"});
+// request should return an error message
+
+  // log in correctly
+
+// user named “foo” with password “bar” exists because of a previous test.
+// request = synchronousHTTPRequest(“../login.php", {username: "foo", password: "bar"});
+// request should return a blank page
+
+  // log in with the wrong password. 
+  // user named “foo” with password “bar” exists because of a previous test,
+  // but we will try to log in as “foo” with a  different password.
+
+// request = synchronousHTTPRequest(“../login.php", {username: "foo", password: "baz"});
+// request should return an error message
+
+  // log in with the wrong username. 
+  // no user named “stu” has been created in previous tests.
+
+// request = synchronousHTTPRequest(“../login.php", {username: "stu", password: "bar"});
+// request should return an error message 
+
+  // list saved games
+
+// request = synchronousHTTPRequest(“../login.php", {username: "foo", password: "bar"});
+// request = synchronousHTTPRequest(“../read_save_list.php"});
+// request should return XML
+
+  // list saved games when logged out 
+
+// request = synchronousHTTPRequest(“../logout.php"});
+// request = synchronousHTTPRequest(“../read_save_list.php"});
+// request should return an error message
+// request should not return XML
+
+  // log out the current user
+
+// request = synchronousHTTPRequest(“../login.php", {username: "foo", password: "bar"});
+// request = synchronousHTTPRequest(“../logout.php"});
+// request = synchronousHTTPRequest(“../read_save_list.php"});
+// request should return an error message
+// request should not return XML
+
+  // save game  
+
+// request = synchronousHTTPRequest(“../login.php", {username: "foo", password: "bar"});
+// request = synchronousHTTPRequest(“../save.php", {description: "saved1"});
+// request = synchronousHTTPRequest(“../read_save_list.php"});
+// The XML element should contain a save element with the description attribute “saved1”  
+
+  // Delete the current user and all his saved games.  
+  // The user named “foo” with password “bar” was created in a previous test.
+
+// request = synchronousHTTPRequest(“../login.php", {username: "foo", password: "bar"});
+// request = synchronousHTTPRequest(“../save.php"});
+// this save is used for the next test
+// request = synchronousHTTPRequest(“../delete_user.php"});
+// request = synchronousHTTPRequest(“../login.php", {username: "foo", password: "bar"});
+// it should  return an error message
+  // If you create an identical user (name foo, password bar)
+  // you should not be able to access the old identical user’s saved games.
+// request = synchronousHTTPRequest(“../create_user.php", {username: "foo", password: "bar"});
+// request = synchronousHTTPRequest(“../login.php", {username: "foo", password: "bar"});
+// request = synchronousHTTPRequest(“../list_saves.php"});
+// request should return an xml document with zero save elements.
+
+  // delete user while logged out
+
+// request = synchronousHTTPRequest(“../logout.php"});
+// request = synchronousHTTPRequest(“../delete_user.php"});
+// request should return an error message.
+
+  // delete a saved game while logged in
+
+// request = synchronousHTTPRequest(“../login.php"});
+// request = synchronousHTTPRequest(“../save.php"});
+// request = synchronousHTTPRequest(“../list_saves.php"});
+// get id attribute from the first save element in the return XML
+// request = synchronousHTTPRequest(“../delete_save.php", {game_id: "____"});
+// ____  is the id from the previous step
+// request should return a blank page
+
+  // delete a saved game while logged out
+
+// request = synchronousHTTPRequest(“../login.php"});
+// request = synchronousHTTPRequest(“../save.php"});
+// request = synchronousHTTPRequest(“../list_saves.php"});
+// get id attribute from the first save element in the return XML
+// request = synchronousHTTPRequest(“../logout.php"});
+// request = synchronousHTTPRequest(“../delete_save.php", {game_id: "____"});
+// ____  is the id from list saves
+// this should return an error message.
 
 }, false);
