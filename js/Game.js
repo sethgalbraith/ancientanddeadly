@@ -80,7 +80,7 @@ var Game = {
       link.rel = "stylesheet"
       link.type = "text/css"
       link.href = elements[i].textContent;
-      doc.head.appendChild(link);
+      doc.getElementsByTagName("head")[0].appendChild(link);
     }
   },
 
