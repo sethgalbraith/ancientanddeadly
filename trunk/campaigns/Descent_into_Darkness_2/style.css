@@ -14,7 +14,7 @@ body {
   font-size: 17px;
   cursor: url(images/cursors/attack.png);
 }
-.largeButton: hover {
+.largeButton:hover {
   background-image: url(images/buttons/button-active.png);
 }
 
@@ -28,7 +28,7 @@ body {
   font-size: 17px;
   cursor: url(images/cursors/attack.png);
 }
-.largeButton: hover {
+.largeButton:hover {
   background-image: url(images/buttons/large-button-active.png);
 }
 
@@ -40,7 +40,7 @@ body {
   -moz-border-image: url(images/buttons/large-button.png) 7 6 7 6 stretch stretch;
   -o-border-image: url(images/buttons/large-button.png) 7 6 7 6 stretch stretch;
 }
-.fancyLargeButton: hover {
+.fancyLargeButton:hover {
   border-image: url(images/buttons/large-button-active.png) 7 6 7 6 stretch stretch;
   -webkit-border-image: url(images/buttons/large-button-active.png) 7 6 7 6 stretch stretch;
   -moz-border-image: url(images/buttons/large-button-active.png) 7 6 7 6 stretch stretch;
