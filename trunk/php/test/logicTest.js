@@ -8,7 +8,7 @@ addEventListener("load", function () {
   // The return value is a string in the same form as
   // document.location.search, but without the question mark.
   // We will not need to call this directly.
-  // It is used by the synchronousHTTPRequest function.
+  // It is used by the synchronousHttpRequest function.
   var argumentObjectToUrlString = function (arguments) {
     // Join the names and values of each variable in arguments
     // with an equals sign.
@@ -102,7 +102,7 @@ addEventListener("load", function () {
     // javascript by using a regular expression, but it is not pretty.
     // An alternative would be looping through every character
     // of the response text and checking whether it was whitespace.
-    var trimmedText = request.replace(/^\s+|\s+$/g, "");
+    var trimmedText = text.replace(/^\s+|\s+$/g, "");
     // Return true if the trimmed text is an empty string.  
     if (trimmedText == "") {
       return true;
@@ -144,9 +144,11 @@ addEventListener("load", function () {
      }
   };
 
-  // TESTS START HERE
 
-  // Configure the game’s database.
+  // TESTS START HERE, each test starts with a self-explanatory echo statement
+
+
+  echo("Configure the game’s database.");
 
   // Convert the arguments to this page into a javascript object.
   var arguments = document.location.search.slice(1).split("&");
@@ -157,121 +159,295 @@ addEventListener("load", function () {
     var argumentValue = parts[1];
     argumentMap[argumentName] = argumentValue;
   }
+
   // Call the install script.
   var request = synchronousHttpRequest("../install.php", argumentMap);
-// request should return a blank page
+  if (returnedBlankPage(request) == true) { 
+    pass();
+  }
+  else {
+    fail(request.responseText);
+  }
 
-  // try to reconfigure the game after it has already been configured.
+
+  echo("try to reconfigure the game after it has already been configured.");
   // argumentMap was already populated by the previous test.
+  request = synchronousHttpRequest("../install.php", argumentMap);
+  // request should return an error message
+  if (returnedErrorMessage(request) == true) { 
+    pass();
+  }
+  else {
+    fail(request.responseText);
+  }
 
-// request = synchronousHTTPRequest(“../install.php", argumentMap);
-// request should return an error message
 
-  // create a new user
+  echo("create a new user");
   // there is no user foo with password bar before running this test
 
-// request = synchronousHTTPRequest(“../create_user.php", {username: "foo", password: "bar"});
-// request should return a blank page
-// request = synchronousHTTPRequest(“../login.php", {username: "foo", password: "bar"});
-// request should return a blank page
+  request = synchronousHttpRequest("../create_user.php", {username: "foo", password: "bar"});
+  // request should return a blank page
+  if (returnedBlankPage(request) == true) { 
+    pass();
+  }
+  else {
+    fail(request.responseText);
+  }
 
-  // fail to create a new user with the same name as an existing user
+  request = synchronousHttpRequest("../login.php", {username: "foo", password: "bar"});
+  // request should return a blank page
+  if (returnedBlankPage(request) == true) { 
+    pass();
+  }
+  else {
+    fail(request.responseText);
+  }
+
+
+  echo("fail to create a new user with the same name as an existing user");
   // there will already be a user foo because of the previous test
+  request = synchronousHttpRequest("../create_user.php", {username: "foo", password: "baz"});
+  // request should return an error message
+  if (returnedErrorMessage(request) == true) { 
+    pass();
+  }
+  else {
+    fail(request.responseText);
+  }
 
-// request = synchronousHTTPRequest(“../create_user.php", {username: "foo", password: "baz"});
-// request should return an error message
-// it should not be possible to log in as user foo with password baz
-// request = synchronousHTTPRequest(“../login.php", {username: "foo", password: "baz"});
-// request should return an error message
+  // it should not be possible to log in as user foo with password baz
+  request = synchronousHttpRequest("../login.php", {username: "foo", password: "baz"});
+  // request should return an error message
+  if (returnedErrorMessage(request) == true) { 
+    pass();
+  }
+  else {
+    fail(request.responseText);
+  }
 
-  // log in correctly
 
-// user named “foo” with password “bar” exists because of a previous test.
-// request = synchronousHTTPRequest(“../login.php", {username: "foo", password: "bar"});
-// request should return a blank page
+  echo("log in correctly");
 
-  // log in with the wrong password. 
-  // user named “foo” with password “bar” exists because of a previous test,
-  // but we will try to log in as “foo” with a  different password.
+  // user named "foo” with password "bar” exists because of a previous test.
+  request = synchronousHttpRequest("../login.php", {username: "foo", password: "bar"});
+  // request should return a blank page
+  if (returnedBlankPage(request) == true) { 
+    pass();
+  }
+  else {
+    fail(request.responseText);
+  }
 
-// request = synchronousHTTPRequest(“../login.php", {username: "foo", password: "baz"});
-// request should return an error message
 
-  // log in with the wrong username. 
-  // no user named “stu” has been created in previous tests.
+  echo("log in with the wrong password."); 
+  // user named "foo” with password "bar” exists because of a previous test,
+  // but we will try to log in as "foo” with a  different password.
 
-// request = synchronousHTTPRequest(“../login.php", {username: "stu", password: "bar"});
-// request should return an error message 
+  request = synchronousHttpRequest("../login.php", {username: "foo", password: "baz"});
+  // request should return an error message
+  if (returnedErrorMessage(request) == true) { 
+    pass();
+  }
+  else {
+    fail(request.responseText);
+  }
 
-  // list saved games
 
-// request = synchronousHTTPRequest(“../login.php", {username: "foo", password: "bar"});
-// request = synchronousHTTPRequest(“../read_save_list.php"});
-// request should return XML
+  echo("log in with the wrong username."); 
+  // no user named "stu” has been created in previous tests.
 
-  // list saved games when logged out 
+  request = synchronousHttpRequest("../login.php", {username: "stu", password: "bar"});
+  // request should return an error message 
+  if (returnedErrorMessage(request) == true) { 
+    pass();
+  }
+  else {
+    fail(request.responseText);
+  }
 
-// request = synchronousHTTPRequest(“../logout.php"});
-// request = synchronousHTTPRequest(“../read_save_list.php"});
-// request should return an error message
-// request should not return XML
 
-  // log out the current user
+  echo("list saved games");
 
-// request = synchronousHTTPRequest(“../login.php", {username: "foo", password: "bar"});
-// request = synchronousHTTPRequest(“../logout.php"});
-// request = synchronousHTTPRequest(“../read_save_list.php"});
-// request should return an error message
-// request should not return XML
+  request = synchronousHttpRequest("../login.php", {username: "foo", password: "bar"});
+  request = synchronousHttpRequest("../list_saves.php");
+  // request should return XML
+  if (returnedXML(request) == true) { 
+    pass();
+  }
+  else {
+    fail(request.responseText);
+  }
 
-  // save game  
 
-// request = synchronousHTTPRequest(“../login.php", {username: "foo", password: "bar"});
-// request = synchronousHTTPRequest(“../save.php", {description: "saved1"});
-// request = synchronousHTTPRequest(“../read_save_list.php"});
-// The XML element should contain a save element with the description attribute “saved1”  
+  echo("list saved games when logged out"); 
 
-  // Delete the current user and all his saved games.  
-  // The user named “foo” with password “bar” was created in a previous test.
+  request = synchronousHttpRequest("../logout.php");
+  request = synchronousHttpRequest("../list_saves.php");
+  // request should return an error message
+  if (returnedErrorMessage(request) == true) { 
+    pass();
+  }
+  else {
+    fail(request.responseText);
+  }
 
-// request = synchronousHTTPRequest(“../login.php", {username: "foo", password: "bar"});
-// request = synchronousHTTPRequest(“../save.php"});
-// this save is used for the next test
-// request = synchronousHTTPRequest(“../delete_user.php"});
-// request = synchronousHTTPRequest(“../login.php", {username: "foo", password: "bar"});
-// it should  return an error message
+
+  echo("log out the current user");
+
+  request = synchronousHttpRequest("../login.php", {username: "foo", password: "bar"});
+  request = synchronousHttpRequest("../logout.php");
+  request = synchronousHttpRequest("../list_saves.php");
+  // request should return an error message
+  if (returnedErrorMessage(request) == true) { 
+    pass();
+  }
+  else {
+    fail(request.responseText);
+  }
+
+
+  echo("save game");  
+
+  request = synchronousHttpRequest("../login.php", {username: "foo", password: "bar"});
+  request = synchronousHttpRequest("../save.php", {description: "saved1"});
+  request = synchronousHttpRequest("../list_saves.php");
+  // The XML element should contain a save element with the description attribute "saved1”  
+  // is it XML?
+  if (returnedXML(request) == true) {
+    // get all save elements
+    var saves = request.responseXML.getElementsByTagName("save"); 
+    // does XML contain a save element?
+    if (saves.length == 1) { 
+      // does the save element have the description attribute of "saved1"?
+      if (saves[0].getAttribute("description") == "saved1") { 
+        pass();
+      }
+      else {
+        fail("does not have the secription attribute 'saved1'");
+      }
+    }
+    else {
+      fail("XML contains no save element");
+    }
+  }
+  else {
+    fail("response is not XML");
+  }
+
+
+
+  echo("Delete the current user and all his saved games.");  
+  // The user named "foo” with password "bar” was created in a previous test.
+
+  request = synchronousHttpRequest("../login.php", {username: "foo", password: "bar"});
+  request = synchronousHttpRequest("../save.php");
+  // this save is used for the next test
+  request = synchronousHttpRequest("../delete_user.php");
+  request = synchronousHttpRequest("../login.php", {username: "foo", password: "bar"});
+  // it should  return an error message
+  if (returnedErrorMessage(request) == true) { 
+    pass();
+  }
+  else {
+    fail(request.responseText);
+  }
+
   // If you create an identical user (name foo, password bar)
   // you should not be able to access the old identical user’s saved games.
-// request = synchronousHTTPRequest(“../create_user.php", {username: "foo", password: "bar"});
-// request = synchronousHTTPRequest(“../login.php", {username: "foo", password: "bar"});
-// request = synchronousHTTPRequest(“../list_saves.php"});
-// request should return an xml document with zero save elements.
+   request = synchronousHttpRequest("../create_user.php", {username: "foo", password: "bar"});
+   request = synchronousHttpRequest("../login.php", {username: "foo", password: "bar"});
+   request = synchronousHttpRequest("../list_saves.php");
+  // request should return an xml document with zero save elements.
+  // is it XML?
+  if (returnedXML(request) == true) {
+    // get all save elements
+    var saves = request.responseXML.getElementsByTagName("save"); 
+    // does XML contain zero save elements?
+    if (saves.length == 0) { 
+      pass();
+    }
+    else {
+      fail("XML contains a save element");
+    }
+  }
+  else {
+    fail("response is not XML");
+  }
 
-  // delete user while logged out
 
-// request = synchronousHTTPRequest(“../logout.php"});
-// request = synchronousHTTPRequest(“../delete_user.php"});
-// request should return an error message.
+  echo("delete user while logged out");
 
-  // delete a saved game while logged in
+  request = synchronousHttpRequest("../logout.php");
+  request = synchronousHttpRequest("../delete_user.php");
+  // request should return an error message.
+  if (returnedErrorMessage(request) == true) { 
+    pass();
+  }
+  else {
+    fail(request.responseText);
+  }
 
-// request = synchronousHTTPRequest(“../login.php"});
-// request = synchronousHTTPRequest(“../save.php"});
-// request = synchronousHTTPRequest(“../list_saves.php"});
-// get id attribute from the first save element in the return XML
-// request = synchronousHTTPRequest(“../delete_save.php", {game_id: "____"});
-// ____  is the id from the previous step
-// request should return a blank page
+  echo("delete a saved game while logged in.");
 
-  // delete a saved game while logged out
+  request = synchronousHttpRequest("../login.php");
+  request = synchronousHttpRequest("../save.php");
+  request = synchronousHttpRequest("../list_saves.php");
+  // get id attribute from the first save element in the return XML
+  // is it XML?
+  if (returnedXML(request) == true) {
+    // get all save elements
+    var saves = request.responseXML.getElementsByTagName("save"); 
+    // does XML contain a save element?
+    if (saves.length > 0) { 
+      var ID = saves[0].getAttribute("id"); 
+    }
+    else {
+      fail("XML contains no save element");
+    }
+  }
+  else {
+    fail("element is not XML");
+  }
 
-// request = synchronousHTTPRequest(“../login.php"});
-// request = synchronousHTTPRequest(“../save.php"});
-// request = synchronousHTTPRequest(“../list_saves.php"});
-// get id attribute from the first save element in the return XML
-// request = synchronousHTTPRequest(“../logout.php"});
-// request = synchronousHTTPRequest(“../delete_save.php", {game_id: "____"});
-// ____  is the id from list saves
-// this should return an error message.
+  request = synchronousHttpRequest("../delete_save.php", {game_id: ID});
+  // request should return a blank page
+  if (returnedBlankPage(request) == true) { 
+    pass();
+  }
+  else {
+    fail(request.responseText);
+  }
+
+
+  echo("delete a saved game while logged out");
+
+  request = synchronousHttpRequest("../login.php");
+  request = synchronousHttpRequest("../save.php");
+  request = synchronousHttpRequest("../list_saves.php");
+  // get id attribute from the first save element in the return XML
+  // is it XML?
+  if (returnedXML(request) == true) {
+    // get all save elements
+    var saves = request.responseXML.getElementsByTagName("save"); 
+    // does XML contain a save element?
+    if (saves.length > 0) { 
+      var ID = saves[0].getAttribute("id"); 
+    }
+    else {
+      fail("XML contains no save element");
+    }
+  }
+  else {
+    fail("element is not XML");
+  }
+  request = synchronousHttpRequest("../logout.php");
+  request = synchronousHttpRequest("../delete_save.php", {game_id: ID});
+  // this should return an error message.
+  if (returnedErrorMessage(request) == true) { 
+    pass();
+  }
+  else {
+    fail(request.responseText);
+  }
 
 }, false);
