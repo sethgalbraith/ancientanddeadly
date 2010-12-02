@@ -1,6 +1,7 @@
 <?php
 
 session_start();
+if (!isset($_SESSION['username'])) die('You are not logged in.');
 
 include('db_config.php');
 include('include/query.php');
@@ -22,7 +23,7 @@ for ($i = 0; $i < count($rows); $i++) {
     . " id=\"{$rows[$i]['id']}\""
     . " username=\"" . rawurlencode($rows[$i]['username']) . "\""
     . " description=\"" . rawurlencode($rows[$i]['description']) . "\""
-    . " time_stamp=\"{$rows[$i]['time_stamp']}\">"
+    . " time_stamp=\"{$rows[$i]['time_stamp']}\""
     . "/>\n";
 }
 echo "</saves>\n";
