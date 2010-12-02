@@ -52,7 +52,7 @@ CREATE PROCEDURE
   delete_user (IN the_name VARCHAR(200))
 BEGIN
   START TRANSACTION;
-  DELETE FROM saves WHERE name = the_name;
+  DELETE FROM saves WHERE username = the_name;
   DELETE FROM users WHERE name = the_name;
   COMMIT;
 END; 
