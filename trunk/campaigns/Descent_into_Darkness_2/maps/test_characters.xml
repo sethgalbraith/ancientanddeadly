@@ -3,7 +3,7 @@
   <!-- Dela Keshar -->
   <character x="65" y="75">
     <sequence action="stand">
-      <frame duration="2" scale="0.65">campaigns/Descent_into_Darkness_2/images/portraits/dela.png</frame>
+      <frame scale="0.65">campaigns/Descent_into_Darkness_2/images/portraits/dela.png</frame>
     </sequence>
   </character>
   <character x="30" y="50" yOffset="18">
@@ -26,7 +26,7 @@
   <!-- bandit -->
   <character x="200" y="100">
     <sequence action="stand">
-      <frame duration="2" scale="0.5">campaigns/Descent_into_Darkness_2/images/portraits/humans/transparent/bandit.png</frame>
+      <frame scale="0.5">campaigns/Descent_into_Darkness_2/images/portraits/humans/transparent/bandit.png</frame>
     </sequence>
   </character>
   <character x="260" y="50" yOffset="18">
@@ -1281,6 +1281,120 @@
       <frame>campaigns/Descent_into_Darkness_2/images/units/elves-wood/sorceress-melee-attack-7-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/elves-wood/sorceress-melee-attack-8-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/elves-wood/sorceress-melee-attack-9-ff8000.png</frame>
+    </sequence>
+  </character>
+
+  <!-- NPCs -->
+
+  <!-- male archer -->
+  <character x="110" y="1300">
+    <sequence action="stand">
+      <frame scale="0.4">campaigns/Descent_into_Darkness_2/images/portraits/elves/transparent/archer.png</frame>
+    </sequence>
+  </character>
+
+  <!-- high-lord -->
+  <character x="300" y="1300">
+    <sequence action="stand">
+      <frame scale="0.5">campaigns/Descent_into_Darkness_2/images/portraits/elves/transparent/high-lord.png</frame>
+    </sequence>
+  </character>
+
+  <!-- lady -->
+  <character x="500" y="1300">
+    <sequence action="stand">
+      <frame scale="0.5">campaigns/Descent_into_Darkness_2/images/portraits/elves/transparent/lady.png</frame>
+    </sequence>
+  </character>
+
+  <!-- lord -->
+  <character x="100" y="1500">
+    <sequence action="stand">
+      <frame scale="0.5">campaigns/Descent_into_Darkness_2/images/portraits/elves/transparent/lord.png</frame>
+    </sequence>
+  </character>
+
+  <!-- male marksman -->
+  <character x="300" y="1500">
+    <sequence action="stand">
+      <frame scale="0.5">campaigns/Descent_into_Darkness_2/images/portraits/elves/transparent/marksman.png</frame>
+    </sequence>
+  </character>
+
+  <!-- female marksman -->
+  <character x="500" y="1500">
+    <sequence action="stand">
+      <frame scale="0.5">campaigns/Descent_into_Darkness_2/images/portraits/elves/transparent/marksman+female.png</frame>
+    </sequence>
+  </character>
+
+  <!-- shaman -->
+  <character x="680" y="1300">
+    <sequence action="stand">
+      <frame scale="0.4">campaigns/Descent_into_Darkness_2/images/portraits/elves/transparent/shaman.png</frame>
+    </sequence>
+  </character>
+
+  <!-- shyde -->
+  <character x="890" y="1300">
+    <sequence action="stand">
+      <frame scale="0.5">campaigns/Descent_into_Darkness_2/images/portraits/elves/transparent/shyde.png</frame>
+    </sequence>
+  </character>
+
+  <!-- sylph -->
+  <character x="1095" y="1300">
+    <sequence action="stand">
+      <frame scale="0.5">campaigns/Descent_into_Darkness_2/images/portraits/elves/transparent/sylph.png</frame>
+    </sequence>
+  </character>
+
+  <!-- female footpad -->
+  <character x="680" y="1500">
+    <sequence action="stand">
+      <frame scale="0.5">campaigns/Descent_into_Darkness_2/images/portraits/humans/transparent/footpad+female.png</frame>
+    </sequence>
+  </character>
+
+  <!-- male footpad -->
+  <character x="850" y="1500">
+    <sequence action="stand">
+      <frame scale="0.5">campaigns/Descent_into_Darkness_2/images/portraits/humans/transparent/footpad.png</frame>
+    </sequence>
+  </character>
+
+  <!-- horseman -->
+  <character x="1090" y="1475">
+    <sequence action="stand">
+      <frame scale="0.5">campaigns/Descent_into_Darkness_2/images/portraits/humans/transparent/horseman.png</frame>
+    </sequence>
+  </character>
+
+  <!-- peasant -->
+  <character x="1300" y="1300">
+    <sequence action="stand">
+      <frame scale="0.4">campaigns/Descent_into_Darkness_2/images/portraits/humans/transparent/peasant.png</frame>
+    </sequence>
+  </character>
+
+  <!-- ruffian -->
+  <character x="1500" y="1300">
+    <sequence action="stand">
+      <frame scale="0.5">campaigns/Descent_into_Darkness_2/images/portraits/humans/transparent/ruffian.png</frame>
+    </sequence>
+  </character>
+
+  <!-- spearman -->
+  <character x="1700" y="1300">
+    <sequence action="stand">
+      <frame scale="0.5">campaigns/Descent_into_Darkness_2/images/portraits/humans/transparent/spearman.png</frame>
+    </sequence>
+  </character>
+
+  <!-- woodsman -->
+  <character x="1300" y="1500">
+    <sequence action="stand">
+      <frame scale="0.5">campaigns/Descent_into_Darkness_2/images/portraits/humans/transparent/woodsman.png</frame>
     </sequence>
   </character>
 
