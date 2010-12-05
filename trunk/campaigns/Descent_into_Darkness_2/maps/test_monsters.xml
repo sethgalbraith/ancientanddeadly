@@ -693,24 +693,19 @@
 
   <!-- HORSEMEN -->
 
-  <!-- knight -->
-  <character x="475" y="525">
-    <sequence action="stand">
-      <frame scale="0.5">campaigns/Descent_into_Darkness_2/images/portraits/humans/transparent/knight.png</frame>
-    </sequence>
-  </character>
-
   <!-- cavalryman -->
-  <character x="300" y="525">
+  <character x="475" y="525">
     <sequence action="stand">
       <frame scale="0.5">campaigns/Descent_into_Darkness_2/images/portraits/humans/transparent/cavalryman.png</frame>
     </sequence>
   </character>
-  <character x="200" y="460" yOffset="18">
+  <character x="375" y="460" yOffset="18">
     <sequence action="stand">
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/cavalryman-ff8000.png</frame>
       <!-- attack -->
-      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/cavalryman-attack-ff8000.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/cavalryman-defend-ff8000.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/cavalryman-attack-ff8000.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/cavalryman-defend-ff8000.png</frame>
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/cavalryman-ff8000.png</frame>
       <!-- defend -->
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/cavalryman-defend-ff8000.png</frame>
@@ -735,7 +730,9 @@
     <sequence action="stand">
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/cavalier-ff8000.png</frame>
       <!-- attack -->
-      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/cavalier-attack-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/cavalier-moving-ff8000.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/cavalier-attack-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/cavalier-moving-ff8000.png</frame>
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/cavalier-ff8000.png</frame>
       <!-- defend -->
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/cavalier-defend-ff8000.png</frame>
@@ -749,8 +746,8 @@
       <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/cavalier-ranged-3-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/cavalier-ranged-4-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/cavalier-ranged-5-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/cavalier-ranged-6-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/cavalier-ranged-7-ff8000.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/cavalier-ranged-6-ff8000.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/cavalier-ranged-7-ff8000.png</frame>
     </sequence>
   </character>
 
@@ -767,10 +764,13 @@
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/grand-knight-attack-sword-801010.png</frame>
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/grand-knight-801010.png</frame>
       <!-- defend -->
-      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/grand-knight-defend-801010.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/grand-knight-moving-801010.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/grand-knight-defend-801010.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/grand-knight-moving-801010.png</frame>
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/grand-knight-801010.png</frame>
       <!-- move -->
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/grand-knight-moving-801010.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/grand-knight-801010.png</frame>
     </sequence>
   </character>
 
@@ -787,7 +787,9 @@
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/grand-knight-attack-sword-204040.png</frame>
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/grand-knight-204040.png</frame>
       <!-- defend -->
-      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/grand-knight-defend-204040.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/grand-knight-moving-204040.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/grand-knight-defend-204040.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/grand-knight-moving-204040.png</frame>
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/grand-knight-204040.png</frame>
       <!-- move -->
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/grand-knight-moving-204040.png</frame>

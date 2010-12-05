@@ -252,10 +252,15 @@
   <character x="850" y="50" yOffset="18">
     <sequence action="stand">
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/horseman-ff8000.png</frame>
-      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/horseman-attack-ff8000.png</frame>
+      <!-- attack -->
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/horseman-defend-ff8000.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/horseman-attack-ff8000.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/horseman-defend-ff8000.png</frame>
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/horseman-ff8000.png</frame>
+      <!-- defend -->
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/horseman-defend-ff8000.png</frame>
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/horseman-ff8000.png</frame>
+      <!-- move -->
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/horseman-moving-ff8000.png</frame>
     </sequence>
   </character>
@@ -269,10 +274,13 @@
   <character x="1050" y="50" yOffset="18">
     <sequence action="stand">
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/knight-ff8000.png</frame>
+      <!-- attack -->
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/knight-attack-ff8000.png</frame>
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/knight-ff8000.png</frame>
+      <!-- defend -->
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/knight-defend-ff8000.png</frame>
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/knight-ff8000.png</frame>
+      <!-- move -->
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/knight-moving-ff8000.png</frame>
     </sequence>
   </character>
@@ -286,10 +294,15 @@
   <character x="850" y="350" yOffset="18">
     <sequence action="stand">
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/lancer-ff8000.png</frame>
-      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/lancer-attack-ff8000.png</frame>
+      <!-- attack -->
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/lancer-moving-ff8000.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/lancer-attack-ff8000.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/lancer-moving-ff8000.png</frame>
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/lancer-ff8000.png</frame>
+      <!-- defend -->
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/lancer-defend-ff8000.png</frame>
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/lancer-ff8000.png</frame>
+      <!-- move -->
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/lancer-moving-ff8000.png</frame>
     </sequence>
   </character>
@@ -303,12 +316,16 @@
   <character x="1175" y="300" yOffset="18">
     <sequence action="stand">
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/paladin-ff8000.png</frame>
+      <!-- attack -->
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/paladin-attack-sword-ff8000.png</frame>
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/paladin-ff8000.png</frame>
+      <!-- defend -->
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/paladin-defend-ff8000.png</frame>
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/paladin-ff8000.png</frame>
+      <!-- heal -->
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/paladin-healing-ff8000.png</frame>
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/paladin-ff8000.png</frame>
+      <!-- move -->
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/paladin-moving-ff8000.png</frame>
     </sequence>
   </character>
