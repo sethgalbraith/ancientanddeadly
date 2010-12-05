@@ -139,7 +139,7 @@
     <sequence action="stand">
       <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-attack-sword-1-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-attack-sword-2-ff8000.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-attack-sword-2-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-attack-sword-3-ff8000.png</frame>
       <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-ff8000.png</frame>
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-crossbow-ff8000.png</frame>
@@ -156,13 +156,15 @@
       <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-idle-2-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-idle-3-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-idle-4-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-idle-5-ff8000.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-idle-5-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-idle-6-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-idle-7-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-idle-8-ff8000.png</frame>
-      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-idle-9-ff8000.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-idle-9-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-idle-10-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-idle-11-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-idle-2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-idle-1-ff8000.png</frame>
       <frame duration="6">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-ff8000.png</frame>
       <frame duration="8">campaigns/Descent_into_Darkness_2/images/units/human-loyalists/sergeant-leading-ff8000.png</frame>
     </sequence>
