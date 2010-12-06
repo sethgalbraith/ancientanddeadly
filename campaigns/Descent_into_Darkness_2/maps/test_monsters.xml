@@ -1387,6 +1387,110 @@
     </sequence>
   </character>
 
+  <!-- apprentice mage (Malin) -->
+  <character x="850" y="300" yOffset="18">
+    <sequence action="stand">
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/apprentice-mage-ff8000.png</frame>
+      <!-- defend -->
+      <frame>campaigns/Descent_into_Darkness_2/images/units/apprentice-mage-sword-ff8000.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/apprentice-mage-defend-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/apprentice-mage-sword-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/apprentice-mage-ff8000.png</frame>
+      <!-- magic attack -->
+      <frame>campaigns/Descent_into_Darkness_2/images/units/apprentice-mage-magic-1-ff8000.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/apprentice-mage-magic-2-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/apprentice-mage-ff8000.png</frame>
+      <!-- sword attack -->
+      <frame>campaigns/Descent_into_Darkness_2/images/units/apprentice-mage-sword-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/apprentice-mage-sword-1-ff8000.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/apprentice-mage-sword-2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/apprentice-mage-sword-3-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/apprentice-mage-ff8000.png</frame>
+      <!-- summoning -->
+      <frame>campaigns/Descent_into_Darkness_2/images/units/apprentice-mage-magic-1-ff8000.png</frame>
+      <frame duration="5">campaigns/Descent_into_Darkness_2/images/units/apprentice-mage-magic-2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/apprentice-mage-magic-1-ff8000.png</frame>
+    </sequence>
+  </character>
+  <character x="850" y="300" yOffset="6">
+    <sequence action="stand">
+      <frame duration="30"></frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/undead/dark-magic-1.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/undead/dark-magic-2.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/undead/dark-magic-3.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/undead/dark-magic-4.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/undead/dark-magic-5.png</frame>
+      <frame duration="1"></frame>
+    </sequence>
+  </character>
+
+  <!-- apprentice necromancer (Malin) -->
+  <character x="880" y="380" yOffset="18">
+    <sequence action="stand">
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/apprentice-necromancer-ff8000.png</frame>
+      <!-- defend -->
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/apprentice-necromancer-defend-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/apprentice-necromancer-ff8000.png</frame>
+      <!-- magic attack/summoning -->
+      <frame>campaigns/Descent_into_Darkness_2/images/units/apprentice-necromancer-magic-1-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/apprentice-necromancer-magic-2-ff8000.png</frame>
+      <frame duration="5">campaigns/Descent_into_Darkness_2/images/units/apprentice-necromancer-magic-3-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/apprentice-necromancer-magic-2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/apprentice-necromancer-magic-1-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/apprentice-necromancer-ff8000.png</frame>
+      <!-- sword attack -->
+      <frame>campaigns/Descent_into_Darkness_2/images/units/apprentice-necromancer-magic-1-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/apprentice-necromancer-sword-1-ff8000.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/apprentice-necromancer-sword-2-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/apprentice-necromancer-ff8000.png</frame>
+    </sequence>
+  </character>
+  <character x="880" y="380" yOffset="6">
+    <sequence action="stand">
+      <frame duration="13"></frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/undead/black-magic-1.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/undead/black-magic-2.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/undead/black-magic-3.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/undead/black-magic-4.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/undead/black-magic-5.png</frame>
+      <frame duration="15"></frame>
+    </sequence>
+  </character>
+
+  <!-- dark mage (Malin) -->
+  <character x="950" y="380" yOffset="18">
+    <sequence action="stand">
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/dark-mage-ff8000.png</frame>
+      <!-- defend -->
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/dark-mage-defend-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/dark-mage-ff8000.png</frame>
+      <!-- magic attack/summoning -->
+      <frame>campaigns/Descent_into_Darkness_2/images/units/dark-mage-magic-1-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/dark-mage-magic-2-ff8000.png</frame>
+      <frame duration="5">campaigns/Descent_into_Darkness_2/images/units/dark-mage-magic-3-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/dark-mage-magic-2-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/dark-mage-magic-1-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/dark-mage-ff8000.png</frame>
+      <!-- sword attack -->
+      <frame>campaigns/Descent_into_Darkness_2/images/units/dark-mage-magic-1-ff8000.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/units/dark-mage-sword-1-ff8000.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/dark-mage-sword-2-ff8000.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/dark-mage-ff8000.png</frame>
+    </sequence>
+  </character>
+  <character x="950" y="380" yOffset="6">
+    <sequence action="stand">
+      <frame duration="13"></frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/undead/black-magic-1.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/undead/black-magic-2.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/undead/black-magic-3.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/undead/black-magic-4.png</frame>
+      <frame>campaigns/Descent_into_Darkness_2/images/halo/undead/black-magic-5.png</frame>
+      <frame duration="15"></frame>
+    </sequence>
+  </character>
+
+
   <!-- SKELETONS -->
 
   <!-- death knight -->
@@ -1705,7 +1809,7 @@
   </character>
 
   <!-- draug -->
-  <character x="1550" y="750" yOffset="18">
+  <character x="1500" y="770" yOffset="18">
     <sequence action="stand">
       <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/draug-attack1-ff8000.png</frame>
       <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/draug-attack2-ff8000.png</frame>
@@ -1719,7 +1823,7 @@
   </character>
 
   <!-- chocobone -->
-  <character x="1450" y="750" yOffset="18">
+  <character x="1430" y="770" yOffset="18">
     <sequence action="stand">
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/chocobone-attack-1-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/chocobone-attack-2-ff8000.png</frame>
@@ -1736,7 +1840,7 @@
   </character>
 
   <!-- skeletal dragon -->
-  <character x="1500" y="470" yOffset="18">
+  <character x="1570" y="700" yOffset="18">
     <sequence action="stand">
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/skeletal-dragon-attack-claws1.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/monsters/skeletal-dragon-attack-claws2.png</frame>
@@ -1749,6 +1853,63 @@
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/monsters/skeletal-dragon.png</frame>
     </sequence>
   </character>
+
+  <!-- bone knight -->
+  <character x="1440" y="480" yOffset="18">
+    <sequence action="stand">
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/boneknight.png</frame>
+      <!-- defend -->
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/boneknight-defend.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/boneknight.png</frame>
+      <!-- attack -->
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/boneknight-attack-1.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/boneknight-attack-2.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/boneknight.png</frame>
+      <!-- trample -->
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/boneknight-defend.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/boneknight-moving.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/boneknight.png</frame>
+      <!-- moving -->
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/boneknight-moving.png</frame>
+    </sequence>
+  </character>
+
+  <!-- death squire -->
+  <character x="1500" y="480" yOffset="18">
+    <sequence action="stand">
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathsquire.png</frame>
+      <!-- defend -->
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathsquire-defend.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathsquire.png</frame>
+      <!-- lead -->
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathsquire-leading.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathsquire.png</frame>
+      <!-- attack -->
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathsquire-defend.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/deathsquire-attack.png</frame>
+    </sequence>
+  </character>
+
+  <!-- skeleton rider -->
+  <character x="1560" y="480" yOffset="18">
+    <sequence action="stand">
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/rider.png</frame>
+      <!-- defend -->
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/rider-defend.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/rider.png</frame>
+      <!-- attack -->
+      <frame>campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/rider-attack-1.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/rider-attack-2.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/rider.png</frame>
+      <!-- trample -->
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/rider-defend.png</frame>
+      <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/rider-moving.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/rider.png</frame>
+      <!-- moving -->
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-skeletal/rider-moving.png</frame>
+    </sequence>
+  </character>
+
 
   <!-- GHOULS AND ZOMBIES -->
 
@@ -1792,6 +1953,25 @@
       <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/ghast-attack1.png</frame>
       <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/ghast-attack2.png</frame>
       <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/ghast-attack1.png</frame>
+     </sequence>
+  </character>
+
+  <!-- vampiress -->
+  <character x="1000" y="900" yOffset="18">
+    <sequence action="stand">
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-vampirelady-801010.png</frame>
+      <!-- defend -->
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-vampirelady-defend-801010.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-vampirelady-801010.png</frame>
+      <!-- magic attack -->
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/undead-vampirelady-magic-1-801010.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-vampirelady-magic-2-801010.png</frame>
+      <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-vampirelady-801010.png</frame>
+      <!-- bite attack -->
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/undead-vampirelady-bite-1-801010.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/undead-vampirelady-bite-2-801010.png</frame>
+      <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/undead-vampirelady-bite-3-801010.png</frame>
+      <frame duration="1">campaigns/Descent_into_Darkness_2/images/units/undead-vampirelady-bite-4-801010.png</frame>
      </sequence>
   </character>
 
