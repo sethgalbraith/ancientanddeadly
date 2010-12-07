@@ -56,7 +56,7 @@
   </character>
 
   <!-- PC -->
-  <character x="1359" y="1007" yOffset="18" location="start" type="PC">
+  <character x="1359" y="1007" yOffset="-18" location="start" type="PC">
     <sequence action="stand">
       <frame>campaigns/Descent_into_Darkness_2/images/units/neutral-outlaw-princess.png</frame>
     </sequence>

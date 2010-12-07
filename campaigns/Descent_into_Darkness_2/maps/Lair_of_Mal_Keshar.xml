@@ -67,7 +67,7 @@
   </character>
 
   <!-- PC -->
-  <character x="1305" y="378" yOffset="18" location="entrance" type="PC">
+  <character x="1305" y="378" yOffset="-18" location="entrance" type="PC">
     <sequence action="stand">
       <frame>campaigns/Descent_into_Darkness_2/images/units/human-loyalists/lancer.png</frame>
     </sequence>
