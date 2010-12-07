@@ -56,11 +56,17 @@ Game.Character.prototype._loadImage = function (xmlElement, offset, action) {
   var rotate = xmlElement.getAttribute("rotate");
   var scale = xmlElement.getAttribute("scale");
   var url = xmlElement.textContent;
-  var key = [opacity, rotate, scale, url].join("\n");
+  var frameX = xmlElement.getAttribute("x");
+  var frameY = xmlElement.getAttribute("y");
+  var frameOffset = {
+    x: offset.x + (frameX ? parseInt(frameX) : 0),
+    y: offset.y + (frameY ? parseInt(frameY) : 0)
+  }
+  var key = [opacity, rotate, scale, url, frameX, frameY].join("\n");
   var image = this.images[key];
   if (!image) {
     if (url) { // Create a new image.
-      image = this._makeImage(url, offset, rotate, scale, opacity);
+      image = this._makeImage(url, frameOffset, rotate, scale, opacity);
     }
     else { // Create an empty div which can be hidden or shown like an image.
       image = Game.createElement("div");
@@ -79,8 +85,8 @@ Game.Character.prototype._makeImage = function (url, offset, rotate, scale, opac
   var image = new Image();
   image.src = url;
   image.onload = function () {
-    image.style.marginLeft = -(offset.x + image.width / 2) + "px";
-    image.style.marginTop = -(offset.y + image.height / 2) + "px";
+    image.style.marginLeft = (offset.x - image.width / 2) + "px";
+    image.style.marginTop = (offset.y - image.height / 2) + "px";
   }
   image.style.visibility = "hidden";
   if (opacity) {
