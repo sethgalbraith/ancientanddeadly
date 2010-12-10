@@ -2266,6 +2266,13 @@
     </sequence>
   </character>
 
+  <!-- Kalenz -->
+  <character x="1110" y="1100">
+    <sequence action="stand">
+      <frame scale="0.5">campaigns/Descent_into_Darkness_2/images/portraits/kalenz.png</frame>
+    </sequence>
+  </character>
+
   <!-- NPC ELVES -->
 
   <!-- high-lord -->
