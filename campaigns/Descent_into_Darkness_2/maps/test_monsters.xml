@@ -1444,8 +1444,10 @@
   <character x="1405" y="70" yOffset="-18">
     <sequence action="stand">
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/ancient-lich-ff8000.png</frame>
+      <!-- defend -->
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/ancient-lich-defend-ff8000.png</frame>
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/ancient-lich-ff8000.png</frame>
+      <!-- die -->
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die4-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die5-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die6-ff8000.png</frame>
@@ -1456,11 +1458,13 @@
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die5-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/adept-die4-ff8000.png</frame>
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/ancient-lich-ff8000.png</frame>
+      <!-- magic -->
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/ancient-lich-magic-1-ff8000.png</frame>
       <frame duration="2">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/ancient-lich-magic-2-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/ancient-lich-magic-3-ff8000.png</frame>
       <frame>campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/ancient-lich-magic-1-ff8000.png</frame>
       <frame duration="4">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/ancient-lich-ff8000.png</frame>
+      <!-- staff -->
       <frame duration="3">campaigns/Descent_into_Darkness_2/images/units/undead-necromancers/ancient-lich-melee-ff8000.png</frame>
     </sequence>
   </character>
