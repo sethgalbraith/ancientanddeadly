@@ -1,0 +1,1 @@
+Ancient & Deadly is an online, single-player, turn-based fantasy role-playing game (RPG). Ancient & Deadly uses the [Scratch Role-Playing System](http://knol.google.com/k/scratch-rps) rules, HTML5, CSS3 and Javascript. It does not require any plugins and it should run on most modern web browsers, including smart phones.
